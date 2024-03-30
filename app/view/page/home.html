@@ -1,28 +1,25 @@
 {% extends 'template/jhTemplateV4.html'%}
-<script src="<$ static $>/tailwindcss/tailwindcss.js"></script>
+
+{% block htmlHead %}
+<script src="/<$ ctx.app.config.appId $>/public/tailwindcss/tailwindcss.js"></script>
 <style>
     .v-application a {
         color: black;
     }
 </style>
+{% endblock %}
+
 {% block vueTemplate %}
 <script type="text/html" id="app-template">
     <v-app mobile-breakpoint="sm">
-        <v-app-bar app elevation="4" class="px-10 bg-white">
-            <div class="d-flex items-center">
-                <a href="/" class="d-inline-block">
-                    <h1 class="text-h5 black--text font-bold">极客猿导航</h1>
-                </a>
-
-                <div class="ml-4">
-                    <div class="bg-gray-100 px-3 py-1 text-base">
-                        <!--                            转大写-->
-                        <span class="uppercase">{{categoryId}}导航</span>
-                    </div>
+        <app-header>
+            <div class="ml-4">
+                <div class="bg-gray-100 px-3 py-1 text-base">
+                    <span class="uppercase">{{categoryId}}导航</span>
                 </div>
             </div>
-        </v-app-bar>
-        <v-main class="mt-5">
+        </app-header>
+        <v-main>
             <div class="jh-page-body-container px-8">
 
                 <div class="left-menu fixed" v-if="!isMobile" style="width: 150px">
@@ -177,8 +174,8 @@
 {% endblock %}
 
 {% block vueScript %}
+{% include 'component/appHeader.html' %}
 <link href="/<$ ctx.app.config.appId $>/public/css/fontello.css" rel="stylesheet">
-<script src="https://cdn.tailwindcss.com"></script>
 
 <script type="module">
     new Vue({

@@ -4,6 +4,8 @@
 const Service = require('egg').Service;
 // ========================================常用 require end=============================================
 const axios = require('axios');
+const cheerio = require('cheerio');
+
 const actionDataScheme = Object.freeze({
 
 });
@@ -27,13 +29,52 @@ class NavService extends Service {
 
         // 在第一个分类前面加上一个热门推荐分类，取导航tags有热门的数据
         const hotNavList = navList.filter(nav => nav.tags && nav.tags.includes('热门'))
-        categoryList.unshift({
-            categoryName: '热门推荐',
-            categoryIcon: 'ico icon-icon-group-hot',
-            children: hotNavList
-        })
+        if (hotNavList.length) {
+            categoryList.unshift({
+                categoryName: '热门推荐',
+                categoryIcon: 'ico icon-icon-group-hot',
+                children: hotNavList
+            })
+        }
 
         return categoryList
+    }
+
+    //写一个方法，传入一个网址，返回网址的title和icon，和描述
+    async getNavInfoByUrl(actionData) {
+        const { url } = actionData
+
+        try {
+            // 假设这里的url可以直接返回一个包含名称、icon和描述的JSON对象，加个请求超时时间
+            const response = await axios.get(url, { timeout: 5000 });
+
+
+            //解析返回的html
+            const html = response.data;
+            const $ = cheerio.load(html);
+
+            //提取信息
+            const name = $('title').text();
+            let icon = $('link[rel="icon"]').attr('href')
+            // 网址提取主域名
+            const domain = new URL(url).hostname;
+            if (!icon) {
+                icon = `${domain}/favicon.ico`;
+                // icon = `https://www.google.com/s2/favicons?domain=${domain}`;
+            }
+
+            const description = $('meta[name="description"]').attr('content');
+
+
+            // 返回提取的信息
+            return {
+                navName: name,
+                navIcon: icon,
+                navDesc: description,
+            };
+        } catch (error) {
+            throw new Error(error.message);
+        }
     }
 
 }

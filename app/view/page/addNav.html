@@ -1,0 +1,187 @@
+{% extends 'template/jhTemplateV4.html'%}
+{% block htmlHead %}
+<script src="/<$ ctx.app.config.appId $>/public/tailwindcss/tailwindcss.js"></script>
+<style>
+
+</style>
+{% endblock %}
+{% block vueTemplate %}
+<script type="text/html" id="app-template">
+    <v-app mobile-breakpoint="sm">
+        <app-header></app-header>
+        <v-main>
+            <v-container>
+                <v-row>
+                    <v-col cols="12">
+                        <v-card>
+                            <v-card-title>
+                                <span class="headline">添加导航</span>
+                                <v-overlay :value="isLoading">
+                                    <v-progress-circular indeterminate color="primary"></v-progress-circular>
+                                </v-overlay>
+                            </v-card-title>
+                            <v-card-text>
+                                <v-form ref="form" v-model="valid" lazy-validation>
+                                    <v-row>
+                                        <v-col cols="12" sm="12" md="12">
+                                            <span class="jh-input-label">导航URL</span>
+                                            <v-text-field @blur="doUiAction('getNavInfo')" class="jh-v-input" dense
+                                                          single-line filled
+                                                          v-model="nav.navUrl"
+                                                          :rules="rules.required"></v-text-field>
+                                        </v-col>
+                                        <v-col cols="12" sm="12" md="4">
+                                            <span class="jh-input-label">导航名称</span>
+                                            <v-text-field :disabled="!nav.navUrl" class="jh-v-input" dense single-line
+                                                          filled
+                                                          v-model="nav.navName"
+                                                          :rules="rules.required"></v-text-field>
+                                        </v-col>
+                                        <v-col cols="12" sm="12" md="4">
+                                            <span class="jh-input-label">导航描述</span>
+                                            <v-text-field :disabled="!nav.navUrl" class="jh-v-input" dense single-line
+                                                          filled
+                                                          v-model="nav.navDesc"
+                                                          :rules="rules.required"></v-text-field>
+                                        </v-col>
+                                        <v-col cols="12" sm="12" md="4">
+                                            <span class="jh-input-label">导航图标</span>
+                                            <v-text-field :disabled="!nav.navUrl" class="jh-v-input" dense single-line
+                                                          filled
+                                                          v-model="nav.navIcon"
+                                                          :rules="rules.required">
+                                                <template v-slot:append>
+                                                    <v-img :src="nav.navIcon" max-height="24"
+                                                           max-width="24"></v-img>
+                                                </template>
+                                            </v-text-field>
+                                        </v-col>
+
+
+                                    </v-row>
+
+                                    <v-row class="justify-end mx-0 my-8 px-4">
+                                        <v-btn color="success" small @click="doUiAction('submit')">
+                                            提交
+                                        </v-btn>
+                                    </v-row>
+                                </v-form>
+                            </v-card-text>
+                        </v-card>
+                    </v-col>
+                </v-row>
+            </v-container>
+        </v-main>
+    </v-app>
+
+    <jh-toast/>
+    <jh-mask/>
+    <jh-confirm-dialog/>
+    </div>
+</script>
+
+<div id="app">
+</div>
+
+{% endblock %}
+
+{% block vueScript %}
+{% include 'component/appHeader.html' %}
+<link href="/<$ ctx.app.config.appId $>/public/css/fontello.css" rel="stylesheet">
+
+<script type="module">
+    new Vue({
+        el: '#app',
+        template: '#app-template',
+        vuetify: new Vuetify(),
+        data: () => ({
+            valid: true,
+            rules: {
+                required: value => !!value || 'Required.',
+            },
+            nav: {},
+            isLoading: false,
+        }),
+        computed: {},
+        watch: {},
+        async created() {
+
+        },
+        mounted() {
+
+        },
+        methods: {
+            async doUiAction(uiActionId, uiActionData) {
+                switch (uiActionId) {
+                    case 'submit':
+                        await this.prepareNavData();
+                        await this.submit();
+                        break;
+                    case 'getNavInfo':
+                        await this.getNavInfo(uiActionData);
+                        break;
+                    default:
+                        break
+                }
+            },
+            async getNavInfo() {
+                const url = this.nav.navUrl;
+                if (!url) return
+                this.isLoading = true;
+                const result = (await window.jianghuAxios({
+                    data: {
+                        appData: {
+                            pageId: 'addNav',
+                            actionId: 'getNavInfoByUrl',
+                            actionData: {
+                                url
+                            }
+                        }
+                    }
+                })).data.appData;
+
+                this.isLoading = false;
+                this.nav = {
+                    ...this.nav,
+                    ...result.resultData
+                }
+
+
+            },
+            async prepareNavData() {
+                this.navData = {
+                    ...this.nav,
+                    createAt: dayjs().format('YYYY-MM-DD HH:mm:ss'),
+                }
+            },
+            async submit() {
+                await window.vtoast.loading("新增数据");
+                await window.jianghuAxios({
+                    data: {
+                        appData: {
+                            pageId: 'navManagement',
+                            actionId: 'insertItem',
+                            bizIdGenerate: {
+                                type: "idSequence",
+                                prefix: "DH",
+                                bizId: "navId",
+                                tableName: "nav",
+                                startValue: 1000,
+                            },
+                            actionData: this.navData
+                        }
+                    }
+                })
+                await window.vtoast.success("新增数据成功");
+
+                this.nav = {}
+            }
+        }
+
+    })
+</script>
+
+<style scoped>
+
+
+</style>{% endblock %}

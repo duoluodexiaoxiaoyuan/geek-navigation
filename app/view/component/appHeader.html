@@ -1,0 +1,32 @@
+<template id="appHeader">
+  <div>
+    <v-app-bar app elevation="4" class="px-10 bg-white">
+      <div class="d-flex items-center">
+        <a href="/" class="d-inline-block">
+          <h1 class="text-h5 black--text font-bold">极客猿导航</h1>
+        </a>
+
+        <slot></slot>
+      </div>
+    </v-app-bar>
+    <div class="mt-5"></div>
+  </div>
+
+</template>
+<script>
+  Vue.component("appHeader", {
+    template: '#appHeader',
+    name: 'appHeader',
+    data: () => ({
+
+    }),
+    async created() {
+    },
+    methods: {
+
+    },
+  })
+</script>
+<style>
+
+</style>
