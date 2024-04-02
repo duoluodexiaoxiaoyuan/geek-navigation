@@ -7,6 +7,7 @@
 {% endblock %}
 {% block vueTemplate %}
 <script type="text/html" id="app-template">
+    <div>
     <v-app mobile-breakpoint="sm">
         <app-header></app-header>
         <v-main>
@@ -128,23 +129,30 @@
                 const url = this.nav.navUrl;
                 if (!url) return
                 this.isLoading = true;
-                const result = (await window.jianghuAxios({
-                    data: {
-                        appData: {
-                            pageId: 'addNav',
-                            actionId: 'getNavInfoByUrl',
-                            actionData: {
-                                url
+
+                try {
+                    const result = (await window.jianghuAxios({
+                        data: {
+                            appData: {
+                                pageId: 'addNav',
+                                actionId: 'getNavInfoByUrl',
+                                actionData: {
+                                    url
+                                }
                             }
                         }
-                    }
-                })).data.appData;
+                    })).data.appData;
 
-                this.isLoading = false;
-                this.nav = {
-                    ...this.nav,
-                    ...result.resultData
+                    this.isLoading = false;
+                    this.nav = {
+                        ...this.nav,
+                        ...result.resultData
+                    }
+                } catch (e) {
+                    window.vtoast.fail('链接不正确')
+                    this.isLoading = false;
                 }
+
 
 
             },
@@ -159,8 +167,8 @@
                 await window.jianghuAxios({
                     data: {
                         appData: {
-                            pageId: 'navManagement',
-                            actionId: 'insertItem',
+                            pageId: 'addNav',
+                            actionId: 'insertNav',
                             bizIdGenerate: {
                                 type: "idSequence",
                                 prefix: "DH",

@@ -154,8 +154,12 @@
             </div>
 
             <!--                返回顶部-->
-            <div class="fixed bottom-1 right-0 mr-4 mb-4" v-if="showBackTop">
-                <v-btn fab color="primary" @click="window.scrollTo({top: 0, behavior: 'smooth'})">
+            <div class="fixed bottom-1 right-0 mr-4 mb-4 flex flex-col">
+                <v-btn class="mb-4" fab color="primary" @click="window.open('/<$ ctx.app.config.appId $>/page/addNav')">
+                    <v-icon>mdi-plus</v-icon>
+                </v-btn>
+
+                <v-btn v-if="showBackTop" fab color="primary" @click="window.scrollTo({top: 0, behavior: 'smooth'})">
                     <i class="icon-top2 text-xl"></i>
                 </v-btn>
             </div>

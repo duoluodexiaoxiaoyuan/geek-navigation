@@ -17,7 +17,7 @@ class NavService extends Service {
         const { categoryId ="ai" } = actionData
 
         // 查分类数据，以parentId为categoryId，按sort排序，按status过滤掉0的数据
-        const categoryList = await jianghuKnex('category').where({ parentId: categoryId }).orderBy('sort', 'desc').where('status', '!=', 0).select('*')
+        let categoryList = await jianghuKnex('category').where({ parentId: categoryId }).orderBy('sort', 'desc').where('status', '!=', 0).select('*')
         // 查categoryId包含categoryList中categoryId的导航数据，按sort排序，按status过滤掉0的数据
         const navList = await jianghuKnex('nav').whereIn('categoryId', categoryList.map(category => category.categoryId)).orderBy('sort', 'desc').where('status', '!=', 0).select('*')
 
@@ -36,6 +36,9 @@ class NavService extends Service {
                 children: hotNavList
             })
         }
+
+        //过滤掉没有子分类的分类
+        categoryList = categoryList.filter(category => category.children.length)
 
         return categoryList
     }
@@ -77,6 +80,11 @@ class NavService extends Service {
         }
     }
 
+    //添加导航前的beforeHook，把status设为2，即待审核状态
+    async addNavBeforeHook(actionData) {
+        actionData.status = 2
+        return actionData
+    }
 }
 
 module.exports = NavService;
