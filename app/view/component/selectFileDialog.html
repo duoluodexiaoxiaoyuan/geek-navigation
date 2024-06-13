@@ -1,0 +1,118 @@
+<template id="select-file-dialog">
+  <v-dialog
+    v-model="isFileDrawerShow"
+    hide-overlay
+    fullscreen
+    transition="dialog-bottom-transition"
+  >
+    <v-card>
+      <v-toolbar dark width="100%" style="background-color: #fff">
+        <div class="black--text ml-2" style="font-size: 16px">选择素材</div>
+        <v-spacer></v-spacer>
+        <v-toolbar-items>
+          <v-btn text @click="isFileDrawerShow = false">
+            <v-icon class="black--text">mdi-close</v-icon>
+          </v-btn>
+        </v-toolbar-items>
+      </v-toolbar>
+      <v-divider style="border-color: #eff2f5; opacity: 0.8"></v-divider>
+      <file-browser
+        ref="fileBrowser"
+        v-if="isFileDrawerShow"
+        @use-material="doUiAction('useMaterial', $event)"
+        @close-material-picker="doUiAction('closeMaterialPicker')"
+        :material-type="materialType"
+        :material-dir="material.dir"
+        :path="material.path"
+        use-file-btn
+        page-id="allPage"
+        :operation-option="{delete: true, recycle: true, copy: true, renameFile: true}"
+      >
+        <template slot="importMaterial">
+          <import-material
+            @close-material-picker="closeImportMaterialPicker"
+            @use-material="useMaterial"
+            :material-type="materialType"
+            page-id="allPage"
+          >
+          </import-material>
+        </template>
+      </file-browser>
+    </v-card>
+  </v-dialog>
+</template>
+{% include 'component/fileBrowser/FileBrowser.html' %}
+{% include 'component/importMaterial/FileBrowser.html' %}
+
+<script type="module">
+  Vue.component("select-file-dialog", {
+    template: "#select-file-dialog",
+    data: () => ({
+      isFileDrawerShow: false,
+      materialType: "",
+      material: {
+        dir: "taskMaterial",
+        path: `/${window.userInfo.userId}/`,
+      },
+    }),
+    methods: {
+      async doUiAction(uiActionId, uiActionData) {
+        switch (uiActionId) {
+          case "open":
+            await this.open(uiActionData);
+            break;
+          case "useMaterial":
+            await this.useMaterial(uiActionData);
+            break;
+          default:
+            console.error("[doUiAction] uiActionId not find", { uiActionId });
+            break;
+        }
+      },
+
+      async open() {
+        this.isFileDrawerShow = true;
+      },
+
+      closeImportMaterialPicker() {
+        this.$refs.fileBrowser.closeImportMaterialPicker();
+      },
+
+      async useMaterial({ path, dir }) {
+        let filename,
+          downloadPath = null;
+        const resultData = (
+          await window.jianghuAxios({
+            data: {
+              appData: {
+                pageId: "allPage",
+                actionId: "useMaterial",
+                actionData: {
+                  path,
+                  fromDir: dir,
+                  toDir: this.material.dir,
+                },
+              },
+            },
+          })
+        ).data.appData.resultData;
+        filename = resultData.filename;
+        downloadPath = resultData.downloadPath;
+        this.isFileDrawerShow = false;
+        this.$emit("confirm", resultData);
+      },
+    },
+  });
+</script>
+
+<style scoped>
+.v-dialog--fullscreen .v-sheet {
+  height: auto;
+  position: relative;
+  background: #fff;
+  display: block;
+}
+.v-dialog--fullscreen {
+  top: 50px!important;
+}
+</style>

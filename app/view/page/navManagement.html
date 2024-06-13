@@ -89,7 +89,15 @@
             <v-text-field v-model="item.navUrl" @blur="doUiAction('updateNav', {id: item.id, data: {navUrl: item.navUrl}})" class="jh-v-input" filled single-line dense></v-text-field>
           </template>
           <template v-slot:item.navIcon="{item, index}">
-            <v-text-field v-model="item.navIcon" @blur="doUiAction('updateNav', {id: item.id, data: {navIcon: item.navIcon}})" class="jh-v-input" filled single-line dense></v-text-field>
+            <v-avatar
+            class="profile"
+            color="grey"
+            size="35"
+            @click="startUploadLogo(item)"
+            tile
+          >
+            <v-img :src="item.navIcon"></v-img>
+          </v-avatar>
           </template>
           <template v-slot:item.navDesc="{item, index}">
             <v-text-field v-model="item.navDesc" @blur="doUiAction('updateNav', {id: item.id, data: {navDesc: item.navDesc}})" class="jh-v-input" filled single-line dense></v-text-field>
@@ -151,6 +159,11 @@
         </v-data-table>
       </v-card>
     </v-col>
+      <div >
+        
+        <select-file-dialog ref="selectFileDialog" @confirm="uploadLogo" />
+        
+      </div>
     </v-row>
     </div>
     <!-- <<<<<<<<<<<<< 页面内容 -->
@@ -365,6 +378,7 @@
 {% include 'common/jianghuJs/fixedTableHeightV4.html' %}
 {% include 'component/tableColumnSettingBtn.html' %}
 {% include 'component/tableRecordHistory.html' %}
+{% include 'component/selectFileDialog.html' %}
 
 <script type="module">
 new Vue({
@@ -706,6 +720,33 @@ new Vue({
         })
         this.categoryList = result.data.appData.resultData.rows
     },
+    async updateNav({id, data}) {
+      await window.jianghuAxios({
+          data: {
+              appData: {
+                  pageId: 'navManagement',
+                  actionId: 'updateItem',
+                  actionData: data,
+                  where: {id}
+              }
+          }
+      })
+  },
+    startUploadLogo(item) {
+    this.$refs.selectFileDialog.doUiAction('open')
+    this.currentItem = item
+  },
+    uploadLogo(event) {
+    const {id} = this.currentItem
+    const navIcon = window.appInfo.upload + event.downloadPath
+    this.currentItem.navIcon = navIcon
+    this.updateNav({
+      id,
+      data: {
+        navIcon
+      }
+    })
+  },
     // ---------- <<<<<<<<<<< Custom uiAction ---------
 
   }

@@ -47,7 +47,10 @@ const content = {
     }
   ], // { actionId: '', resourceType: '', resourceData: {}, resourceHook: {}, desc: '' }
   drawerList: [], // { key: '', title: '', contentList: [] }
-  includeList: [], // { type: < js | css | html | vueComponent >, path: ''}
+  includeList: [
+  "{% include 'component/selectFileDialog.html' %}"
+
+  ], // { type: < js | css | html | vueComponent >, path: ''}
   common: { 
     
     data: {
@@ -83,8 +86,7 @@ const content = {
           })
           this.categoryList = result.data.appData.resultData.rows
       },
-    },
-    async updateNav({id, data}) {
+      async updateNav({id, data}) {
         await window.jianghuAxios({
             data: {
                 appData: {
@@ -96,6 +98,23 @@ const content = {
             }
         })
     },
+    startUploadLogo(item) {
+      this.$refs.selectFileDialog.doUiAction('open')
+      this.currentItem = item
+    },
+    uploadLogo(event) {
+      const {id} = this.currentItem
+      const navIcon = window.appInfo.upload + event.downloadPath
+      this.currentItem.navIcon = navIcon
+      this.updateNav({
+        id,
+        data: {
+          navIcon
+        }
+      })
+    }
+    },
+    
   },
   headContent: [
     { tag: 'jh-page-title', value: "nav", attrs: { cols: 12, sm: 6, md:4 }, helpBtn: true, slot: [] },
@@ -126,7 +145,15 @@ const content = {
           `<v-text-field v-model="item.navUrl" @blur="doUiAction('updateNav', {id: item.id, data: {navUrl: item.navUrl}})" class="jh-v-input" filled single-line dense></v-text-field>`
         ], width: 120, sortable: true },
         { text: "导航图标", value: "navIcon",formatter: [
-          `<v-text-field v-model="item.navIcon" @blur="doUiAction('updateNav', {id: item.id, data: {navIcon: item.navIcon}})" class="jh-v-input" filled single-line dense></v-text-field>`
+          `<v-avatar
+            class="profile"
+            color="grey"
+            size="35"
+            @click="startUploadLogo(item)"
+            tile
+          >
+            <v-img :src="item.navIcon"></v-img>
+          </v-avatar>`
         ], width: 80, sortable: true },
         { text: "导航描述", value: "navDesc",formatter: [
           `<v-text-field v-model="item.navDesc" @blur="doUiAction('updateNav', {id: item.id, data: {navDesc: item.navDesc}})" class="jh-v-input" filled single-line dense></v-text-field>`
@@ -157,6 +184,14 @@ const content = {
         { text: '编辑', icon: 'mdi-note-edit-outline', color: 'success', click: 'doUiAction("startUpdateItem", item)' }, // 简写支持 pc 和 移动端折叠
         { text: '删除', icon: 'mdi-trash-can-outline', color: 'error', click: 'doUiAction("deleteItem", item)' } // 简写支持 pc 和 移动端折叠
       ],
+    },
+    {
+      tag: 'div',
+      value: [
+        `
+        <select-file-dialog ref="selectFileDialog" @confirm="uploadLogo" />
+        `
+      ]
     }
   ],
   actionContent: [

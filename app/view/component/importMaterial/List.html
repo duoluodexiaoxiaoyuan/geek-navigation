@@ -1,0 +1,223 @@
+<template id="import-fileBrowser-list">
+  <v-card flat>
+    <confirm ref="confirm"></confirm>
+
+    <v-card-text v-if="!path" class="grow d-flex justify-center align-center grey--text"><$ constantUiMap.btn.selectFile
+      $>
+    </v-card-text>
+
+    <!-- 文件预览 -->
+    <v-card-text v-else-if="isFile" class="grow d-flex justify-center align-center">
+      <div class="flex flex-column justify-center align-center text-center">
+        <v-img v-if="fileType === 'image'" min-width="30" max-width="500" min-height="30" max-height="500"
+               :src="`/<$ ctx.app.config.appId $>/upload/${materialDir}${path}?v=${new Date().getTime()}`" :key="path"
+               lazy-src=""
+               class="grey lighten-2 mb-5" style="margin: auto; cursor: pointer;"
+               @click="openFile(`/<$ ctx.app.config.appId $>/upload/${materialDir}${path}?v=${new Date().getTime()}`)">
+        </v-img>
+        <video v-if="fileType === 'video'" width="80%" min-width="30" max-width="500" min-height="30" max-height="500"
+               :src="`/<$ ctx.app.config.appId $>/upload/${materialDir}${path}?v=${new Date().getTime()}`" :key="path"
+               lazy-src=""
+               class="grey lighten-2 mb-5" style="display: block; margin: auto;" controls>
+          <source :src="`/<$ ctx.app.config.appId $>/upload/${materialDir}${path}?v=${new Date().getTime()}`"
+                  type="video/mp4">
+        </video>
+        <audio v-if="fileType === 'audio'" min-width="30" max-width="500" min-height="30" max-height="500"
+               :src="`/<$ ctx.app.config.appId $>/upload/${materialDir}${path}?v=${new Date().getTime()}`" :key="path"
+               lazy-src=""
+               class="my-10" style="display: block; margin: auto;" controls>
+          <source :src="`/<$ ctx.app.config.appId $>/upload/${materialDir}${path}?v=${new Date().getTime()}`"
+                  type="audio/mpeg">
+        </audio>
+        <div><$ constantUiMap.btn.file $>：{{ `${host}/<$ ctx.app.config.appId $>/upload/${materialDir}${path}` }}</div>
+      </div>
+    </v-card-text>
+
+    <!-- 文件列表 -->
+    <v-card-text v-else-if="dirs.length || files.length" class="pa-0">
+      <v-data-table
+          :headers="headers"
+          :items="tableData"
+          class="elevation-0"
+          :options="{ itemsPerPage: 15 }"
+          :footer-props="{ itemsPerPageOptions: [15, 30, 50, 100] }"
+          
+      >
+        <template v-slot:item.name="{ item }">
+          <div v-if="item.type === 'dir'" @click="changePath(item.path)" role="button">
+            <v-icon>mdi-folder-outline</v-icon>
+            <span class="ml-2">{{ item.basename }}</span>
+          </div>
+          <div v-else="item.type === 'file'" @click="changePath(item.path)" role="button">
+            <template>
+              <v-avatar
+                  tile
+                  v-if="checkIsImg(item.basename)"
+                  class=""
+                  size="25"
+              >
+                <v-img
+                    :src="`/<$ ctx.app.config.appId $>/upload/${materialDir}${path}/${item.basename}?v=${new Date().getTime()}`"></v-img>
+              </v-avatar>
+              <v-icon v-else>{{ icons[item.extension.toLowerCase()] || icons['other'] }}</v-icon>
+            </template>
+            <span class="ml-2">{{ item.basename }}</span>
+          </div>
+        </template>
+        <template v-slot:item.size="{ item }">
+          {{ item.size ? formatBytes(item.size) : '-' }}
+        </template>
+        <template v-slot:item.mtime="{ item }">
+          {{ item.mtime ? dayjs.unix(item.mtime).format("YYYY-MM-DD HH:mm:ss") : '-' }}
+        </template>
+      </v-data-table>
+    </v-card-text>
+
+    <!-- 为空提示 -->
+    <v-card-text v-else-if="filter" class="grow d-flex justify-center align-center grey--text py-10"><$
+      constantUiMap.btn.fileNotFound $>
+    </v-card-text>
+    <v-card-text v-else class="grow d-flex justify-center align-center grey--text py-10"><$
+      constantUiMap.btn.folderEmpty $>
+    </v-card-text>
+  </v-card>
+</template>
+
+<script>
+Vue.component("import-list", {
+  vuetify: new Vuetify(),
+  name: 'import-list',
+  template: '#import-fileBrowser-list',
+  props: {
+    icons: Object,
+    path: String,
+    refreshPending: Boolean,
+    filter: String,
+    materialDir: String,
+    pageId: String
+  },
+  data() {
+    return {
+      host: window.location.host,
+      items: [],
+      page: 1,
+      pageSize: 20,
+      headers: [
+        {
+          text: '文件名',
+          align: 'start',
+          value: 'name',
+          width: '40%'
+        },
+        {text: '大小', value: 'size', width: '20%'},
+        {text: '更新时间', value: 'mtime', width: '20%'},
+        {text: '', value: 'action', sortable: false}
+      ],
+      dayjs: dayjs
+    };
+  },
+  computed: {
+    dirs() {
+      return this.items.filter(
+          item =>
+              item.type === "dir" && item.basename.includes(this.filter)
+      );
+    },
+    files() {
+      return this.items.filter(
+          item =>
+              item.type === "file" && item.basename.includes(this.filter)
+      );
+    },
+    tableData() {
+      return this.dirs.concat(this.files)
+    },
+    isDir() {
+      return this.path[this.path.length - 1] === "/";
+    },
+    isFile() {
+      return !this.isDir;
+    },
+    fileType() {
+      const ext = this.path.substring(this.path.lastIndexOf('.') + 1);
+      if (ext) {
+        if (['jpg', 'jpeg', 'png', 'gif', 'ico', 'svg'].includes(ext.toLowerCase())) {
+          return 'image';
+        }
+        if (['mp4'].includes(ext.toLowerCase())) {
+          return 'video';
+        }
+        if (['mp3'].includes(ext.toLowerCase())) {
+          return 'audio';
+        }
+      }
+      return '';
+    }
+  },
+  created() {
+    this.load();
+  },
+  methods: {
+    checkIsImg(filename) {
+      return /\.(jpg|jpeg|png|GIF|JPG|PNG)$/.test(filename);
+    },
+    changePath(path) {
+      this.$emit("path-changed", path);
+    },
+    async load() {
+      this.$emit("loading", true);
+      if (this.isDir) {
+        const path = this.path;
+        this.items = await this.getDataRequest(path);
+      } else {
+        // TODO: load file
+      }
+      this.$emit("loading", false);
+    },
+    async getDataRequest(path) {
+      return (await window.jianghuAxios({
+        data: {
+          appData: {
+            pageId: this.pageId,
+            actionId: 'list',
+            actionData: {path, dir: this.materialDir},
+          }
+        }
+      })).data.appData.resultData.rows;
+    },
+    formatBytes(bytes, decimals = 2) {
+      if (bytes === 0) return '0 bytes';
+
+      const k = 1024;
+      const dm = decimals < 0 ? 0 : decimals;
+      const sizes = ['bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+
+      const i = Math.floor(Math.log(bytes) / Math.log(k));
+
+      return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+    },
+    openFile(path) {
+      window.open(path)
+    },
+  },
+  watch: {
+    path() {
+      this.items = [];
+      this.load();
+    },
+    async refreshPending() {
+      if (this.refreshPending) {
+        await this.load();
+        this.$emit("refreshed");
+      }
+    }
+  },
+});
+</script>
+
+<style scoped>
+.file-list {
+  max-height: calc(100vh - 195px);
+  overflow: auto;
+}
+</style>

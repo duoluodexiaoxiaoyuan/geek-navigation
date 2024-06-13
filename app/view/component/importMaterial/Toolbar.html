@@ -1,0 +1,41 @@
+<template id="import-fileBrowser-toolbar">
+  <div>
+    <div>
+      <v-btn v-if="!pathIsFolder" depressed color="success" @click="useMaterial"
+             class="ml-1">
+        <v-icon class="mr-1" small>mdi-check</v-icon>
+        <$ constantUiMap.btn.import $>
+      </v-btn>
+    </div>
+  </div>
+</template>
+
+<script>
+Vue.component("import-toolbar", {
+  vuetify: new Vuetify(),
+  name: 'import-toolbar',
+  template: '#import-fileBrowser-toolbar',
+  props: {
+    path: String,
+  },
+  data() {
+    return {
+      newFolderPopper: false,
+      newFolderName: ""
+    };
+  },
+  computed: {
+    pathIsFolder() {
+      return this.path[this.path.length - 1] === "/";
+    }
+  },
+  methods: {
+    useMaterial({path}) {
+      this.$emit("use-material");
+    }
+  }
+});
+</script>
+
+<style scoped>
+</style>

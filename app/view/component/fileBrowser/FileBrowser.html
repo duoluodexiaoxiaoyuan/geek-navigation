@@ -1,0 +1,380 @@
+<template id="fileBrowser">
+  <v-card class="d-flex flex-column" flat>
+    <v-toolbar flat dense class="px-4 mt-2">
+      <template v-if="!(path && isDir)">
+        <breadcrumbs
+            :path="path"
+            :page-id="pageId"
+            :storages="storagesArray"
+            :storage="activeStorage"
+            :material-dir="materialDir"
+            @storage-changed="storageChanged"
+            @path-changed="pathChanged">
+        </breadcrumbs>
+        <div class="flex-grow-1"></div>
+      </template>
+      <toolbar
+          ref="toolbar"
+          :operation-option="operationOption"
+          :path="path"
+          :page-id="pageId"
+          :storages="storagesArray"
+          :storage="activeStorage"
+          :material-dir="materialDir"
+          :use-file-btn="useFileBtn"
+          :current-copy-path="currentCopyPath"
+          :has-import-material="hasImportMaterial && isDir"
+          @storage-changed="storageChanged"
+          @path-changed="pathChanged"
+          @copy-item="copyItem"
+          @cut-item="cutItem"
+          @paste-item="pasteItem"
+          @add-files="addUploadingFiles"
+          @folder-created="refreshPending = true"
+          @use-material="useMaterial"
+          @close-material-picker="closeMaterialPicker"
+          @import-material="showImportMaterial"
+          @loading="loadingChanged"
+      >
+      </toolbar>
+      <template v-if="path && isDir">
+        <div class="flex-grow-1"></div>
+        <div style="width: 300px;">
+          <v-text-field
+              dense
+              filled
+              single-line
+              hide-details="auto"
+              label="Search Files & Folders" v-model="filter" prepend-inner-icon="mdi-magnify"
+              color="success"></v-text-field>
+        </div>
+      </template>
+    </v-toolbar>
+    <v-row no-gutters>
+      <v-col class="mt-2">
+        <v-toolbar flat dense v-if="(path && isDir)" class="pr-4 table-toolbar" style="height: 30px;">
+          <breadcrumbs
+              :path="path"
+              :page-id="pageId"
+              :storages="storagesArray"
+              :storage="activeStorage"
+              :material-dir="materialDir"
+              @storage-changed="storageChanged"
+              @path-changed="pathChanged"
+          >
+          </breadcrumbs>
+          <v-spacer></v-spacer>
+          <template>
+            <v-chip
+                class="ma-2"
+                color="green"
+                text-color="white"
+                small>
+              {{ totalCount }} items
+            </v-chip>
+            <v-btn icon @click="refreshPending = true">
+              <v-icon>mdi-refresh</v-icon>
+            </v-btn>
+          </template>
+        </v-toolbar>
+        <list
+            ref="list"
+            :operation-option="operationOption"
+            :path="path"
+            :storage="activeStorage"
+            :icons="icons"
+            :page-id="pageId"
+            :refresh-pending="refreshPending"
+            :filter="filter"
+            :material-dir="materialDir"
+            @path-changed="pathChanged"
+            @copy-item="copyItem"
+            @cut-item="cutItem"
+            @paste-item="pasteItem"
+            @loading="loadingChanged"
+            @refreshed="refreshPending = false"
+            @file-deleted="refreshPending = true"
+            style="width: 100%;"
+        ></list>
+      </v-col>
+    </v-row>
+    <upload
+        v-if="uploadingFiles !== false"
+        :path="path"
+        :storage="activeStorage"
+        :files="uploadingFiles"
+        :icons="icons"
+        :page-id="pageId"
+        :material-dir="materialDir"
+        :max-upload-files-count="maxUploadFilesCount"
+        :max-upload-file-size="maxUploadFileSize"
+        @add-files="addUploadingFiles"
+        @remove-file="removeUploadingFile"
+        @clear-files="uploadingFiles = []"
+        @cancel="uploadingFiles = false"
+        @uploaded="uploaded"
+    ></upload>
+    <v-navigation-drawer v-model="isImportMaterialShow" fixed temporary right width="80%" class="elevation-24">
+      <slot name="importMaterial"></slot>
+    </v-navigation-drawer>
+    
+    <v-overlay :value="listLoading" absolute opacity="0.1">
+      <v-progress-circular
+        indeterminate
+        size="32"
+      ></v-progress-circular>
+    </v-overlay>
+  </v-card>
+</template>
+
+{% include 'component/fileBrowser/Confirm.html' %}
+{% include 'component/fileBrowser/List.html' %}
+{% include 'component/fileBrowser/Toolbar.html' %}
+{% include 'component/fileBrowser/Upload.html' %}
+{% include 'component/fileBrowser/Breadcrumbs.html' %}
+
+<!-- [reference](https://github.com/semeniuk/vuetify-file-browser) -->
+<script>
+/**
+ * 关机 api 汇总
+ * - list
+ *  - refreshPending watch
+ *  - path watch
+ *  - this.$refs.list.load();
+ */
+const availableStorages = [
+  {
+    name: "<$ constantUiMap.btn.material $>",
+    code: "local",
+    icon: "mdi-file-cog"
+  }
+];
+
+const fileIcons = {
+  zip: "mdi-folder-zip-outline",
+  rar: "mdi-folder-zip-outline",
+  htm: "mdi-language-html5",
+  html: "mdi-language-html5",
+  js: "mdi-nodejs",
+  json: "mdi-json",
+  md: "mdi-markdown",
+  pdf: "mdi-file-pdf",
+  png: "mdi-file-image",
+  jpg: "mdi-file-image",
+  jpeg: "mdi-file-image",
+  mp4: "mdi-filmstrip",
+  mkv: "mdi-filmstrip",
+  avi: "mdi-filmstrip",
+  wmv: "mdi-filmstrip",
+  mov: "mdi-filmstrip",
+  txt: "mdi-file-document-outline",
+  xls: "mdi-file-excel",
+  other: "mdi-file-outline"
+};
+
+Vue.component("file-browser", {
+  vuetify: new Vuetify(),
+  name: 'file-browser',
+  template: '#fileBrowser',
+  model: {
+    prop: "path",
+    event: "change"
+  },
+  props: {
+    materialDir: {
+      type: String,
+      default: 'materialRepo' // config  'materialRepo' | 'articleMaterial' | 'xfPageMaterial'
+    },
+    path: {
+      type: String,
+      default: '/image/' 
+    },
+    // comma-separated list of active storage codes
+    storages: {
+      type: String,
+      default: () => availableStorages.map(item => item.code).join(",")
+    },
+    // code of default storage
+    storage: {type: String, default: "local"},
+    // file icons set
+    icons: {type: Object, default: () => fileIcons},
+    // max files count to upload at once. Unlimited by default
+    maxUploadFilesCount: {type: Number, default: 0},
+    useFileBtn: {type: Boolean, default: false},
+    // max file size to upload. Unlimited by default
+    maxUploadFileSize: {type: Number, default: 1024 * 1024 * 1024},
+    imageMaxUploadFileSize: {type: Number, default: 700 * 1024},
+
+    materialType: {type: String, default: ''},
+    operationOption: {
+      type: Object, default: () => {
+        return {delete: false, copy: false, recycle: false, renameFile: false}
+      }
+    },
+    pageId: {type: String, default: 'materialManagement'},
+  },
+  data() {
+    return {
+      filter: "",
+      totalCount: 0,
+      loading: 0,
+      activeStorage: null,
+      uploadingFiles: false, // or an Array of files
+      // 用于让子组件做监听，有变化时对当前目录做刷新
+      refreshPending: false,
+      currentCopyPath: '',
+      moreBtn: [{value: 'mkDir', title: '创建文件夹'}, {value: 'rename', title: '重命名'}, {
+        value: 'cut',
+        title: '剪切'
+      }, {value: 'paste', title: '粘贴'}],
+      isImportMaterialShow: false,
+      hasImportMaterial: false,
+      listLoading: false,
+    };
+  },
+  computed: {
+    storagesArray() {
+      let storageCodes = this.storages.split(","),
+          result = [];
+      storageCodes.forEach(code => {
+        result.push(availableStorages.find(item => item.code == code));
+      });
+      return result;
+    },
+    isMobile() {
+      return window.innerWidth < 500;
+    },
+    isDir() {
+      return this.path[this.path.length - 1] === "/";
+    },
+  },
+  methods: {
+    moreBtnAction(btn) {
+      switch (btn.value) {
+        case 'mkDir':
+          this.$refs.toolbar && this.$refs.toolbar.mkdir();
+          break;
+      }
+    },
+    async useMaterial({path}) {
+      await this.$emit("use-material", {path: this.path, dir: this.materialDir});
+    },
+    closeImportMaterialPicker() { 
+      this.isImportMaterialShow = false;;
+      this.$refs.list.load();
+    },
+    closeMaterialPicker() { 
+      this.$emit("close-material-picker");
+    },
+    loadingChanged(loading) {
+      this.listLoading = loading;
+      if (loading) {
+        this.loading++;
+      } else if (this.loading > 0) {
+        this.loading--;
+      }
+      if (!loading) {
+        this.totalCount = this.$refs.list.tableData.length
+      }
+    },
+    storageChanged(storage) {
+      this.activeStorage = storage;
+    },
+    checkImageMaxUploadFileSize(files) {
+      if (this.imageMaxUploadFileSize) {
+        const checkImageSizeError = this.materialType === 'image' && files.find(
+            file => file.size > this.imageMaxUploadFileSize
+        )
+        if (checkImageSizeError) {
+          window.vtoast.fail('部分图片文件大于 700K, 请重新压缩过后再上传素材');
+          files = files.filter(
+              file => file.size <= this.imageMaxUploadFileSize
+          );
+        }
+      }
+    },
+    addUploadingFiles(files) {
+      files = Array.from(files);
+
+      this.checkImageMaxUploadFileSize(files);
+
+      if (this.uploadingFiles === false) {
+        this.uploadingFiles = [];
+      }
+
+      if (this.maxUploadFilesCount && this.uploadingFiles.length + files.length > this.maxUploadFilesCount) {
+        files = files.slice(0, this.maxUploadFilesCount - this.uploadingFiles.length);
+      }
+
+      this.uploadingFiles.push(...files);
+    },
+    removeUploadingFile(index) {
+      this.uploadingFiles.splice(index, 1);
+    },
+    uploaded() {
+      this.uploadingFiles = false;
+      this.refreshPending = true;
+    },
+    pathChanged(path) {
+      this.path = path;
+      this.$emit("change", path);
+    },
+    showImportMaterial(type) {
+      this.isImportMaterialShow = true;
+    },
+    async syncMoveOrCopyFileRequest(fromDir, toDir, filename) {
+      await window.jianghuAxios({
+        data: {
+          appData: {
+            pageId: this.pageId,
+            actionId: this.pasteMode === 'cut' ? 'moveFile' : 'copyFile',
+            actionData: {
+              fromDir,
+              toDir,
+              filename,
+              dir: this.materialDir
+            },
+          }
+        }
+      });
+    },
+    refreshData(fromDir, toDir) {
+      this.$refs.list.load();
+      if (this.pasteMode === 'cut') {
+        this.currentCopyPath = null
+      }
+    },
+    async pasteItem() {
+      window.vtoast.loading(this.pasteMode === 'cut' ? '文件移动中' : '文件复制中');
+      const fromDir = this.currentCopyPath.substring(0, this.currentCopyPath.lastIndexOf('/') + 1);
+      const toDir = this.path;
+      const filename = this.currentCopyPath.substring(this.currentCopyPath.lastIndexOf('/') + 1);
+      await this.syncMoveOrCopyFileRequest(fromDir, toDir, filename);
+      window.vtoast.success(this.pasteMode === 'cut' ? '文件移动成功' : '文件复制成功');
+      this.refreshData(fromDir, toDir);
+    },
+    cutItem(path) {
+      this.currentCopyPath = path
+      this.pasteMode = 'cut'
+      console.log('cutItem', this.currentCopyPath)
+    },
+    copyItem(path) {
+      this.currentCopyPath = path
+      this.pasteMode = 'copy'
+      console.log('copyItem', this.currentCopyPath)
+    }
+  },
+  created() {
+    this.hasImportMaterial = !!this.$slots.importMaterial;
+    this.activeStorage = this.storage;
+  },
+  mounted() {
+
+  }
+});
+</script>
+<style scoped>
+.table-toolbar .v-toolbar__content {
+  height: 30px !important;
+}
+</style>

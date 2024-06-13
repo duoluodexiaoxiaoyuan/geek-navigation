@@ -11,7 +11,7 @@
 
 {% block vueTemplate %}
 <script type="text/html" id="app-template">
-    <v-app mobile-breakpoint="sm">
+    <v-app mobile-breakpoint="sm" class="">
         <app-header>
             <div class="ml-4">
                 <div class="bg-gray-100 px-3 py-1 text-base">
@@ -20,7 +20,7 @@
             </div>
         </app-header>
         <v-main>
-            <div class="jh-page-body-container px-8">
+            <div class="jh-page-body-container px-8 pt-3 bg-[#eff4f8]">
 
                 <div class="left-menu fixed" v-if="!isMobile" style="width: 150px">
                     <v-menu
@@ -80,7 +80,7 @@
                     </div>
 
                 </div>
-                <div :style="`margin-left: ${!isMobile ? '170px' : '0'}`">
+                <div class="" :style="`margin-left: ${!isMobile ? '170px' : '0'}`">
 
 
                     <div class="pa-4 mb-5 py-10 bg-gradient-to-b from-green-500 to-green-600 white--text"
@@ -306,6 +306,9 @@
 </script>
 
 <style scoped>
-
+    .theme--light.v-application,
+body {
+    background: #eff4f8!important;
+}
 
 </style>{% endblock %}

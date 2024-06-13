@@ -1,0 +1,206 @@
+<template id="importMaterial">
+  <v-card class="d-flex flex-column" flat>
+    <v-toolbar flat dense class="px-4 mt-2">
+      <template v-if="!(path && isDir)">
+        <import-breadcrumbs
+            :path="path"
+            :storages="storagesArray"
+            :storage="activeStorage"
+            :material-dir="materialDir"
+            @storage-changed="storageChanged"
+            @path-changed="pathChanged">
+        </import-breadcrumbs>
+        <div class="flex-grow-1"></div>
+      </template>
+      <import-toolbar
+          ref="importToolbar"
+          :path="path"
+          @use-material="useMaterial"
+      >
+      </import-toolbar>
+      <template v-if="path && isDir">
+        <div class="flex-grow-1"></div>
+        <div style="width: 300px;">
+          <v-text-field
+              dense
+              filled
+              single-line
+              hide-details="auto"
+              label="Search Files & Folders" v-model="filter" prepend-inner-icon="mdi-magnify"
+              color="success"></v-text-field>
+        </div>
+      </template>
+    </v-toolbar>
+    <v-row no-gutters>
+      <v-col class="mt-2">
+        <v-toolbar flat dense v-if="(path && isDir)" class="pr-4 table-toolbar" style="height: 30px;">
+          <import-breadcrumbs
+              :path="path"
+              :storages="storagesArray"
+              :storage="activeStorage"
+              :material-dir="materialDir"
+              @storage-changed="storageChanged"
+              @path-changed="pathChanged"
+          >
+          </import-breadcrumbs>
+          <v-spacer></v-spacer>
+          <template>
+            <v-chip
+                class="ma-2"
+                color="green"
+                text-color="white"
+                small>
+              {{ totalCount }} items
+            </v-chip>
+            <v-btn icon @click="refreshPending = true">
+              <v-icon>mdi-refresh</v-icon>
+            </v-btn>
+          </template>
+        </v-toolbar>
+        <import-list
+            ref="importList"
+            :path="path"
+            :icons="icons"
+            :refresh-pending="refreshPending"
+            :filter="filter"
+            :page-id="pageId"
+            :material-dir="materialDir"
+            @path-changed="pathChanged"
+            @loading="loadingChanged"
+            @refreshed="refreshPending = false"
+            style="width: 100%;"
+        ></import-list>
+      </v-col>
+    </v-row>
+    <v-overlay :value="listLoading" absolute opacity="0.1">
+      <v-progress-circular
+        indeterminate
+        size="32"
+      ></v-progress-circular>
+    </v-overlay>
+  </v-card>
+</template>
+
+{% include 'component/importMaterial/List.html' %}
+{% include 'component/importMaterial/Toolbar.html' %}
+{% include 'component/importMaterial/Breadcrumbs.html' %}
+
+<!-- [reference](https://github.com/semeniuk/vuetify-file-browser) -->
+<script>
+Vue.component("import-material", {
+  vuetify: new Vuetify(),
+  name: 'import-material',
+  template: '#importMaterial',
+  model: {
+    prop: "path",
+    event: "change"
+  },
+  props: {
+    materialTarget: {
+      type: Object,
+      default: () => {
+        return {};
+      }
+    },
+    materialDir: {
+      type: String,
+      default: 'materialRepo' // config  'materialRepo' | 'articleMaterial' | 'xfPageMaterial'
+    },
+    path: {
+      type: String,
+      default: '/image/' 
+    },
+    // comma-separated list of active storage codes
+    storages: {
+      type: String,
+      default: () => availableStorages.map(item => item.code).join(",")
+    },
+    // code of default storage
+    storage: {type: String, default: "local"},
+    // file icons set
+    icons: {type: Object, default: () => fileIcons},
+    pageId: {type: String, default: 'materialManagement'},
+  },
+  data() {
+    return {
+      filter: "",
+      totalCount: 0,
+      loading: 0,
+      activeStorage: null,
+      // 用于让子组件做监听，有变化时对当前目录做刷新
+      refreshPending: false,
+      listLoading: false,
+    };
+  },
+  computed: {
+    storagesArray() {
+      let storageCodes = this.storages.split(","),
+          result = [];
+      storageCodes.forEach(code => {
+        result.push(availableStorages.find(item => item.code == code));
+      });
+      return result;
+    },
+    isMobile() {
+      return window.innerWidth < 500;
+    },
+    isDir() {
+      return this.path[this.path.length - 1] === "/";
+    }
+  },
+  methods: {
+    async useMaterial() {
+      this.listLoading = true;
+      // 需要判断是否传入了 materialTarget
+      await window.jianghuAxios({
+        data: {
+          appData: {
+            pageId: this.pageId,
+            actionId: 'useMaterial',
+            actionData: {
+              path: this.path,
+              fromDir: this.materialDir,
+              toDir: this.materialTarget.dir + '/' + this.materialTarget.path,
+            },
+          }
+        }
+      });
+      this.listLoading = false;
+      // 完成关闭
+      this.closeMaterialPicker();
+    },
+    closeMaterialPicker() {
+      this.$emit("close-material-picker");
+    },
+    loadingChanged(loading) {
+      this.listLoading = loading;
+      if (loading) {
+        this.loading++;
+      } else if (this.loading > 0) {
+        this.loading--;
+      }
+      if (!loading) {
+        this.totalCount = this.$refs.importList.tableData.length
+      }
+    },
+    storageChanged(storage) {
+      this.activeStorage = storage;
+    },
+    pathChanged(path) {
+      this.path = path;
+      this.$emit("change", path);
+    },
+  },
+  created() {
+    this.activeStorage = this.storage;
+  },
+  mounted() {
+
+  }
+});
+</script>
+<style scoped>
+.table-toolbar .v-toolbar__content {
+  height: 30px !important;
+}
+</style>
