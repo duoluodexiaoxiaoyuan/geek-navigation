@@ -59,61 +59,99 @@ const content = {
       },
       testString: '测试字符串',
       serverSearchWhereLike: { className: '' },
+      categoryList: [],
     },
     dataExpression: {
       isMobile: 'window.innerWidth < 500'
     }, // data 表达式
+    created() {
+      this.getCategoryList()
+      this.getTableData()
+    },
     watch: {},
     computed: {},
     doUiAction: {}, // 额外uiAction { [key]: [action1, action2]}
-    methods: {}
+    methods: {
+      async getCategoryList() {
+          const result = await window.jianghuAxios({
+              data: {
+                  appData: {
+                      pageId: 'categoryManagement',
+                      actionId: 'selectItemList',
+                  }
+              }
+          })
+          this.categoryList = result.data.appData.resultData.rows
+      },
+    },
+    async updateNav({id, data}) {
+        await window.jianghuAxios({
+            data: {
+                appData: {
+                    pageId: 'navManagement',
+                    actionId: 'updateItem',
+                    actionData: data,
+                    where: {id}
+                }
+            }
+        })
+    },
   },
   headContent: [
     { tag: 'jh-page-title', value: "nav", attrs: { cols: 12, sm: 6, md:4 }, helpBtn: true, slot: [] },
-    { 
-      tag: 'jh-search', 
-      attrs: { cols: 12, sm: 6, md:8 },
+    { tag: 'v-spacer' },
+   
+    {
+      tag: 'jh-search',
+      attrs: { cols: '12', sm: '6', md: '4', class: 'pa-0' },
       value: [
-        { tag: "v-text-field", model: "serverSearchWhereLike.className", attrs: {prefix: '前缀'} },
-      ], 
-      searchBtn: {}
-    }
+        { tag: 'v-text-field',  'model': 'searchInput', attrs: {prefix: '筛选'} },
+        { tag: 'v-autocomplete','model': 'serverSearchWhereLike.categoryId', attrs: {prefix: '分类', ':items': 'categoryList', } },
+        { tag: 'v-text-field','model': 'serverSearchWhereLike.tags', attrs: {prefix: '标签'} },
+      ],
+      searchBtn:true,
+    },
+   
   ],
   pageContent: [
     {
       tag: 'jh-table',
-      attrs: {  },
+      attrs: { ':items-per-page':"50" },
       value: [
-        { text: "id", value: "id", type: "v-text-field", width: 80, sortable: true, class: "fixed", cellClass: "fixed" },
-        { text: "导航id", value: "navId", type: "v-text-field", width: 80, sortable: true },
-        { text: "导航名称", value: "navName", type: "v-text-field", width: 80, sortable: true },
-        { text: "导航地址", value: "navUrl", type: "v-text-field", width: 80, sortable: true },
-        { text: "导航图标", value: "navIcon", type: "v-text-field", width: 80, sortable: true },
-        { text: "导航描述", value: "navDesc", type: "v-text-field", width: 80, sortable: true },
-        { text: "分类id", value: "categoryId", type: "v-text-field", width: 80, sortable: true },
-        { text: "标签", value: "tags", type: "v-text-field", width: 80, sortable: true },
-        { text: "排序", value: "sort", type: "v-text-field", width: 80, sortable: true },
-        { text: "状态 0", value: "status", type: "v-text-field", width: 80, sortable: true },
-        { text: "创建时间", value: "createAt", type: "v-text-field", width: 80, sortable: true },
-        { text: "操作", value: "operation", type: "v-text-field", width: 80, sortable: true },
-        { text: "操作者userId", value: "operationByUserId", type: "v-text-field", width: 80, sortable: true },
-        { text: "操作者用户名", value: "operationByUser", type: "v-text-field", width: 80, sortable: true },
-        { text: "操作时间", value: "operationAt", type: "v-text-field", width: 80, sortable: true },
+        { text: "导航id", value: "navId", width: 120, sortable: true },
+        { text: "导航名称", value: "navName",formatter: [
+          `<v-text-field v-model="item.navName" @blur="doUiAction('updateNav', {id: item.id, data: {navName: item.navName}})" class="jh-v-input" filled single-line dense></v-text-field>`
+        ], width: 80, sortable: true },
+        { text: "导航地址", value: "navUrl",formatter: [
+          `<v-text-field v-model="item.navUrl" @blur="doUiAction('updateNav', {id: item.id, data: {navUrl: item.navUrl}})" class="jh-v-input" filled single-line dense></v-text-field>`
+        ], width: 120, sortable: true },
+        { text: "导航图标", value: "navIcon",formatter: [
+          `<v-text-field v-model="item.navIcon" @blur="doUiAction('updateNav', {id: item.id, data: {navIcon: item.navIcon}})" class="jh-v-input" filled single-line dense></v-text-field>`
+        ], width: 80, sortable: true },
+        { text: "导航描述", value: "navDesc",formatter: [
+          `<v-text-field v-model="item.navDesc" @blur="doUiAction('updateNav', {id: item.id, data: {navDesc: item.navDesc}})" class="jh-v-input" filled single-line dense></v-text-field>`
+        ], width: 80, sortable: true },
+        { text: "分类id", value: "categoryId",formatter: [
+          `<v-autocomplete item-text="categoryName" item-value="categoryId" :items="categoryList" v-model="item.categoryId" @change="doUiAction('updateNav', {id: item.id, data: {categoryId: item.categoryId}})" class="jh-v-input" filled single-line dense></autocomplete>`
+        ], width: 80, sortable: true },
+        { text: "标签", value: "tags",formatter: [
+          `<v-text-field v-model="item.tags" @blur="doUiAction('updateNav', {id: item.id, data: {tags: item.tags}})" class="jh-v-input" filled single-line dense></v-text-field>`
+        ], width: 80, sortable: true },
+        { text: "排序", value: "sort", width: 80, sortable: true },
+        { text: "状态 0", value: "status",formatter: [
+          `<v-switch v-model="item.status" :true-value="1" :false-value="0" @change="doUiAction('updateNav', {id: item.id, data: {status: item.status}})" class="jh-v-input" filled single-line dense></v-switch>`
+        ], width: 80, sortable: true },
+        { text: "创建时间", value: "createAt", width: 80, sortable: true },
+        { text: "操作者userId", value: "operationByUserId", width: 80, sortable: true },
+        { text: "操作时间", value: "operationAt", width: 80, sortable: true },
         { text: "操作", value: "action", type: "action", width: 'window.innerWidth < 500 ? 70 : 120', align: "center", class: "fixed", cellClass: "fixed" },
-
-        // width 表达式需要使用字符串包裹
       ],
+      showTableColumnSettingBtn: true,
       headActionList: [
         { tag: 'v-btn', value: '新增', attrs: { color: 'success', class: 'mr-2', '@click': 'doUiAction("startCreateItem")', small: true } },
         { tag: 'v-spacer' },
         // 默认筛选
-        {
-          tag: 'v-col',
-          attrs: { cols: '12', sm: '6', md: '4', class: 'pa-0' },
-          value: [
-            { tag: 'v-text-field', attrs: {prefix: '筛选', 'v-model': 'searchInput', class: 'jh-v-input', ':dense': true, ':filled': true, ':single-line': true} },
-          ],
-        }
+       
       ],
       rowActionList: [
         { text: '编辑', icon: 'mdi-note-edit-outline', color: 'success', click: 'doUiAction("startUpdateItem", item)' }, // 简写支持 pc 和 移动端折叠
@@ -143,11 +181,7 @@ const content = {
             { label: "排序", model: "sort", tag: "v-text-field"   },
             { label: "状态 0", model: "status", tag: "v-text-field"   },
             { label: "创建时间", model: "createAt", tag: "v-text-field"   },
-            { label: "操作", model: "operation", tag: "v-text-field"   },
-            { label: "操作者userId", model: "operationByUserId", tag: "v-text-field"   },
-            { label: "操作者用户名", model: "operationByUser", tag: "v-text-field"   },
-            { label: "操作时间", model: "operationAt", tag: "v-text-field"   },
-
+        
           ], 
           action: [{
             tag: "v-btn",
@@ -182,11 +216,6 @@ const content = {
             { label: "排序", model: "sort", tag: "v-text-field"   },
             { label: "状态 0", model: "status", tag: "v-text-field"   },
             { label: "创建时间", model: "createAt", tag: "v-text-field"   },
-            { label: "操作", model: "operation", tag: "v-text-field"   },
-            { label: "操作者userId", model: "operationByUserId", tag: "v-text-field"   },
-            { label: "操作者用户名", model: "operationByUser", tag: "v-text-field"   },
-            { label: "操作时间", model: "operationAt", tag: "v-text-field"   },
-
           ], 
           action: [{
             tag: "v-btn",

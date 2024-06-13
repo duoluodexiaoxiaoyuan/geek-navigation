@@ -230,8 +230,30 @@
             window.addEventListener('scroll', () => {
                 this.showBackTop = window.scrollY > 300
             })
+            window.addEventListener('scroll', this.handleScroll);
+
+        },
+        destroyed() {
+            window.removeEventListener('scroll', this.handleScroll);
         },
         methods: {
+            handleScroll() {
+                const scrollPosition = window.scrollY;
+                const thresholds = this.categoryList.map(item => {
+                    const element = document.getElementById(item.categoryName);
+                    return {
+                        id: item.categoryName,
+                        top: element.offsetTop
+                    };
+                });
+
+                // Find the closest section to the current scroll position
+                const closestSection = thresholds.reduce((prev, curr) => {
+                    return Math.abs(curr.top - scrollPosition) < Math.abs(prev.top - scrollPosition) ? curr : prev;
+                });
+
+                this.selectedMenu = closestSection.id;
+            },
             async getHomePageData() {
                 this.isLoading = true
                 const res = (await window.jianghuAxios({
