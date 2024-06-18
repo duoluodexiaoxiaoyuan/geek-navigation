@@ -1,128 +1,350 @@
 [
     {
-        "idSequence": 1040,
-        "parentId": "sheji",
-        "categoryId": "FR1040",
-        "categoryName": "热门推荐"
+        "name": "编程基础",
+        "children": [
+            {
+                "name": "算法与数据结构",
+                "id": "133"
+            },
+            {
+                "name": "计算机系统",
+                "id": "134"
+            },
+            {
+                "name": "计算机网络",
+                "id": "135"
+            }
+        ]
     },
     {
-        "idSequence": 1041,
-        "parentId": "sheji",
-        "categoryId": "FR1041",
-        "categoryName": "高清图库"
+        "name": "工具箱",
+        "children": [
+            {
+                "name": "文档学习",
+                "id": "58"
+            },
+            {
+                "name": "在线编程",
+                "id": "60"
+            },
+            {
+                "name": "在线视频",
+                "id": "171"
+            },
+            {
+                "name": "协作平台",
+                "id": "48"
+            },
+            {
+                "name": "思维导图",
+                "id": "55"
+            },
+            {
+                "name": "高效办公",
+                "id": "47"
+            },
+            {
+                "name": "辅助工具",
+                "id": "71"
+            },
+            {
+                "name": "文件转换",
+                "id": "56"
+            },
+            {
+                "name": "表单工具",
+                "id": "811"
+            },
+            {
+                "name": "公共库CDN",
+                "id": "9"
+            },
+            {
+                "name": "站长工具",
+                "id": "72"
+            },
+            {
+                "name": "综合",
+                "id": "1305"
+            }
+        ]
     },
     {
-        "idSequence": 1042,
-        "parentId": "sheji",
-        "categoryId": "FR1042",
-        "categoryName": "设计教程"
+        "name": "前端导航",
+        "children": [
+            {
+                "name": "UI 框架",
+                "id": "62"
+            },
+            {
+                "name": "CSS",
+                "id": "248"
+            },
+            {
+                "name": "Javascript",
+                "id": "121"
+            },
+            {
+                "name": "Vue",
+                "id": "116"
+            },
+            {
+                "name": "React",
+                "id": "117"
+            },
+            {
+                "name": "Angular",
+                "id": "118"
+            },
+            {
+                "name": "Node",
+                "id": "527"
+            },
+            {
+                "name": "小程序",
+                "id": "119"
+            },
+            {
+                "name": "移动端",
+                "id": "13"
+            },
+            {
+                "name": "跨平台",
+                "id": "130"
+            },
+            {
+                "name": "打包构建",
+                "id": "63"
+            },
+            {
+                "name": "持续集成",
+                "id": "114"
+            },
+            {
+                "name": "模块加载",
+                "id": "64"
+            },
+            {
+                "name": "可视化",
+                "id": "287"
+            },
+            {
+                "name": "代码高亮",
+                "id": "67"
+            },
+            {
+                "name": "编码规范",
+                "id": "1301"
+            },
+            {
+                "name": "静态站点",
+                "id": "1302"
+            },
+            {
+                "name": "前端插件",
+                "id": "12"
+            },
+            {
+                "name": "游戏引擎",
+                "id": "66"
+            },
+            {
+                "name": "前端社区",
+                "id": "10"
+            },
+            {
+                "name": "前端组织",
+                "id": "61"
+            },
+            {
+                "name": "综合",
+                "id": "152"
+            }
+        ]
     },
     {
-        "idSequence": 1043,
-        "parentId": "sheji",
-        "categoryId": "FR1043",
-        "categoryName": "界面设计"
+        "name": "领域方向",
+        "children": [
+            {
+                "name": "前端",
+                "id": "1304"
+            },
+            {
+                "name": "后端",
+                "id": "159"
+            },
+            {
+                "name": "云计算",
+                "id": "162"
+            },
+            {
+                "name": "人工智能",
+                "id": "160"
+            },
+            {
+                "name": "大数据",
+                "id": "161"
+            },
+            {
+                "name": "数据库",
+                "id": "168"
+            },
+            {
+                "name": "物联网",
+                "id": "163"
+            },
+            {
+                "name": "系统运维",
+                "id": "167"
+            },
+            {
+                "name": "Android 开发",
+                "id": "165"
+            },
+            {
+                "name": "IOS 开发",
+                "id": "166"
+            }
+        ]
     },
     {
-        "idSequence": 1044,
-        "parentId": "sheji",
-        "categoryId": "FR1044",
-        "categoryName": "灵感创意"
+        "name": "求职宝典",
+        "children": [
+            {
+                "name": "名企内推",
+                "id": "1375"
+            },
+            {
+                "name": "面试题解",
+                "id": "1376"
+            }
+        ]
     },
     {
-        "idSequence": 1045,
-        "parentId": "sheji",
-        "categoryId": "FR1045",
-        "categoryName": "AIGC工具"
+        "name": "设计导航",
+        "children": [
+            {
+                "name": "教程学习",
+                "id": "28"
+            },
+            {
+                "name": "在线做图",
+                "id": "984"
+            },
+            {
+                "name": "在线抠图",
+                "id": "972"
+            },
+            {
+                "name": "在线工具",
+                "id": "32"
+            },
+            {
+                "name": "图片压缩",
+                "id": "290"
+            },
+            {
+                "name": "图库素材",
+                "id": "35"
+            },
+            {
+                "name": "设计素材",
+                "id": "34"
+            },
+            {
+                "name": "灵感采集",
+                "id": "29"
+            },
+            {
+                "name": "icon图标",
+                "id": "33"
+            },
+            {
+                "name": "字体字形",
+                "id": "38"
+            },
+            {
+                "name": "设计规范",
+                "id": "31"
+            },
+            {
+                "name": "在线配色",
+                "id": "36"
+            },
+            {
+                "name": "渐变配色",
+                "id": "37"
+            },
+            {
+                "name": "漫画插画",
+                "id": "39"
+            },
+            {
+                "name": "设计团队",
+                "id": "40"
+            }
+        ]
     },
     {
-        "idSequence": 1046,
-        "parentId": "sheji",
-        "categoryId": "FR1046",
-        "categoryName": "设计素材"
+        "name": "媒体运营",
+        "children": [
+            {
+                "name": "内容分发",
+                "id": "137"
+            },
+            {
+                "name": "排版工具",
+                "id": "138"
+            },
+            {
+                "name": "媒体助手",
+                "id": "140"
+            },
+            {
+                "name": "数据分析",
+                "id": "139"
+            },
+            {
+                "name": "媒体专题",
+                "id": "141"
+            }
+        ]
     },
     {
-        "idSequence": 1047,
-        "parentId": "sheji",
-        "categoryId": "FR1047",
-        "categoryName": "字体下载"
-    },
-    {
-        "idSequence": 1048,
-        "parentId": "sheji",
-        "categoryId": "FR1048",
-        "categoryName": "设计工具"
-    },
-    {
-        "idSequence": 1049,
-        "parentId": "sheji",
-        "categoryId": "FR1049",
-        "categoryName": "摄影美图"
-    },
-    {
-        "idSequence": 1050,
-        "parentId": "sheji",
-        "categoryId": "FR1050",
-        "categoryName": "二次元"
-    },
-    {
-        "idSequence": 1051,
-        "parentId": "sheji",
-        "categoryId": "FR1051",
-        "categoryName": "行业视野"
-    },
-    {
-        "idSequence": 1052,
-        "parentId": "sheji",
-        "categoryId": "FR1052",
-        "categoryName": "配色方案"
-    },
-    {
-        "idSequence": 1053,
-        "parentId": "sheji",
-        "categoryId": "FR1053",
-        "categoryName": "酷站模版"
-    },
-    {
-        "idSequence": 1054,
-        "parentId": "sheji",
-        "categoryId": "FR1054",
-        "categoryName": "短视频"
-    },
-    {
-        "idSequence": 1055,
-        "parentId": "sheji",
-        "categoryId": "FR1055",
-        "categoryName": "高效办公"
-    },
-    {
-        "idSequence": 1056,
-        "parentId": "sheji",
-        "categoryId": "FR1056",
-        "categoryName": "设计培训"
-    },
-    {
-        "idSequence": 1057,
-        "parentId": "sheji",
-        "categoryId": "FR1057",
-        "categoryName": "前端开发"
-    },
-    {
-        "idSequence": 1058,
-        "parentId": "sheji",
-        "categoryId": "FR1058",
-        "categoryName": "室内设计"
-    },
-    {
-        "idSequence": 1059,
-        "parentId": "sheji",
-        "categoryId": "FR1059",
-        "categoryName": "设计媒体"
-    },
-    {
-        "idSequence": 1060,
-        "parentId": "sheji",
-        "categoryId": "FR1060",
-        "categoryName": "商务合作"
+        "name": "视频创作",
+        "children": [
+            {
+                "name": "创作平台",
+                "id": "143"
+            },
+            {
+                "name": "实时热榜",
+                "id": "149"
+            },
+            {
+                "name": "数据带货",
+                "id": "150"
+            },
+            {
+                "name": "视频素材",
+                "id": "147"
+            },
+            {
+                "name": "字幕配音",
+                "id": "145"
+            },
+            {
+                "name": "音乐素材",
+                "id": "148"
+            },
+            {
+                "name": "文案剧本",
+                "id": "146"
+            },
+            {
+                "name": "综合",
+                "id": "1306"
+            }
+        ]
     }
 ]

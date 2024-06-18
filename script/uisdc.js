@@ -79,12 +79,12 @@ request(url, async (err, res, body) => {
                             categoryId: category.categoryId,
                             navName: name,
                             navUrl: url,
-                            navIcon: `/nav/public/images/nav/${iconFileName}`,
+                            navIcon: `/nav/upload/taskMaterial/admin/${iconFileName}`,
                             navDesc: desc
                         });
 
                         // 图片要下载到本地，图片名称截取icon文件名，以最后一个/后面的字符串为文件名
-                        const iconFilePath = path.resolve(__dirname, `../app/public/images/nav/${iconFileName}`);
+                        const iconFilePath = path.resolve(__dirname, `../upload/taskMaterial/admin/${iconFileName}`);
                         request(icon).pipe(fs.createWriteStream(iconFilePath));
                     });
                 }
@@ -100,17 +100,17 @@ request(url, async (err, res, body) => {
         // fs.writeFileSync(path.resolve(__dirname, 'nav.json'), JSON.stringify(navList, null, 4));
         //
         //插入数据库
-        knex('category').insert(categoryList).then(() => {
-            console.log('category insert success');
-        }).catch((err) => {
-            console.log('category insert error', err);
-        })
+        // knex('category').insert(categoryList).then(() => {
+        //     console.log('category insert success');
+        // }).catch((err) => {
+        //     console.log('category insert error', err);
+        // })
 
-        knex('nav').insert(navList).then(() => {
-            console.log('nav insert success');
-        }).catch((err) => {
-            console.log('nav insert error', err);
-        })
+        // knex('nav').insert(navList).then(() => {
+        //     console.log('nav insert success');
+        // }).catch((err) => {
+        //     console.log('nav insert error', err);
+        // })
 
     }
 });

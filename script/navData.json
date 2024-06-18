@@ -1,0 +1,5015 @@
+[
+    {
+        "navUrl": "https://tdesign.tencent.com/",
+        "navName": "tdesign",
+        "navDesc": "TDesign - 腾讯开源的企业级设计体系",
+        "navIcon": "/nav/upload/taskMaterial/admin/tdesign.tencent.com.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://nutui.jd.com/",
+        "navName": "NutUI",
+        "navDesc": "京东风格的轻量级移动端 Vue 组件库。基于 Taro 对 NutUI 每一个组件进行深度适配支持开发多端小程序",
+        "navIcon": "/nav/upload/taskMaterial/admin/nutui.jd.com.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://newgateway.gitee.io/my/guide/",
+        "navName": "MyUI",
+        "navDesc": "基于 Vue + ElementUI 。专注于中台系统快速搭建,搭载代码生成器，可生成底层api调用、vuex管理、模拟数据代码,内置常用超过150个基础UI组",
+        "navIcon": "/nav/upload/taskMaterial/admin/newgateway.gitee.io.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://material-ui.com/zh/",
+        "navName": "Material-UI",
+        "navDesc": "React 组件用于更快速、更简便的 web 开发。",
+        "navIcon": "/nav/upload/taskMaterial/admin/material-ui.com.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://ant.design/index-cn",
+        "navName": "Ant Design",
+        "navDesc": "一个服务于企业级产品的设计体系，基于『确定』和『自然』的设计价值观，通过模块化的解决方案，让设计者专注于更好的用户体验。",
+        "navIcon": "/nav/upload/taskMaterial/admin/ant.design.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://doc.mini.talelin.com/",
+        "navName": "Lin UI",
+        "navDesc": "Lin UI 是基于微信小程序原生语法实现的组件库。遵循简洁，易用的设计规范。",
+        "navIcon": "/nav/upload/taskMaterial/admin/doc.mini.talelin.com.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://pro.ant.design/",
+        "navName": "ANT DESIGN PRO",
+        "navDesc": "开箱即用的中台前端/设计解决方案",
+        "navIcon": "/nav/upload/taskMaterial/admin/pro.ant.design.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://semantic-ui-vue.github.io/",
+        "navName": "Semantic UI Vue",
+        "navDesc": "这是一个集成 Semantic UI 的 Vue.js 框架",
+        "navIcon": "/nav/upload/taskMaterial/admin/semantic-ui-vue.github.io.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://youzan.github.io/vant-weapp/#/intro",
+        "navName": "vant小程序UI",
+        "navDesc": "有赞小程序UI",
+        "navIcon": "/nav/upload/taskMaterial/admin/youzan.github.io.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "http://semantic-ui.cn/",
+        "navName": "Semantic UI",
+        "navDesc": "中文官方网站 Semantic 是一个用来帮助创建漂亮、响应化、人性化的开发框架",
+        "navIcon": "/nav/upload/taskMaterial/admin/semantic-ui.cn.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://aliqin.github.io/atui/",
+        "navName": "Atui",
+        "navDesc": "阿里通讯前端部推出的一个基于 Vue.js 2.0 的 UI 组件库。",
+        "navIcon": "/nav/upload/taskMaterial/admin/aliqin.github.io.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "http://www.pintuer.com/",
+        "navName": "拼图Pintuer",
+        "navDesc": "拼图是优秀的响应式前端CSS开源框架，国内前端框架先驱及领导者，自动适应手机、平板、电脑等设备，让前端开发像游戏般快乐、简单、灵活、便捷。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.pintuer.com.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://vant-contrib.gitee.io/vant/#/zh-CN/home",
+        "navName": "vant移动端UI",
+        "navDesc": "Vant - 轻量、可靠的移动端组件库",
+        "navIcon": "/nav/upload/taskMaterial/admin/vant-contrib.gitee.io.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "http://element-cn.eleme.io/#/zh-CN",
+        "navName": "Element",
+        "navDesc": "饿了么前端团队开发的基于 Vue 2.0 的桌面端组件库。",
+        "navIcon": "/nav/upload/taskMaterial/admin/element-cn.eleme.io.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "http://elemental-ui.com/",
+        "navName": "Elemental UI",
+        "navDesc": "一个针对 React.js 的灵活的、漂亮的 UI 框架。",
+        "navIcon": "/nav/upload/taskMaterial/admin/elemental-ui.com.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://nutui.jd.com/#/",
+        "navName": "nutui",
+        "navDesc": "京东风格的轻量级移动端 Vue、React 组件库",
+        "navIcon": "/nav/upload/taskMaterial/admin/nutui.jd.com.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://procomponents.ant.design/components",
+        "navName": "ProComponents",
+        "navDesc": "ProComponents 是基于 Ant Design 而开发的模板组件，提供了更高级别的抽象支持，开箱即用。可以显著的提升制作 CRUD 页面的效率，更加专注于页面",
+        "navIcon": "/nav/upload/taskMaterial/admin/procomponents.ant.design.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "http://www.layui.com/",
+        "navName": "Layui Layui",
+        "navDesc": "是一款采用自身模块规范编写的情怀型前端UI框架，遵循原生HTML/CSS/JS的书写与组织形式，门槛极低，拿来即用。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.layui.com.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://www.color-ui.com/",
+        "navName": "colorUI",
+        "navDesc": "小程序-Color Ui注重视觉组件库",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.color-ui.com.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://www.blazeui.com/",
+        "navName": "Blaze CSS",
+        "navDesc": "开放源码的模块化CSS工具包，为建立网站提供了很好的结构。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.blazeui.com.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://www.iviewui.com/",
+        "navName": "iview",
+        "navDesc": "一套基于 Vue.js 的高质量 UI 组件库",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.iviewui.com.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://adminlte.io/",
+        "navName": "AdminLTE",
+        "navDesc": "一个非常流行的基于 Bootstrap 3.x 免费后台UI框架。",
+        "navIcon": "/nav/upload/taskMaterial/admin/adminlte.io.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://www.antdv.com/",
+        "navName": "Ant Design Vue",
+        "navDesc": "Ant Design 的 Vue 实现，开发和服务于企业级后台产品。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.antdv.com.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://foundation.zurb.com/",
+        "navName": "Foundation Foundation",
+        "navDesc": "是一个易用、强大而且灵活的框架,用于构建基于任何设备上的 Web 应用。",
+        "navIcon": "/nav/upload/taskMaterial/admin/foundation.zurb.com.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "http://www.getuikit.net/",
+        "navName": "UIKit中文网",
+        "navDesc": "UIkit是YOOtheme团队开发的一款轻量级、模块化的前端框架，可快速构建强大的前端web界面。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.getuikit.net.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "http://www.zui.sexy/",
+        "navName": "ZUI",
+        "navDesc": "一个基于 Bootstrap 深度定制开源前端实践方案，帮助你快速构建现代跨屏应用。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.zui.sexy.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://didi.github.io/cube-ui/#/zh-CN/docs/introduction",
+        "navName": "Cube UI",
+        "navDesc": "基于 Vue.js 实现的精致移动端组件库",
+        "navIcon": "/nav/upload/taskMaterial/admin/didi.github.io.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://cloudflare.github.io/cf-ui/",
+        "navName": "Cf-ui",
+        "navDesc": "Cloudflare 开发的一个 Web UI 框架。",
+        "navIcon": "/nav/upload/taskMaterial/admin/cloudflare.github.io.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://ccforward.github.io/rubik/#/",
+        "navName": "Rubik UI",
+        "navDesc": "Rubik UI 是一个基于 Vue.js 2.0+ 的开源 UI 组件库，在交互和视觉设计上遵循 Material Design 规范，适用于 PC 端和 mobile 端。",
+        "navIcon": "/nav/upload/taskMaterial/admin/ccforward.github.io.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://webjike.com/web.html",
+        "navName": "BUI",
+        "navDesc": "BUI是基于jQuery，兼容KISSY的UI类库，专致于解决后台系统的框架方案。",
+        "navIcon": "/nav/upload/taskMaterial/admin/webjike.com.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "http://www.jeasyui.net/",
+        "navName": "Jquery EasyUI",
+        "navDesc": "easyui是一种基于jQuery的用户界面插件集合。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.jeasyui.net.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "http://v3.bootcss.com/",
+        "navName": "Bootstrap",
+        "navDesc": "最受欢迎的 HTML、CSS 和 JS 框架，用于开发响应式布局、移动设备优先的 WEB 项目。",
+        "navIcon": "/nav/upload/taskMaterial/admin/v3.bootcss.com.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "http://sui.taobao.org/sui/docs/",
+        "navName": "SUI",
+        "navDesc": "SUI 是一套基于bootstrap开发的前端组件库，同时她也是一套设计规范。",
+        "navIcon": "/nav/upload/taskMaterial/admin/sui.taobao.org.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "http://jqueryui.com/",
+        "navName": "jQuery UI",
+        "navDesc": "是建立在 jQuery JavaScript 库上的一组用户界面交互、特效、小部件及主题。",
+        "navIcon": "/nav/upload/taskMaterial/admin/jqueryui.com.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "http://bootflat.github.io/",
+        "navName": "Bootflat",
+        "navDesc": "Bootflat - 基于bootstrap 3.2.0 的扁平化风格的UI组件的开源项目。",
+        "navIcon": "/nav/upload/taskMaterial/admin/bootflat.github.io.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://element.eleme.io/#/zh-CN",
+        "navName": "Element UI",
+        "navDesc": "网站快速成型工具 Element,一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端",
+        "navIcon": "/nav/upload/taskMaterial/admin/element-ui.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://element-plus.gitee.io/zh-CN/",
+        "navName": "Element Plus",
+        "navDesc": "Element Plus 基于Vue 3,面向设计师和开发者的组件库",
+        "navIcon": "/nav/upload/taskMaterial/admin/element-ui-1.png",
+        "categoryId": "FR1025",
+        "idSequence": 1024,
+        "navId": "DH1024"
+    },
+    {
+        "navUrl": "https://www.lingdaima.com/",
+        "navName": "零代码工具箱 - 专为前端打造",
+        "navDesc": "各种前端实用的好工具，杜绝造轮子，每款工具都经过精心打磨，帮助所有程序员提高前端开发效率",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.lingdaima.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://zh.learnlayout.com/",
+        "navName": "学习CSS布局",
+        "navDesc": "本站教授的是现在广泛使用于网站布局领域的CSS基础。",
+        "navIcon": "/nav/upload/taskMaterial/admin/zh.learnlayout.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://css-tricks.com/",
+        "navName": "CSS-Tricks",
+        "navDesc": "一个关于运用CSS技术进行网络开发和设计的小技巧的交流网站",
+        "navIcon": "/nav/upload/taskMaterial/admin/css-tricks.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://lhammer.cn/You-need-to-know-css/#/",
+        "navName": "css的各种效果实现",
+        "navDesc": "css的各种效果实现（尤其是动画效果）",
+        "navIcon": "/nav/upload/taskMaterial/admin/lhammer.cn.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://www.bootcss.com/",
+        "navName": "Bootstrap",
+        "navDesc": "简洁、直观、强悍的前端开发框架，让web开发更迅速、简单",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.bootcss.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://animista.net/?spm=a2c6h.12873639.article-detail.19.27d963a3HHmwtI",
+        "navName": "按需定制 CSS 动画效果",
+        "navDesc": "按需定制 CSS 动画效果",
+        "navIcon": "/nav/upload/taskMaterial/admin/animista.net.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://cn.windicss.org/",
+        "navName": "windicss",
+        "navDesc": "Windi CSS 下一代工具类 CSS 框架。Windi CSS 是从零开始编写的 Tailwind CSS 的替代方案。它的零依赖，也不要求用户安装 PostCSS 和 Autoprefixer。更为重要的是，它支持 按需生成。Windi CSS 不会一次生成所有的 CSS，而是只会生成你在代码中实际使用到的原子化 CSS。",
+        "navIcon": "/nav/upload/taskMaterial/admin/cn.windicss.org.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "http://www.zhangxinxu.com/jq/stylus/",
+        "navName": "Stylus中文文档",
+        "navDesc": "Stylus中文文档 张鑫旭 - stylus中文版参考文档之综述",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.zhangxinxu.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "http://loading.io/",
+        "navName": "loading.io",
+        "navDesc": "各种各样的loading效果",
+        "navIcon": "/nav/upload/taskMaterial/admin/loading.io.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://gradihunt.com/",
+        "navName": "GradiHunt",
+        "navDesc": "数百万个渐变示例，让你对渐变少些纠结",
+        "navIcon": "/nav/upload/taskMaterial/admin/gradihunt.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://9elements.github.io/fancy-border-radius/",
+        "navName": "花式半径生成器",
+        "navDesc": "通过拖拽的形式生成需要的border radius",
+        "navIcon": "/nav/upload/taskMaterial/admin/9elements.github.io.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://baseline.is/tools/css-photo-filters/",
+        "navName": "CSS Photo Filters",
+        "navDesc": "CSS Photo Filters 是一个CSS图片滤镜工具，提供了 36 个 CSS 过滤器供我们使用。",
+        "navIcon": "/nav/upload/taskMaterial/admin/baseline.is.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://svgwave.in/",
+        "navName": "创建 SVG 波形背景",
+        "navDesc": "Generate SVG Waves 可以用来创建 SVG 波形背景。",
+        "navIcon": "/nav/upload/taskMaterial/admin/svgwave.in.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://html-css-js.com/css/generator/",
+        "navName": "css generator",
+        "navDesc": "这是一个实用的 CSS 生成器，可以实时查看调试效果。",
+        "navIcon": "/nav/upload/taskMaterial/admin/html-css-js.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://tools.bqrdh.com/css/#/",
+        "navName": "CSS可视化",
+        "navDesc": "查看和复制 CSS 色值",
+        "navIcon": "/nav/upload/taskMaterial/admin/tools.bqrdh.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://keyframes.app/",
+        "navName": "Keyframes创建动画",
+        "navDesc": "Keyframes 可以用来创建动画、阴影和使用颜色，帮助我们编写更好的CSS。",
+        "navIcon": "/nav/upload/taskMaterial/admin/keyframes.app.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "http://jeremyckahn.github.io/stylie/",
+        "navName": "css3动画工具",
+        "navDesc": "国外的一款很好的抛物线动画生成工具",
+        "navIcon": "/nav/upload/taskMaterial/admin/jeremyckahn.github.io.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://cubic-bezier.com/#.17,.67,.83,.67",
+        "navName": "cubic-bezier",
+        "navDesc": "贝萨尔曲线生成工具，可调节",
+        "navIcon": "/nav/upload/taskMaterial/admin/cubic-bezier.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://textpop3d.web.app/",
+        "navName": "3DPop",
+        "navDesc": "可以使用 CSS 生成很棒的 3D 文本效果。",
+        "navIcon": "/nav/upload/taskMaterial/admin/textpop3d.web.app.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://ui.dev/amiresponsive",
+        "navName": "Am I Responsive测试设备响应式",
+        "navDesc": "Am I Responsive 用来测试响应式网页。输入链接即可生成预览，Am I Responsive 能帮我们测试出页面在手机、平板电脑、笔记本电脑和桌面端设备上的浏览体验。",
+        "navIcon": "/nav/upload/taskMaterial/admin/ui.dev.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://svg-path-visualizer.netlify.app/#M140%2020C73%2020%2020%2074%2020%20140c0%20135%20136%20170%20228%20303%2088-132%20229-173%20229-303%200-66-54-120-120-120-48%200-90%2028-109%2069-19-41-60-69-108-69z",
+        "navName": "SVG Path Visualizer",
+        "navDesc": "SVG Path Visualizer 可以帮助我们通过输入 SVG 路径数据来快速直观地查看 SVG 图像。此外，该工具还提供了详细的说明，以便了解如何创建基本的 SVG 形状，如直线、曲线、三角形等。",
+        "navIcon": "/nav/upload/taskMaterial/admin/svg-path-visualizer.netlify.app.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://design.alipay.com/emotion",
+        "navName": "犸良动画",
+        "navDesc": "让动效更简单 犸良作为一站式动效制作平台，通过海量的动效素材以及可视化编辑能力，帮助零基础的用户轻松完成动效制作",
+        "navIcon": "/nav/upload/taskMaterial/admin/design.alipay.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://pavellaptev.github.io/warp-svg/",
+        "navName": "Wrap SVG Online",
+        "navDesc": "Wrap SVG Online 通过拖放从计算机上传图像，可以轻松地编辑网页的 SVG 图像。",
+        "navIcon": "/nav/upload/taskMaterial/admin/pavellaptev.github.io.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://easings.net/",
+        "navName": "缓动函数速查表",
+        "navDesc": "缓动函数速查表 缓动函数指定动画效果在执行时的速度，使其看起来更加真实. 本页可以在每次你需要时，帮助你找到想要的缓动函数。",
+        "navIcon": "/nav/upload/taskMaterial/admin/easings.net.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://websemantics.uk/tools/responsive-font-calculator/",
+        "navName": "Fluid-responsive font-size calculator",
+        "navDesc": "Fluid-responsive font-size calculator 即响应式字体计算器，可以轻松创建流畅的排版体验。它有更广泛的支持，可以用几行 CSS 来实现。",
+        "navIcon": "/nav/upload/taskMaterial/admin/websemantics.uk.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://cssbuttons.io/buttons",
+        "navName": "Buttons",
+        "navDesc": "非常有创意的按钮样式",
+        "navIcon": "/nav/upload/taskMaterial/admin/cssbuttons.io.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://css3clickchart.com/#box-sizing",
+        "navName": "CSS Click",
+        "navDesc": "CSS Click Chart 可以查询到目前CSS3草案部分的相关属性",
+        "navIcon": "/nav/upload/taskMaterial/admin/css3clickchart.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://htmlcolorcodes.com/zh/",
+        "navName": "HTML颜色代码",
+        "navDesc": "使用颜色选择器、颜色表和 HTML 颜色名称来获取 HTML 颜色代码、Hex 颜色代码、RGB 和 HSL 值",
+        "navIcon": "/nav/upload/taskMaterial/admin/htmlcolorcodes.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "http://stylus-lang.com/",
+        "navName": "Stylus",
+        "navDesc": "富有表现力的、动态的、健壮的CSS",
+        "navIcon": "/nav/upload/taskMaterial/admin/stylus-lang.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "http://css3lib.alloyteam.com/#progress_bar/demo2",
+        "navName": "CSS3 UI 库",
+        "navDesc": "alloyteam 团队的CSS3 UI 库",
+        "navIcon": "/nav/upload/taskMaterial/admin/css3lib.alloyteam.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://cssgrid-generator.netlify.app/",
+        "navName": "Grid 布局生成器",
+        "navDesc": "Grid Generator 是一个 Grid 布局生成器，通过这个工具可以快速创建自定义CSS Grid布局",
+        "navIcon": "/nav/upload/taskMaterial/admin/cssgrid-generator.netlify.app.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://www.uishe.cn/28293.html",
+        "navName": "CSS拟物化",
+        "navDesc": "CSS拟物化",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.uishe.cn.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://www.wavesnippets.com/",
+        "navName": "Wavesnippets",
+        "navDesc": "Wavesnippets 可以将代码分步设置为动画、视频或 GIF。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.wavesnippets.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://tailwindcss.com/",
+        "navName": "tailwindcss",
+        "navDesc": "tailwindcss 原子化css框架",
+        "navIcon": "/nav/upload/taskMaterial/admin/tailwindcss.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://www.toptal.com/developers/css3maker/css3-transform.html",
+        "navName": "Css3Maker",
+        "navDesc": "CSS3在线生成器，给你省去很多功夫。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.toptal.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://github.com/css-modules/css-modules",
+        "navName": "CSS Modules",
+        "navDesc": "它不是将 CSS 改造成编程语言，而是功能很单纯，只加入了局部作用域和模块依赖",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://animista.net/",
+        "navName": "Animista",
+        "navDesc": "一个CSS动画生成工具，可自由配置各种动画特效，并自动生成代码；很nice",
+        "navIcon": "/nav/upload/taskMaterial/admin/animista.net.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://cssgrid-generator.netlify.app/",
+        "navName": "cssgrid-generator",
+        "navDesc": "css grid网格布局生成器",
+        "navIcon": "/nav/upload/taskMaterial/admin/cssgrid-generator.netlify.app.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://daneden.github.io/animate.css/",
+        "navName": "Animate动画库",
+        "navDesc": "各种Animate动画案例，可以直接预览效果，如果你稍微会点Animate知识，可以试着去读源代码，帮助自己提高Animate技能",
+        "navIcon": "/nav/upload/taskMaterial/admin/daneden.github.io.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "http://flexboxfroggy.com/",
+        "navName": "flex练习",
+        "navDesc": "flex在线动态练习",
+        "navIcon": "/nav/upload/taskMaterial/admin/flexboxfroggy.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://www.cssnano.cn/",
+        "navName": "cssnano",
+        "navDesc": "让网站的 CSS 文件加载更快。  将 cssnano 加入到你的构建流程中，获得更好的 CSS 压缩效果。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.cssnano.cn.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://layout.bradwoods.io/",
+        "navName": "CSS Layout Generator",
+        "navDesc": "CSS Layout Generator 布局生成器可以为布局组件创建 CSS 和 HTML 的工具。",
+        "navIcon": "/nav/upload/taskMaterial/admin/layout.bradwoods.io.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://shadows.brumm.af/",
+        "navName": "Smooth Shadow",
+        "navDesc": "通过手动调整 CSS 盒子的阴影就可生成真实质感的光影效果，可视化操作界面，简单调节阴影图层、透明度、渐变反向阿尔法、模糊等等，制作完成后直接复制 CSS 代码粘贴到 Style 里面。",
+        "navIcon": "/nav/upload/taskMaterial/admin/shadows.brumm.af.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://csslayout.io/",
+        "navName": "CSS Layout",
+        "navDesc": "CSS流行布局和模式生成器，包含102种模式。",
+        "navIcon": "/nav/upload/taskMaterial/admin/csslayout.io.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://www.tailwindcss.cn/",
+        "navName": "tailwindcss",
+        "navDesc": "Tailwind CSS 是一个功能类优先的 CSS 框架，它集成了诸如 flex, pt-4, text-center 和 rotate-90 这样的的类，它们能直接在脚本标记语言中组合起来，构建出任何设计。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.tailwindcss.cn.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://www.zhangxinxu.com/study/201903/css-idea/",
+        "navName": "css-idea",
+        "navDesc": "张鑫旭-CSS创意与视觉表现集合",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.zhangxinxu.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://yoksel.github.io/svg-filters/#/docs",
+        "navName": "SVG滤镜",
+        "navDesc": "SVG滤镜",
+        "navIcon": "/nav/upload/taskMaterial/admin/yoksel.github.io.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://mybrandnewlogo.com/color-palette-generator",
+        "navName": "My Brand New Logo",
+        "navDesc": "My Brand New Logo 是一个CSS 调色板生成器，用来创建一致的调色板方案。",
+        "navIcon": "/nav/upload/taskMaterial/admin/mybrandnewlogo.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://www.sass.hk/",
+        "navName": "Sass中文网",
+        "navDesc": "世界上最成熟、最稳定、最强大的专业级CSS扩展语言！",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.sass.hk.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://the-echoplex.net/flexyboxes/",
+        "navName": "flexyboxes",
+        "navDesc": "css3弹性盒模型生成器",
+        "navIcon": "/nav/upload/taskMaterial/admin/the-echoplex.net.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://animista.net/play/basic/scale-up",
+        "navName": "定制CSS动画",
+        "navDesc": "按需定制 CSS 动画效果",
+        "navIcon": "/nav/upload/taskMaterial/admin/animista.net.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "http://apps.eky.hk/css-triangle-generator/",
+        "navName": "CSS Triangle Generator",
+        "navDesc": "CSS 三角形生成器",
+        "navIcon": "/nav/upload/taskMaterial/admin/apps.eky.hk.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://www.blobmaker.app/",
+        "navName": "blobmaker",
+        "navDesc": "在线 SVG 形状生成器",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.blobmaker.app.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://www.html.cn/tool/css3Preview/",
+        "navName": "CSS3样式生成器",
+        "navDesc": "CSS3样式生成器",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.html.cn.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://bulma.io/",
+        "navName": "Bulma",
+        "navDesc": "Bulma-css简洁的样式库",
+        "navIcon": "/nav/upload/taskMaterial/admin/bulma.io.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://tobiasahlin.com/spinkit/",
+        "navName": "CSS SpinKit",
+        "navDesc": "汇集了实现各种加载效果的 CSS 代码片段",
+        "navIcon": "/nav/upload/taskMaterial/admin/tobiasahlin.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "http://fian.my.id/Waves/#examples",
+        "navName": "css3按钮动画",
+        "navDesc": "css3按钮动画组件",
+        "navIcon": "/nav/upload/taskMaterial/admin/fian.my.id.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://www.colorzilla.com/gradient-editor/",
+        "navName": "gradient-editor",
+        "navDesc": "【css】半透明背景色转换",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.colorzilla.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://cssvalues.com/",
+        "navName": "CSS VALUES",
+        "navDesc": "很方便地查找一个CSS属性，并且可以迅速地浏览可能的value值",
+        "navIcon": "/nav/upload/taskMaterial/admin/cssvalues.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://icomoon.io/app/#/select",
+        "navName": "icomoon图标字体生成",
+        "navDesc": "icomoon图标字体生成",
+        "navIcon": "/nav/upload/taskMaterial/admin/icomoon.io.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://animate.style/",
+        "navName": "Animate.css",
+        "navDesc": "Animate动画库",
+        "navIcon": "/nav/upload/taskMaterial/admin/animate.style.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://www.npmjs.com/package/node-sass",
+        "navName": "Node-sass",
+        "navDesc": "node-sass提供了一个nodejs到libsass的桥梁.libsass是广受欢迎的css预处理器sass的c版本",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.npmjs.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://gra.dient.art/",
+        "navName": "CRADIENT.ART",
+        "navDesc": "CRADIENT.ART 是一个高级 CSS 渐变编辑器，使用带有分层、设计工具和免费云存储的功能丰富的编辑器设计插图、图案、图标等。",
+        "navIcon": "/nav/upload/taskMaterial/admin/gra.dient.art.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://bennettfeely.com/clippy/",
+        "navName": "CSS clip-atch 属性绘制工具",
+        "navDesc": "CSS clip-atch 属性绘制工具",
+        "navIcon": "/nav/upload/taskMaterial/admin/bennettfeely.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://neumorphism.io/#e0e0e0",
+        "navName": "Neumorphism",
+        "navDesc": "Soft UI CSS 阴影生成器",
+        "navIcon": "/nav/upload/taskMaterial/admin/neumorphism.io.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://www.sassmeister.com/",
+        "navName": "scss在线转css",
+        "navDesc": "scss在线转css工具",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.sassmeister.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://bgjar.com/",
+        "navName": "BGJar",
+        "navDesc": "BGJar 是一个在线工具，可以轻松快速地为网站创建 SVG 背景。只需编辑必要的信息，它将自动导出图像或代码供我们应用到网站。",
+        "navIcon": "/nav/upload/taskMaterial/admin/bgjar.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://icons.bootcss.com/",
+        "navName": "Bootstrap 官方图标库",
+        "navDesc": "拥有近 1500 个图标的免费、高质量的开源图标库。你可以以任何方式使用它们，例如 SVG 矢量图、SVG sprite或 web 字体形式。并不局限于使用 Bootstrap 前端框架的项目。",
+        "navIcon": "/nav/upload/taskMaterial/admin/icons.bootcss.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://bansal.io/pattern-css",
+        "navName": "pattern-css",
+        "navDesc": "pattern-css可以用漂亮的图案填充空白背景。",
+        "navIcon": "/nav/upload/taskMaterial/admin/bansal.io.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://cssgradient.io/",
+        "navName": "CSS Gradient",
+        "navDesc": "CSS Gradient 是一个用来快速方便的创建 CSS 渐变的网站。",
+        "navIcon": "/nav/upload/taskMaterial/admin/cssgradient.io.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "http://css3ps.com/",
+        "navName": "ps转css",
+        "navDesc": "ps转css工具",
+        "navIcon": "/nav/upload/taskMaterial/admin/css3ps.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "http://svg.wxeditor.com/",
+        "navName": "svg编辑",
+        "navDesc": "svg编辑",
+        "navIcon": "/nav/upload/taskMaterial/admin/svg.wxeditor.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://getwaves.io/",
+        "navName": "svg waves",
+        "navDesc": "在线 SVG 波形生成器",
+        "navIcon": "/nav/upload/taskMaterial/admin/getwaves.io.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://shadows.brumm.af/",
+        "navName": "Smooth Shadow",
+        "navDesc": "通过拖拽的形式生成需要的border radius",
+        "navIcon": "/nav/upload/taskMaterial/admin/shadows.brumm.af.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://bennettfeely.com/clippy/",
+        "navName": "裁剪路径生成器",
+        "navDesc": "CSS cli-path 功能能够构建复杂的形状，该工具让我们可以轻松地以交互方式构建该多边形。",
+        "navIcon": "/nav/upload/taskMaterial/admin/bennettfeely.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "http://santhoshsivan.com/toolbox.html",
+        "navName": "Toolbox",
+        "navDesc": "在线 CSS 玻璃形态和新拟物形态，Neumorphism CSS Generator 可以通过调整对象的大小、圆度、投影距离、配色、光源等自定义制作 CSS 拟物形态的盒子。Glassmorphism CSS Generator 可在线制作玻璃形态，通过实时预览背景模糊、不透明度、轮廓等等就可以制作玻璃样式的盒子。",
+        "navIcon": "/nav/upload/taskMaterial/admin/santhoshsivan.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://www.svgbackgrounds.com/#rose-petals",
+        "navName": "svg背景生成",
+        "navDesc": "svg背景生成",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.svgbackgrounds.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "http://www.html5star.com/manual/html5label-meaning/",
+        "navName": "H5 元素周期表",
+        "navDesc": "HTML5 元素标签含义大全(元素周期表)—HTML5星空",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.html5star.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "http://lesliefranke.com/files/reference/csscheatsheet.html",
+        "navName": "CSS CheatSheet",
+        "navDesc": "一份非常完整的网页CSS速查表",
+        "navIcon": "/nav/upload/taskMaterial/admin/lesliefranke.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://www.postcss.com.cn/",
+        "navName": "postcss",
+        "navDesc": "是一个用 JavaScript 工具和插件转换 CSS 代码的工具",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.postcss.com.cn.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://tool.lu/css/",
+        "navName": "CSS在线压缩工具",
+        "navDesc": "Css在线解压缩工具/整理/格式化。",
+        "navIcon": "/nav/upload/taskMaterial/admin/tool.lu.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "http://layerstyles.org/builder.html",
+        "navName": "css3阴影边框生成器",
+        "navDesc": "css3阴影边框生成器",
+        "navIcon": "/nav/upload/taskMaterial/admin/layerstyles.org.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://www.toptal.com/developers/css/sprite-generator",
+        "navName": "雪碧图生成",
+        "navDesc": "多张图片生成雪碧图",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.toptal.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "http://layerstyles.org/builder.html",
+        "navName": "Layer Styles",
+        "navDesc": "国外一个CSS3阴影在线生成器网站",
+        "navIcon": "/nav/upload/taskMaterial/admin/layerstyles.org.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://csstriggers.com/",
+        "navName": "csstriggers",
+        "navDesc": "CSS Triggers",
+        "navIcon": "/nav/upload/taskMaterial/admin/csstriggers.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://renzhezhilu.gitee.io/kakacss/",
+        "navName": "KakaCss",
+        "navDesc": "快速生成Css样式，在任意网站复制内容，再到本页面 Ctrl+ V，即可css文件剥离出来，并合并相似样式，将css压缩至最小。",
+        "navIcon": "/nav/upload/taskMaterial/admin/renzhezhilu.gitee.io.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://psd2css.mezw.com/",
+        "navName": "MEZW",
+        "navDesc": "将PS中的投影效果转换为CSS3中的box-shadow &amp; text-shadow代码",
+        "navIcon": "/nav/upload/taskMaterial/admin/psd2css.mezw.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://loading.io/",
+        "navName": "loading",
+        "navDesc": "各种各样的loading效果",
+        "navIcon": "/nav/upload/taskMaterial/admin/loading.io.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "http://tools.jb51.net/static/api/css3path/index.html",
+        "navName": "css3path",
+        "navDesc": "css3 clip-path在线生成器",
+        "navIcon": "/nav/upload/taskMaterial/admin/tools.jb51.net.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "http://lesscss.cn/",
+        "navName": "Less 中文网",
+        "navDesc": "Less 是一门 CSS 预处理语言,它扩展了 CSS 语言,增加了变量、Mixin、函数等特性。",
+        "navIcon": "/nav/upload/taskMaterial/admin/lesscss.cn.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://www.bestcssbuttongenerator.com/#/37",
+        "navName": "css按钮生成器",
+        "navDesc": "css按钮生成器",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.bestcssbuttongenerator.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "http://bouncejs.com/",
+        "navName": "Bounce.js",
+        "navDesc": "一个基于css3实现的漂亮的关键帧动画生成工具和类库",
+        "navIcon": "/nav/upload/taskMaterial/admin/bouncejs.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "http://www.blooberry.com/indexdot/css/propindex/all.htm",
+        "navName": "CSS Property Index",
+        "navDesc": "一份清单，按字母表顺序列出了每个CSS属性",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.blooberry.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://cssgrid-generator.netlify.app/",
+        "navName": "CSS Grid Generator",
+        "navDesc": "CSS Grid Generator 是一个由Sarah Drasner创建的免费工具。它是一个可视化设计工具，允许咱们创建一个基本的 Grid 布局，然后就可以使用生成对应的代码，帮助咱们快速布局。",
+        "navIcon": "/nav/upload/taskMaterial/admin/cssgrid-generator.netlify.app.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://auto-animate.formkit.com/",
+        "navName": "AutoAnimate",
+        "navDesc": "AutoAnimate 是一个库，最简单好用的动画库   ✦ 与 Angular、React、Svelte 和 Vue 兼容  ✦ 自动为元素添加动画  ✦ 使用 CSS 以获得更好的性能",
+        "navIcon": "/nav/upload/taskMaterial/admin/auto-animate.formkit.com.png",
+        "categoryId": "FR1026",
+        "idSequence": 1025,
+        "navId": "DH1025"
+    },
+    {
+        "navUrl": "https://github.com/trekhleb/javascript-algorithms",
+        "navName": "javascript-algorithms",
+        "navDesc": "该仓库包含了多种基于JavaScript的算法与数据结构。每种算法和数据结构都有自己的README，包含相关说明和链接，项目贴心的为你准备了中文版本，照顾英文不",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "http://www.godbasin.com/vue-ebook/",
+        "navName": "深入理解Vue.js实战",
+        "navDesc": "本书全面介绍 Vue.js 框架的出现、设计和使用，结合实战让读者更深入理解 Vue.js 框架，掌握使用方法。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.godbasin.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.nodejs.red/#/",
+        "navName": "Node.js技术栈",
+        "navDesc": "本文档是作者从事 Node.js Developer 以来的学习历程，旨在为大家提供一个较详细的学习教程，侧重点更倾向于 Node.js 服务端所涉及的技术栈",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.nodejs.red.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://lefex.github.io/resource-book/",
+        "navName": "前端小课",
+        "navDesc": "每本小书旨在讲透一个知识点，比如 CSS布局、HTML、动画。以最基础的编程知识为起点，即使不懂编程的小白也能够通过本书学会编程，顺利进入互联网行业。",
+        "navIcon": "/nav/upload/taskMaterial/admin/lefex.github.io.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript",
+        "navName": "MDN中文",
+        "navDesc": "MDN开发者文档",
+        "navIcon": "/nav/upload/taskMaterial/admin/developer.mozilla.org.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://tsejx.github.io/vue-guidebook/",
+        "navName": "Vue Guidebook",
+        "navDesc": "? Vue 知识图谱 关于用法、响应式原理、编译原理以及生态",
+        "navIcon": "/nav/upload/taskMaterial/admin/tsejx.github.io.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://designpatternsgame.com/",
+        "navName": "Design Patterns Game",
+        "navDesc": "设计模式——熟悉JavaScript实现的设计模式，自己测试(或其他人测试)，或者只是为了好玩。",
+        "navIcon": "/nav/upload/taskMaterial/admin/designpatternsgame.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://tsejx.github.io/javascript-guidebook/",
+        "navName": "JavaScript Guidebook",
+        "navDesc": "? JavaScript 知识图谱：ECMAScript、DOM、BOM、HTML5、计算机网络",
+        "navIcon": "/nav/upload/taskMaterial/admin/tsejx.github.io.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://mengshukeji.github.io/LuckysheetDocs/zh/",
+        "navName": "Luckysheet",
+        "navDesc": "Luckysheet ，一款纯前端类似excel的在线表格，功能强大、配置简单、完全开源。",
+        "navIcon": "/nav/upload/taskMaterial/admin/mengshukeji.github.io.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://deerchao.cn/tutorials/regex/regex.htm",
+        "navName": "正则表达式30分钟入门教程",
+        "navDesc": "快速学习正则的在线文档，也能作为日常参考手册",
+        "navIcon": "/nav/upload/taskMaterial/admin/deerchao.cn.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://ts.xcatliu.com/",
+        "navName": "TypeScript 入门教程",
+        "navDesc": "《TypeScript 入门教程》全面介绍了 TypeScript 强大的类型系统，完整而简洁，示例丰富，比官方文档更易读，非常适合作为初学者学习 TypeScript 的第一本书 —— 阮一峰",
+        "navIcon": "/nav/upload/taskMaterial/admin/ts.xcatliu.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://v3.cn.vuejs.org/",
+        "navName": "Vue3中文文档",
+        "navDesc": "Vue3中文文档",
+        "navIcon": "/nav/upload/taskMaterial/admin/v3.cn.vuejs.org.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://zh.javascript.info/intro",
+        "navName": "JS现代教程",
+        "navDesc": "以最新的 JavaScript 标准为基准。通过简单但足够详细的内容，为你讲解从基础到高阶的 JavaScript 相关知识。",
+        "navIcon": "/nav/upload/taskMaterial/admin/zh.javascript.info.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "http://www.createjs.cc/",
+        "navName": "CreateJS 中文网",
+        "navDesc": "CreateJS是基于HTML5开发的一套模块化的库和工具。 基于这些库，可以非常快捷地开发出基于HTML5的游戏、动画和交互应用",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.createjs.cc.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.30secondsofcode.org/",
+        "navName": "30secondsofcode",
+        "navDesc": "30secondsofcode",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.30secondsofcode.org.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://mqyqingfeng.gitee.io/learn-typescript/",
+        "navName": "learn-typescript",
+        "navDesc": "冴羽的TypeScript4 中文文档",
+        "navIcon": "/nav/upload/taskMaterial/admin/mqyqingfeng.gitee.io.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "http://latentflip.com/loupe",
+        "navName": "在线看代码流程loupe",
+        "navDesc": "可以在线看代码流程的网站：loupe",
+        "navIcon": "/nav/upload/taskMaterial/admin/latentflip.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "http://caibaojian.com/vue-design/",
+        "navName": "Vue技术内幕",
+        "navDesc": "超级详细 - 逐行级别的分析；实时更新 - 与dev分支同步；深度分析 - 讲解issue",
+        "navIcon": "/nav/upload/taskMaterial/admin/caibaojian.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://tsejx.github.io/typescript-guidebook/",
+        "navName": "TypeScript Guidebook",
+        "navDesc": "? TypeScript 知识图谱 构建 JS 语言超集 TS 知识体系",
+        "navIcon": "/nav/upload/taskMaterial/admin/tsejx.github.io.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://cn.history.js.org/",
+        "navName": "JavaScript 二十年",
+        "navDesc": "本书由 JavaScript 之父 Brendan Eich 与 ES6 规范首席作者 Allen Wirfs-Brock 联合编写，详细记载和解读了自 1995 年语言诞生到 2015 年 ES6 规范制定为止，共计 20 年的 JavaScript 语言演化历程。全书不仅讲解了大量语言技术细节层面的演进，更复盘了更高层面上规范制定与标准博弈中的历史成败，是一部讲述人类如何在商业与技术上的竞争合作中促进产业发展的故事。是一本前端程序员很有阅读价值的一本”圣经“。",
+        "navIcon": "/nav/upload/taskMaterial/admin/cn.history.js.org.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://tsejx.github.io/node-guidebook/",
+        "navName": "Node Guidebook",
+        "navDesc": "? Node 知识图谱 关于模块、JS 异步编程、进程、I/O、服务端应用等",
+        "navIcon": "/nav/upload/taskMaterial/admin/tsejx.github.io.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://tsejx.github.io/react-guidebook/",
+        "navName": "React Guidebook",
+        "navDesc": "? React 知识图谱 关于概念、技巧、生态、前沿、源码核心",
+        "navIcon": "/nav/upload/taskMaterial/admin/tsejx.github.io.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://vuejsexamples.com/",
+        "navName": "vuejs example",
+        "navDesc": "提供了大量 Vue 应用实例帮助学习",
+        "navIcon": "/nav/upload/taskMaterial/admin/vuejsexamples.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://newgateway.gitee.io/my/guide/",
+        "navName": "MyUI",
+        "navDesc": "基于 Vue + ElementUI 。专注于中台系统快速搭建,搭载代码生成器，可生成底层api调用、vuex管理、模拟数据代码,内置常用超过150个基础UI组",
+        "navIcon": "/nav/upload/taskMaterial/admin/newgateway.gitee.io.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.react-native.cn/",
+        "navName": "React Native",
+        "navDesc": "一次学习，随处编写",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.react-native.cn.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.tslang.cn/docs/handbook/basic-types.html",
+        "navName": "TS文档",
+        "navDesc": "TS文档手册",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.tslang.cn.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://tsejx.github.io/webpack-guidebook/",
+        "navName": "Webpack Guidebook",
+        "navDesc": "? Webpack 知识图谱：模块化、基础概念、工作原理、实战应用",
+        "navIcon": "/nav/upload/taskMaterial/admin/tsejx.github.io.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html",
+        "navName": "微信云开发",
+        "navDesc": "微信云开发",
+        "navIcon": "/nav/upload/taskMaterial/admin/developers.weixin.qq.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.kancloud.cn/@kancloud",
+        "navName": "看云文档小组",
+        "navDesc": "看云博客平台技术文档小组整理书写了众多优质技术文档",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.kancloud.cn.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://github.com/mqyqingfeng/Blog",
+        "navName": "冴羽的博客",
+        "navDesc": "冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.bookstack.cn/read/mobx-5-zh/README.md",
+        "navName": "mobx状态管理工具",
+        "navDesc": "mobx的中文文档。帮助我们更好的进行状态管理",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.bookstack.cn.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.axios-http.cn/",
+        "navName": "Axios中文文档",
+        "navDesc": "Axios 是一个基于 promise 的网络请求库，可以用于浏览器和 node.js",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.axios-http.cn.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.bootcss.com/",
+        "navName": "Bootstrap",
+        "navDesc": "简洁、直观、强悍的前端开发框架，让web开发更迅速、简单",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.bootcss.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://antv.gitee.io/zh",
+        "navName": "antv文档",
+        "navDesc": "antv产品中文文档",
+        "navIcon": "/nav/upload/taskMaterial/admin/antv.gitee.io.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://cn.vitejs.dev/",
+        "navName": "Vite 官方中文文档",
+        "navDesc": "Vite 官方中文文档 下一代前端开发与构建工具",
+        "navIcon": "/nav/upload/taskMaterial/admin/cn.vitejs.dev.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.cntofu.com/book/4/readme.html",
+        "navName": "Redux 中文文档",
+        "navDesc": "redux的中文参考文档。帮助我们开发的时候更好的进行数据的存储。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.cntofu.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.jstips.co/",
+        "navName": "JS Tips",
+        "navDesc": "每天推出一个JS技巧的网站",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.jstips.co.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://material-ui.com/zh/",
+        "navName": "Material-UI",
+        "navDesc": "React 组件用于更快速、更简便的 web 开发。",
+        "navIcon": "/nav/upload/taskMaterial/admin/material-ui.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://zh-hans.reactjs.org/",
+        "navName": "React中文",
+        "navDesc": "用于构建用户界面的 JavaScript 库",
+        "navIcon": "/nav/upload/taskMaterial/admin/zh-hans.reactjs.org.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "http://datav.jiaminghi.com/",
+        "navName": "DataV",
+        "navDesc": "Vue 大屏数据展示组件库",
+        "navIcon": "/nav/upload/taskMaterial/admin/datav.jiaminghi.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.expressjs.com.cn/",
+        "navName": "Express 中文文档",
+        "navDesc": "基于 Node.js 平台，快速、开放、极简的 Web 开发框架",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.expressjs.com.cn.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.sequelize.com.cn/",
+        "navName": "Seqeulize中文文档",
+        "navDesc": "Sequelize 是一个基于 promise 的 Node.js ORM, 目前支持 Postgres, MySQL, MariaDB, SQLite 以及",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.sequelize.com.cn.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://pro.ant.design/",
+        "navName": "ANT DESIGN PRO",
+        "navDesc": "开箱即用的中台前端/设计解决方案",
+        "navIcon": "/nav/upload/taskMaterial/admin/pro.ant.design.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://cn.vuejs.org/",
+        "navName": "Vue.js 中文网",
+        "navDesc": "Vue.js 是一个用于创建 Web 交互界面的库，它让你通过简单而灵活的 API 创建由数据驱动的 UI 组件。",
+        "navIcon": "/nav/upload/taskMaterial/admin/cn.vuejs.org.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "http://tuzhidian.com/",
+        "navName": "图之典",
+        "navDesc": "数据可视化知识分享站点",
+        "navIcon": "/nav/upload/taskMaterial/admin/tuzhidian.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://semantic-ui-vue.github.io/",
+        "navName": "Semantic UI Vue",
+        "navDesc": "这是一个集成 Semantic UI 的 Vue.js 框架",
+        "navIcon": "/nav/upload/taskMaterial/admin/semantic-ui-vue.github.io.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://neteasecloudmusicapi.vercel.app",
+        "navName": "网易云音乐API",
+        "navDesc": "网易云音乐 NodeJS版 开源API 。全部接口已升级到最新，具备登录接口，多达200多个接口，更完善的文档",
+        "navIcon": "/nav/upload/taskMaterial/admin/neteasecloudmusicapi.vercel.app.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.yuque.com/egg/nodejs",
+        "navName": "nodejs 专栏",
+        "navDesc": "egg社区在语雀的nodejs专栏",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.yuque.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "http://fe.shuiniuer.cn/typescript/README.html",
+        "navName": "Typescript Handbook",
+        "navDesc": "一位资深互联网老兵整理的大前端编程手册",
+        "navIcon": "/nav/upload/taskMaterial/admin/fe.shuiniuer.cn.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://reactjsexample.com/",
+        "navName": "reactjs example",
+        "navDesc": "提供了大量 react 应用实例帮助学习",
+        "navIcon": "/nav/upload/taskMaterial/admin/reactjsexample.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "http://liubin.org/promises-book/#introduction",
+        "navName": "Promise迷你书",
+        "navDesc": "JavaScript Promise迷你书（中文版）",
+        "navIcon": "/nav/upload/taskMaterial/admin/liubin.org.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://ahooks.gitee.io/",
+        "navName": "ahooks",
+        "navDesc": "react hooks库",
+        "navIcon": "/nav/upload/taskMaterial/admin/ahooks.gitee.io.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "http://www.hewebgl.com/",
+        "navName": "WebGL中文网",
+        "navDesc": "WebGL中文网 国内最好、最系统的WebGL教程网站。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.hewebgl.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://wangdoc.com/javascript/",
+        "navName": "JavaScript 教程",
+        "navDesc": "本教程全面介绍 JavaScript 核心语法，覆盖了 ES5 和 DOM 规范的所有内容。",
+        "navIcon": "/nav/upload/taskMaterial/admin/wangdoc.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.vuepress.cn/",
+        "navName": "VuePress 中文文档",
+        "navDesc": "VuePress 中文网",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.vuepress.cn.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://github.com/rstacruz/nprogress",
+        "navName": "NProgress",
+        "navDesc": "好用的显示进度条插件",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "http://momentjs.cn/",
+        "navName": "momentjs",
+        "navDesc": "JavaScript 日期处理类库",
+        "navIcon": "/nav/upload/taskMaterial/admin/momentjs.cn.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://react.iamkasong.com/",
+        "navName": "React技术揭秘",
+        "navDesc": "React技术揭秘",
+        "navIcon": "/nav/upload/taskMaterial/admin/react.iamkasong.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.bizcharts.net/",
+        "navName": "Bizcharts",
+        "navDesc": "BizCharts是阿里通用图表组件库，致力于打造企业中后台高效、专业、便捷的数据可视化解决方案，基于 G2与G2Plot封装的React图表库，已经历阿里复杂业务场景长达三年的洗礼，在灵活性、易用性、丰富度上满足常规图表和高度自定义图表的业务实现。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.bizcharts.net.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.vitejs.net",
+        "navName": "Vite",
+        "navDesc": "下一代前端开发与构建工具,Vite文档,Vite中文网,Vite.js,Vite中文文档",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.vitejs.net.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://vuescrolljs.yvescoding.org/",
+        "navName": "Vuescroll.js",
+        "navDesc": "一个自定义滚动条的插件，适用于PC和移动端",
+        "navIcon": "/nav/upload/taskMaterial/admin/vuescrolljs.yvescoding.org.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://github.com/nestjs/nest",
+        "navName": "nestjs",
+        "navDesc": "一个渐进的 Node.js 框架",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://github.com/crazycodeboy/awesome-flutter-cn",
+        "navName": "一个很棒的Flutter学习资源",
+        "navDesc": "https://github.com/crazycodeboy/awesome-flutter-cn",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://eggjs.org/zh-cn/",
+        "navName": "Egg",
+        "navDesc": "一个用于更好地构建企业应用的框架，内置流程管理，高度可定制，有强大的插件系统。",
+        "navIcon": "/nav/upload/taskMaterial/admin/eggjs.org.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://es6.ruanyifeng.com/",
+        "navName": "ES6 入门教程",
+        "navDesc": "阮一峰ES6 入门教程",
+        "navIcon": "/nav/upload/taskMaterial/admin/es6.ruanyifeng.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://jquery.com/",
+        "navName": "jQuery文档",
+        "navDesc": "jquery 文档",
+        "navIcon": "/nav/upload/taskMaterial/admin/jquery.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://cool-js.com/",
+        "navName": "COOL",
+        "navDesc": "一个项目用COOL就够了",
+        "navIcon": "/nav/upload/taskMaterial/admin/cool-js.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.imgcook.com/",
+        "navName": "设计稿智能生成代码",
+        "navDesc": "低代码 由设计稿一键智能生成代码",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.imgcook.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://d.umijs.org/zh-CN",
+        "navName": "dumi",
+        "navDesc": "为组件开发场景而生的文档工具",
+        "navIcon": "/nav/upload/taskMaterial/admin/d.umijs.org.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.nuxtjs.cn/",
+        "navName": "Nuxt.js",
+        "navDesc": "Nuxt.js 是一个基于 Vue.js 的轻量级应用框架，可用来创建服务端渲染 (SSR) 应用，也可充当静态站点引擎生成静态站点应用，具有优雅的代码结构分层和热加载等特性。这是一个开源的框架，让 web 开发变得简单而强大。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.nuxtjs.cn.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://redom.js.org/",
+        "navName": "Redom",
+        "navDesc": "一个轻便的创建用户接口的 JavaScript 库，测试覆盖率100%。",
+        "navIcon": "/nav/upload/taskMaterial/admin/redom.js.org.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://m.zhangyue.com/readbook/12567484/5.html",
+        "navName": "JavaScript百炼成仙",
+        "navDesc": "很有趣的Javascript书籍，学习如同看武侠小说！",
+        "navIcon": "/nav/upload/taskMaterial/admin/m.zhangyue.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://yarn.bootcss.com/",
+        "navName": "Yarn 中文文档",
+        "navDesc": "快速、可靠、安全的依赖管理工具。",
+        "navIcon": "/nav/upload/taskMaterial/admin/yarn.bootcss.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://dayjs.gitee.io/docs/zh-CN/installation/installation",
+        "navName": "Dayjs中文文档",
+        "navDesc": "Dayjs中文文档",
+        "navIcon": "/nav/upload/taskMaterial/admin/dayjs.gitee.io.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://d3js.org/",
+        "navName": "D3",
+        "navDesc": "D3.js是一个基于数据处理文档，针对 HTML 和 SVG 的 JavaScript 可视化库。",
+        "navIcon": "/nav/upload/taskMaterial/admin/d3js.org.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://zh.javascript.info/",
+        "navName": "现代 JavaScript 教程",
+        "navDesc": "以最新的 JavaScript 标准为基准。通过简单但足够详细的内容，为你讲解从基础到高阶的 JavaScript 相关知识。",
+        "navIcon": "/nav/upload/taskMaterial/admin/zh.javascript.info.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://cn.rx.js.org",
+        "navName": "RxJS 中文文档",
+        "navDesc": "RxJS文档教程",
+        "navIcon": "/nav/upload/taskMaterial/admin/cn.rx.js.org.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "http://lodash.think2011.net",
+        "navName": "lodash中文",
+        "navDesc": "lodash中文文档",
+        "navIcon": "/nav/upload/taskMaterial/admin/lodash.think2011.net.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "http://www.angularjs.net.cn/",
+        "navName": "Angular.js中文网",
+        "navDesc": "AngularJS是为了克服HTML在构建应用上的不足而设计的。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.angularjs.net.cn.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.jquery123.com/",
+        "navName": "jQuery",
+        "navDesc": "jQuery 是一个高效、精简并且功能丰富的 JavaScript 工具库。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.jquery123.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "http://jslite.io/",
+        "navName": "JSLite",
+        "navDesc": "JSLite是正对现代浏览器的一个主要的兼容jQuery的API简约的JavaScript库。",
+        "navIcon": "/nav/upload/taskMaterial/admin/jslite.io.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.dowebok.com/demo/2014/77/",
+        "navName": "全屏滚动插件fullPage",
+        "navDesc": "jQuery全屏滚动插件fullPage.js演示 fullPage.js 是一个基于 jQuery 的插件，它能够很方便、很轻松的制作出全屏网站。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.dowebok.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://flutterawesome.com/",
+        "navName": "Flutter Awesome",
+        "navDesc": "一个有用的Flutter 框架、库和源码的集合。",
+        "navIcon": "/nav/upload/taskMaterial/admin/flutterawesome.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://domevents.dev/",
+        "navName": "Dom 事件可视化学习",
+        "navDesc": "视化的方式探索浏览器 Dom 事件的执行机制",
+        "navIcon": "/nav/upload/taskMaterial/admin/domevents.dev.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://storybook.js.org/",
+        "navName": "storybook",
+        "navDesc": "Storybook是一个开源工具，用于为React、Vue、Angular等独立开发UI组件。它使构建令人惊叹的ui有组织和高效。",
+        "navIcon": "/nav/upload/taskMaterial/admin/storybook.js.org.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://github.com/kamranahmedse/developer-roadmap",
+        "navName": "roadmap学习路线",
+        "navDesc": "编程学习路线",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://vue3js.cn/",
+        "navName": "Vue3 One Piece",
+        "navDesc": "分享 Vue3 各种周边资源",
+        "navIcon": "/nav/upload/taskMaterial/admin/vue3js.cn.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://github.com/huaize2020/awesome-nodejs",
+        "navName": "awesome-nodejs",
+        "navDesc": "Node.js 资源大全中文版。收集NodeJS库的中文版翻译，具备完善的分类，人工整理的排序。",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://aisuda.bce.baidu.com/amis/zh-CN/docs/index",
+        "navName": "百度amis低代码生成",
+        "navDesc": "amis 是一个低代码前端框架，它使用 JSON 配置来生成页面，可以减少页面开发工作量，极大提升效率",
+        "navIcon": "/nav/upload/taskMaterial/admin/aisuda.bce.baidu.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://cn.aliyun.com/product/nodejs",
+        "navName": "阿里Node性能监控平台",
+        "navDesc": "Node.js 性能平台（Node.js Performance Platform）是面向中大型 Node.js 应用提供性能监控、安全提醒、故障排查、性能优化等服务的整体性解决方案。凭借对 Node.js 内核深入的理解，我们提供完善的工具链和服务，协助客户主动、快速发现和定位线上问题",
+        "navIcon": "/nav/upload/taskMaterial/admin/cn.aliyun.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.diboot.com/",
+        "navName": "Diboot 低代码开发平台",
+        "navDesc": "前后端代码自动生成，代码更新，基于MybatisPlus，支持多表关联无SQL，提供多种开箱即用组件！",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.diboot.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://regex-vis.com/",
+        "navName": "正则可视化编辑",
+        "navDesc": "正则表达式可视化器和编辑器。",
+        "navIcon": "/nav/upload/taskMaterial/admin/regex-vis.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://zh.parceljs.org/",
+        "navName": "Parcel",
+        "navDesc": "零配置打包工具",
+        "navIcon": "/nav/upload/taskMaterial/admin/zh.parceljs.org.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.bilibili.com/video/BV1YW411T7GX",
+        "navName": "JavaScript基础全套教程完整版",
+        "navDesc": "JavaScript基础全套教程完整版(140集实战教学,JS从入门到精通)",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.bilibili.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://baidu.gitee.io/amis/zh-CN/docs/index",
+        "navName": "amis",
+        "navDesc": "amis 是一个低代码前端框架，它使用 JSON 配置来生成页面，可以减少页面开发工作量，极大提升效率。",
+        "navIcon": "/nav/upload/taskMaterial/admin/baidu.gitee.io.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://microsoft.github.io/monaco-editor/",
+        "navName": "monaco-editor",
+        "navDesc": "代码编辑、高亮、格式化等功能",
+        "navIcon": "/nav/upload/taskMaterial/admin/microsoft.github.io.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://scrollrevealjs.org/",
+        "navName": "ScrollReveal",
+        "navDesc": "scrollReveal.js 是一款表现滚动显示动画效果的 javascript 插件",
+        "navIcon": "/nav/upload/taskMaterial/admin/scrollrevealjs.org.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://risingstars.js.org/2020/zh",
+        "navName": "JavaScript 明星项目盘点",
+        "navDesc": "avaScript 明星项目盘点（包括2016-2022年的前端项目）",
+        "navIcon": "/nav/upload/taskMaterial/admin/risingstars.js.org.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.swiper.com.cn/",
+        "navName": "Swiper",
+        "navDesc": "Swiper常用于移动端网站的内容触摸滑动 Swiper是纯javascript打造的滑动特效插件，面向手机、平板电脑等移动终端。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.swiper.com.cn.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://react-styleguidist.js.org/",
+        "navName": "React Styleguidist",
+        "navDesc": "快速搭建react组件库文档",
+        "navIcon": "/nav/upload/taskMaterial/admin/react-styleguidist.js.org.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://clipboardjs.com/",
+        "navName": "clipboardjs",
+        "navDesc": "A modern approach to copy text to clipboard",
+        "navIcon": "/nav/upload/taskMaterial/admin/clipboardjs.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://github.com/vitejs/awesome-vite",
+        "navName": "awesome-vite",
+        "navDesc": "⚡️ A curated list of awesome things related to Vite.js",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.animejs.cn/",
+        "navName": "anime.js",
+        "navDesc": "Anime.js (/ˈæn.ə.meɪ/) 是一个轻量的JavaScript 动画库， 拥有简单而强大的API。 可对 CSS 属性、 SVG、 DOM 和JavaScript 对象进行动画。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.animejs.cn.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://github.com/umijs/father",
+        "navName": "father",
+        "navDesc": "基于 rollup 和 babel 的打包工具",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://dvajs.com/guide/",
+        "navName": "dva",
+        "navDesc": "dva 首先是一个基于 redux 和 redux-saga 的数据流方案，然后为了简化开发体验，dva 还额外内置了 react-router 和 fetch，所以也可以理解为一个轻量级的应用框架。  #",
+        "navIcon": "/nav/upload/taskMaterial/admin/dvajs.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.gulpjs.com.cn/",
+        "navName": "Gulp.js",
+        "navDesc": "Gulp.js 是一个自动化构建工具，开发者可以使用它在项目开发过程中自动执行常见任务。Gulp.js 是基于 Node.js 构建的，利用 Node.js 流的威力，你可以快速构建项目并减少频繁的 IO 操作。Gulp.js 源文件和你用来定义任务的 Gulp 文件都是通过 JavaScript（或者 CoffeeScript ）源码来实现的。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.gulpjs.com.cn.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.finclip.com/",
+        "navName": "finclip",
+        "navDesc": "让你的APP具备微信才拥有的小程序技术能力",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.finclip.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://procomponents.ant.design",
+        "navName": "ProComponents",
+        "navDesc": "ProComponents-页面级别的前端组件 让中后台开发更简单 简单易用 在 Ant Design 上进行了自己的封装，更加易用 Ant Design 与 Ant Design 设计体系一脉相承，无缝对接 antd 项目 国际化 提供完备的国际化，与 Ant Design 体系打通 预设样式 样式风格与 antd 一脉相承，无需魔改，浑然天成 预设行为 更少的代码，更少的 Bug TypeScript 使用 TypeScript 开发，提供完整的类型定义文件",
+        "navIcon": "/nav/upload/taskMaterial/admin/procomponents.ant.design.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "http://www.geetest.com/",
+        "navName": "极验验证",
+        "navDesc": "新一代基于行为式验证安全技术的验证码",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.geetest.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://github.com/lydiahallie/javascript-questions/blob/master/zh-CN/README-zh_CN.md",
+        "navName": "JavaScript 进阶问题列表",
+        "navDesc": "从基础到进阶，测试你有多了解 JavaScript，刷新你的知识，或者帮助你的 coding 面试！",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://landing.ant.design/index-cn",
+        "navName": "Ant Design Landing低代码生成首页等",
+        "navDesc": "Ant Design Landing 平台拥有丰富的各类首页模板，下载模板代码包，即可快速使用，也可使用首页编辑器，快速搭建一个属于你的专属首页",
+        "navIcon": "/nav/upload/taskMaterial/admin/landing.ant.design.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.rollupjs.com/",
+        "navName": "Rollup",
+        "navDesc": "Rollup 是一个 JavaScript 模块打包器，可以将小块代码编译成大块复杂的代码",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.rollupjs.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://github.com/Binaryify/vue-qr",
+        "navName": "vue-qr",
+        "navDesc": "vue 生成二维码库",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.midwayjs.org/",
+        "navName": "Midway",
+        "navDesc": "一个面向未来的 云端一体 Node.js 框架",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.midwayjs.org.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://awesomejs.dev/",
+        "navName": "Awesome JS",
+        "navDesc": "找到适合您正在使用的前端框架的最棒的包",
+        "navIcon": "/nav/upload/taskMaterial/admin/awesomejs.dev.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://openbase.com/",
+        "navName": "前端技术选型神器",
+        "navDesc": "Openbase 的使命就是帮助开发人员在数百万个开源包中进行选择。它是第一个为软件包提供用户评论、强大的洞察力和开源软件包分类的平台。Openbase 的搜索引擎使开发人员能够根据他们使用的特定框架过滤搜索结果，例如 React、Vue , Node等。目前 Openbase 支持六种编程语言（Go、Java、JavaScript、Python、Rust 和 Swift）。",
+        "navIcon": "/nav/upload/taskMaterial/admin/openbase.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://www.babeljs.cn/",
+        "navName": "Babel",
+        "navDesc": "Babel 是一个 JavaScript 编译器",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.babeljs.cn.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://github.com/reactjs/react-docgen",
+        "navName": "react-docgen",
+        "navDesc": "React DocGen是一个用于从React组件文件中提取信息的CLI和工具箱，以便生成文档。它使用ast-types和@babel/parser将源解析为AST，并提供处理此AST的方法。输出/返回值是JSON blob/JavaScript对象。它通过React.createClass，ES2015类定义或功能（无状态组件）为React组件提供了一个默认的定义。功能十分强大。",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "http://www.jsons.cn/",
+        "navName": "Json在线解析格式化",
+        "navDesc": "Json在线解析格式化工具:提供Json在线解析器,Json格式化,Json序列化,Json解析,Json校验,Json压缩,Json转xml,在线Json格式化,并提供多种Json在线解析格式化工具",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.jsons.cn.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://github.com/stephentian/33-js-concepts",
+        "navName": "33-js-concepts",
+        "navDesc": "? 每个 JavaScript 工程师都应懂的33个概念",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1027",
+        "idSequence": 1026,
+        "navId": "DH1026"
+    },
+    {
+        "navUrl": "https://eeui.app/",
+        "navName": "EEUI",
+        "navDesc": "使用 Vue.js 跨平台开发高质量原生（Android/iOS）应用",
+        "navIcon": "/nav/upload/taskMaterial/admin/eeui.app.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://hippyjs.org/",
+        "navName": "Hippy",
+        "navDesc": "为前端开发人员设计的跨端框架，支持 React 和 Vue 两种语法。Hippy 可以理解为一个精简版的浏览器，从底层做了大量工作，抹平了 iOS 和 Android 双端差异，提供了接近 Web 的开发体验，目前上层支持了 React 和 Vue 两套界面框架，前端开发人员可以通过它，将前端代码转换为终端的原生指令，进行原生终端 App 的开发。  同时，Hippy 从底层进行了大量优化，在启动速度、可复用列表组件、渲染效率、动画速度、网络通信等等都提供了业内顶尖的性能表现。",
+        "navIcon": "/nav/upload/taskMaterial/admin/hippyjs.org.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "http://www.godbasin.com/vue-ebook/",
+        "navName": "深入理解Vue.js实战",
+        "navDesc": "本书全面介绍 Vue.js 框架的出现、设计和使用，结合实战让读者更深入理解 Vue.js 框架，掌握使用方法。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.godbasin.com.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://nutui.jd.com/",
+        "navName": "NutUI",
+        "navDesc": "京东风格的轻量级移动端 Vue 组件库。基于 Taro 对 NutUI 每一个组件进行深度适配支持开发多端小程序",
+        "navIcon": "/nav/upload/taskMaterial/admin/nutui.jd.com.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://tsejx.github.io/vue-guidebook/",
+        "navName": "Vue Guidebook",
+        "navDesc": "? Vue 知识图谱 关于用法、响应式原理、编译原理以及生态",
+        "navIcon": "/nav/upload/taskMaterial/admin/tsejx.github.io.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://v3.cn.vuejs.org/",
+        "navName": "Vue3中文文档",
+        "navDesc": "Vue3中文文档",
+        "navIcon": "/nav/upload/taskMaterial/admin/v3.cn.vuejs.org.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "http://caibaojian.com/vue-design/",
+        "navName": "Vue技术内幕",
+        "navDesc": "超级详细 - 逐行级别的分析；实时更新 - 与dev分支同步；深度分析 - 讲解issue",
+        "navIcon": "/nav/upload/taskMaterial/admin/caibaojian.com.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://vuejsexamples.com/",
+        "navName": "vuejs example",
+        "navDesc": "提供了大量 Vue 应用实例帮助学习",
+        "navIcon": "/nav/upload/taskMaterial/admin/vuejsexamples.com.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://newgateway.gitee.io/my/guide/",
+        "navName": "MyUI",
+        "navDesc": "基于 Vue + ElementUI 。专注于中台系统快速搭建,搭载代码生成器，可生成底层api调用、vuex管理、模拟数据代码,内置常用超过150个基础UI组",
+        "navIcon": "/nav/upload/taskMaterial/admin/newgateway.gitee.io.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://cn.vitejs.dev/",
+        "navName": "Vite 官方中文文档",
+        "navDesc": "Vite 官方中文文档 下一代前端开发与构建工具",
+        "navIcon": "/nav/upload/taskMaterial/admin/cn.vitejs.dev.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://github.com/haoziqaq/varlet",
+        "navName": "varlet",
+        "navDesc": "Varlet是一个基于Vue3开发的Material风格移动端组件库",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "http://datav.jiaminghi.com/",
+        "navName": "DataV",
+        "navDesc": "Vue 大屏数据展示组件库",
+        "navIcon": "/nav/upload/taskMaterial/admin/datav.jiaminghi.com.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://cn.vuejs.org/",
+        "navName": "Vue.js 中文网",
+        "navDesc": "Vue.js 是一个用于创建 Web 交互界面的库，它让你通过简单而灵活的 API 创建由数据驱动的 UI 组件。",
+        "navIcon": "/nav/upload/taskMaterial/admin/cn.vuejs.org.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://semantic-ui-vue.github.io/",
+        "navName": "Semantic UI Vue",
+        "navDesc": "这是一个集成 Semantic UI 的 Vue.js 框架",
+        "navIcon": "/nav/upload/taskMaterial/admin/semantic-ui-vue.github.io.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://aliqin.github.io/atui/",
+        "navName": "Atui",
+        "navDesc": "阿里通讯前端部推出的一个基于 Vue.js 2.0 的 UI 组件库。",
+        "navIcon": "/nav/upload/taskMaterial/admin/aliqin.github.io.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://vue-next-template-explorer.netlify.app",
+        "navName": "vue3模板解析",
+        "navDesc": "Vue 3 Template Explorer vue3模板解析",
+        "navIcon": "/nav/upload/taskMaterial/admin/vue-next-template-explorer.netlify.app.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "http://element-cn.eleme.io/#/zh-CN",
+        "navName": "Element",
+        "navDesc": "饿了么前端团队开发的基于 Vue 2.0 的桌面端组件库。",
+        "navIcon": "/nav/upload/taskMaterial/admin/element-cn.eleme.io.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://www.vuepress.cn/",
+        "navName": "VuePress 中文文档",
+        "navDesc": "VuePress 中文网",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.vuepress.cn.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://sfc.vuejs.org/",
+        "navName": "vue sfc在线编程",
+        "navDesc": "vue sfc",
+        "navIcon": "/nav/upload/taskMaterial/admin/sfc.vuejs.org.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://www.vitejs.net",
+        "navName": "Vite",
+        "navDesc": "下一代前端开发与构建工具,Vite文档,Vite中文网,Vite.js,Vite中文文档",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.vitejs.net.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://vuescrolljs.yvescoding.org/",
+        "navName": "Vuescroll.js",
+        "navDesc": "一个自定义滚动条的插件，适用于PC和移动端",
+        "navIcon": "/nav/upload/taskMaterial/admin/vuescrolljs.yvescoding.org.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://www.nuxtjs.cn/",
+        "navName": "Nuxt.js",
+        "navDesc": "Nuxt.js 是一个基于 Vue.js 的轻量级应用框架，可用来创建服务端渲染 (SSR) 应用，也可充当静态站点引擎生成静态站点应用，具有优雅的代码结构分层和热加载等特性。这是一个开源的框架，让 web 开发变得简单而强大。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.nuxtjs.cn.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://www.iviewui.com/",
+        "navName": "iview",
+        "navDesc": "一套基于 Vue.js 的高质量 UI 组件库",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.iviewui.com.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://www.antdv.com/",
+        "navName": "Ant Design Vue",
+        "navDesc": "Ant Design 的 Vue 实现，开发和服务于企业级后台产品。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.antdv.com.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://didi.github.io/cube-ui/#/zh-CN/docs/introduction",
+        "navName": "Cube UI",
+        "navDesc": "基于 Vue.js 实现的精致移动端组件库",
+        "navIcon": "/nav/upload/taskMaterial/admin/didi.github.io.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://ccforward.github.io/rubik/#/",
+        "navName": "Rubik UI",
+        "navDesc": "Rubik UI 是一个基于 Vue.js 2.0+ 的开源 UI 组件库，在交互和视觉设计上遵循 Material Design 规范，适用于 PC 端和 mobile 端。",
+        "navIcon": "/nav/upload/taskMaterial/admin/ccforward.github.io.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://storybook.js.org/",
+        "navName": "storybook",
+        "navDesc": "Storybook是一个开源工具，用于为React、Vue、Angular等独立开发UI组件。它使构建令人惊叹的ui有组织和高效。",
+        "navIcon": "/nav/upload/taskMaterial/admin/storybook.js.org.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://vue3js.cn/",
+        "navName": "Vue3 One Piece",
+        "navDesc": "分享 Vue3 各种周边资源",
+        "navIcon": "/nav/upload/taskMaterial/admin/vue3js.cn.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://megalojs.org/",
+        "navName": "Megalo",
+        "navDesc": "基于 Vue.js 的小程序框架。持微信小程序、支付宝小程序、百度智能小程序",
+        "navIcon": "/nav/upload/taskMaterial/admin/megalojs.org.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://github.com/vitejs/awesome-vite",
+        "navName": "awesome-vite",
+        "navDesc": "⚡️ A curated list of awesome things related to Vite.js",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "http://mpvue.com/",
+        "navName": "mpvue",
+        "navDesc": "使用 Vue.js 开发小程序的前端框架。框架基于 Vue.js 核心，mpvue 修改了 Vue.js 的 runtime 和 compiler 实现，使其可以运行在小程序环境中，从而为小程序开发引入了整套 Vue.js 开发体验。",
+        "navIcon": "/nav/upload/taskMaterial/admin/mpvue.com.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://vue-apollo.netlify.app/zh-cn/",
+        "navName": "Vue Apollo",
+        "navDesc": "? 在你的 Vue.js 应用中集成 GraphQL！",
+        "navIcon": "/nav/upload/taskMaterial/admin/vue-apollo.netlify.app.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://github.com/Binaryify/vue-qr",
+        "navName": "vue-qr",
+        "navDesc": "vue 生成二维码库",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://uniapp.dcloud.io/",
+        "navName": "uni-app",
+        "navDesc": "uni-app：一个使用 Vue.js 开发跨平台应用的前端框架",
+        "navIcon": "/nav/upload/taskMaterial/admin/uniapp.dcloud.io.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://vux.li/#/",
+        "navName": "Vux",
+        "navDesc": "基于 WeUI 和 Vue.js 的 移动端 UI 组件库，提供丰富的组件满足移动端(微信)页面常用业务需求。",
+        "navIcon": "/nav/upload/taskMaterial/admin/vux.li.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://vvbin.cn/doc-next/",
+        "navName": "VbenAdmin",
+        "navDesc": "Vben是一个基于 Vue3.0、Vite、 Ant-Design-Vue、TypeScript 的后台解决方案，目标是为开发中大型项目提供开箱即用的解决方案",
+        "navIcon": "/nav/upload/taskMaterial/admin/vvbin.cn.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://www.vuepress.cn/",
+        "navName": "VuePress",
+        "navDesc": "Vue 驱动的静态网站生成器",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.vuepress.cn.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "http://mint-ui.github.io/#!/zh-cn",
+        "navName": "Mint UI",
+        "navDesc": "基于 Vue.js 的移动端组件库，包含丰富的 CSS 和 JS 组件，能够满足日常的移动端开发需要。",
+        "navIcon": "/nav/upload/taskMaterial/admin/mint-ui.github.io.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://hooray.gitee.io/fantastic-admin/",
+        "navName": "Fantastic-admin",
+        "navDesc": "一款开箱即用的 Vue 中后台管理系统框架",
+        "navIcon": "/nav/upload/taskMaterial/admin/hooray.gitee.io.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://github.com/surmon-china/vue-quill-editor",
+        "navName": "vue-quill-editor",
+        "navDesc": "vue-quill-editor @quilljs的编辑器组件@vuejs",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://muse-ui.org/#/zh-CN",
+        "navName": "Muse-UI",
+        "navDesc": "基于 Vue 2.0 和 Material Design 的 UI 组件库。",
+        "navIcon": "/nav/upload/taskMaterial/admin/muse-ui.org.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://sli.dev/",
+        "navName": "slidev",
+        "navDesc": "Presentation slides for developers 开发人员的PPT制作工具",
+        "navIcon": "/nav/upload/taskMaterial/admin/sli.dev.png",
+        "categoryId": "FR1028",
+        "idSequence": 1027,
+        "navId": "DH1027"
+    },
+    {
+        "navUrl": "https://hippyjs.org/",
+        "navName": "Hippy",
+        "navDesc": "为前端开发人员设计的跨端框架，支持 React 和 Vue 两种语法。Hippy 可以理解为一个精简版的浏览器，从底层做了大量工作，抹平了 iOS 和 Android 双端差异，提供了接近 Web 的开发体验，目前上层支持了 React 和 Vue 两套界面框架，前端开发人员可以通过它，将前端代码转换为终端的原生指令，进行原生终端 App 的开发。  同时，Hippy 从底层进行了大量优化，在启动速度、可复用列表组件、渲染效率、动画速度、网络通信等等都提供了业内顶尖的性能表现。",
+        "navIcon": "/nav/upload/taskMaterial/admin/hippyjs.org.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://next.umijs.org/",
+        "navName": "umi4文档",
+        "navDesc": "一款 插件化 的 企业级前端应用框架 以路由为基础，同时支持配置式路由和约定式路由，配以生命周期完善的插件体系，覆盖从源码到构建产物的每个生命周期，支持各种功能扩展和业务需求。",
+        "navIcon": "/nav/upload/taskMaterial/admin/next.umijs.org.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://beta.reactjs.org/learn",
+        "navName": "react 交互式学习",
+        "navDesc": "reactjs交互式文档学习",
+        "navIcon": "/nav/upload/taskMaterial/admin/beta.reactjs.org.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://tsejx.github.io/react-guidebook/",
+        "navName": "React Guidebook",
+        "navDesc": "? React 知识图谱 关于概念、技巧、生态、前沿、源码核心",
+        "navIcon": "/nav/upload/taskMaterial/admin/tsejx.github.io.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://www.react-native.cn/",
+        "navName": "React Native",
+        "navDesc": "一次学习，随处编写",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.react-native.cn.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://www.bookstack.cn/read/mobx-5-zh/README.md",
+        "navName": "mobx状态管理工具",
+        "navDesc": "mobx的中文文档。帮助我们更好的进行状态管理",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.bookstack.cn.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://www.cntofu.com/book/4/readme.html",
+        "navName": "Redux 中文文档",
+        "navDesc": "redux的中文参考文档。帮助我们开发的时候更好的进行数据的存储。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.cntofu.com.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://material-ui.com/zh/",
+        "navName": "Material-UI",
+        "navDesc": "React 组件用于更快速、更简便的 web 开发。",
+        "navIcon": "/nav/upload/taskMaterial/admin/material-ui.com.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://pro.ant.design/",
+        "navName": "ANT DESIGN PRO",
+        "navDesc": "开箱即用的中台前端/设计解决方案",
+        "navIcon": "/nav/upload/taskMaterial/admin/pro.ant.design.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://reactjsexample.com/",
+        "navName": "reactjs example",
+        "navDesc": "提供了大量 react 应用实例帮助学习",
+        "navIcon": "/nav/upload/taskMaterial/admin/reactjsexample.com.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://ahooks.gitee.io/",
+        "navName": "ahooks",
+        "navDesc": "react hooks库",
+        "navIcon": "/nav/upload/taskMaterial/admin/ahooks.gitee.io.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://remaxjs.org/",
+        "navName": "Remax",
+        "navDesc": "使用真正的 React 构建跨平台小程序。Remax 将 React 运行在小程序环境中，让你可以使用完整的 React 进行小程序开发。 真正的 React - 不同于静态编译的方案，在 Remax 中使用 React 没有任何限制，包括 React Hooks。你可以把 Remax 理解为针对小程序的 React Native。 多端支持 - 使用 Remax 把代码转换到多个小程序平台。 TypeScript - 完整的 TypeScript 支持，给你满满的安全感。",
+        "navIcon": "/nav/upload/taskMaterial/admin/remaxjs.org.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://react.iamkasong.com/",
+        "navName": "React技术揭秘",
+        "navDesc": "React技术揭秘",
+        "navIcon": "/nav/upload/taskMaterial/admin/react.iamkasong.com.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://www.bizcharts.net/",
+        "navName": "Bizcharts",
+        "navDesc": "BizCharts是阿里通用图表组件库，致力于打造企业中后台高效、专业、便捷的数据可视化解决方案，基于 G2与G2Plot封装的React图表库，已经历阿里复杂业务场景长达三年的洗礼，在灵活性、易用性、丰富度上满足常规图表和高度自定义图表的业务实现。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.bizcharts.net.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://d.umijs.org/zh-CN",
+        "navName": "dumi",
+        "navDesc": "为组件开发场景而生的文档工具",
+        "navIcon": "/nav/upload/taskMaterial/admin/d.umijs.org.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://storybook.js.org/",
+        "navName": "storybook",
+        "navDesc": "Storybook是一个开源工具，用于为React、Vue、Angular等独立开发UI组件。它使构建令人惊叹的ui有组织和高效。",
+        "navIcon": "/nav/upload/taskMaterial/admin/storybook.js.org.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://react-styleguidist.js.org/",
+        "navName": "React Styleguidist",
+        "navDesc": "快速搭建react组件库文档",
+        "navIcon": "/nav/upload/taskMaterial/admin/react-styleguidist.js.org.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://www.recoiljs.cn/",
+        "navName": "Recoil 中文文档",
+        "navDesc": "Recoil 是一个 React 状态管理库",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.recoiljs.cn.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://dvajs.com/guide/",
+        "navName": "dva",
+        "navDesc": "dva 首先是一个基于 redux 和 redux-saga 的数据流方案，然后为了简化开发体验，dva 还额外内置了 react-router 和 fetch，所以也可以理解为一个轻量级的应用框架。  #",
+        "navIcon": "/nav/upload/taskMaterial/admin/dvajs.com.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://procomponents.ant.design",
+        "navName": "ProComponents",
+        "navDesc": "ProComponents-页面级别的前端组件 让中后台开发更简单 简单易用 在 Ant Design 上进行了自己的封装，更加易用 Ant Design 与 Ant Design 设计体系一脉相承，无缝对接 antd 项目 国际化 提供完备的国际化，与 Ant Design 体系打通 预设样式 样式风格与 antd 一脉相承，无需魔改，浑然天成 预设行为 更少的代码，更少的 Bug TypeScript 使用 TypeScript 开发，提供完整的类型定义文件",
+        "navIcon": "/nav/upload/taskMaterial/admin/procomponents.ant.design.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/",
+        "navName": "React生命周期",
+        "navDesc": "一份很全面的react生命周期，各个版本都有",
+        "navIcon": "/nav/upload/taskMaterial/admin/projects.wojtekmaj.pl.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://github.com/reactjs/react-docgen",
+        "navName": "react-docgen",
+        "navDesc": "React DocGen是一个用于从React组件文件中提取信息的CLI和工具箱，以便生成文档。它使用ast-types和@babel/parser将源解析为AST，并提供处理此AST的方法。输出/返回值是JSON blob/JavaScript对象。它通过React.createClass，ES2015类定义或功能（无状态组件）为React组件提供了一个默认的定义。功能十分强大。",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://ice.work/",
+        "navName": "飞冰",
+        "navDesc": "开箱即用的 React 研发框架 icejs，支持 Vite &amp; Webpack 模式，同时提供了微前端、Hooks、一体化等解决开发，让前端开发更加简单规范。",
+        "navIcon": "/nav/upload/taskMaterial/admin/ice.work.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://zeroing.jd.com/micro-app",
+        "navName": "MicroApp",
+        "navDesc": "一种用于构建微前端应用的极简方案",
+        "navIcon": "/nav/upload/taskMaterial/admin/zeroing.jd.com.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "http://taro-docs.jd.com/taro/docs/README/index.html",
+        "navName": "Taro",
+        "navDesc": "Taro 是一个开放式跨端跨框架解决方案，支持使用 React/Vue/Nerv 等框架来开发 微信 / 京东 / 百度 / 支付宝 / 字节跳动 / QQ / 飞书 小程序 / H5 / RN 等应用。",
+        "navIcon": "/nav/upload/taskMaterial/admin/taro-docs.jd.com.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://qiankun.umijs.org/zh",
+        "navName": "qiankun",
+        "navDesc": "可能是你见过最完善的微前端解决方案?",
+        "navIcon": "/nav/upload/taskMaterial/admin/qiankun.umijs.org.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://bilif.github.io/react-drag-grid/",
+        "navName": "React Drag Grid",
+        "navDesc": "可拖拽组件网格 React Drag Grid",
+        "navIcon": "/nav/upload/taskMaterial/admin/bilif.github.io.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://fusion.design/pc/?themeid=2",
+        "navName": "Alibaba Fusion Design",
+        "navDesc": "企业级的中后台设计系统解决方案",
+        "navIcon": "/nav/upload/taskMaterial/admin/fusion.design.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://motion.ant.design/",
+        "navName": "Ant Motion",
+        "navDesc": "Ant Motion - Ant Design 的动效规范与组件",
+        "navIcon": "/nav/upload/taskMaterial/admin/motion.ant.design.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://micro-frontends.ice.work/",
+        "navName": "飞冰微前端方案",
+        "navDesc": "使用 icestark 构建您的下一个微前端应用，或无痛迁移您目前的巨型应用。如同开发 SPA 应用一样简单，不仅解决多个开发团队协同问题，还带来了安全的沙箱、优秀的性能体验。",
+        "navIcon": "/nav/upload/taskMaterial/admin/micro-frontends.ice.work.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://julesblom.com/writing/map-of-react-api",
+        "navName": "React API 地图",
+        "navDesc": "一种学习 React API 的方法，即通过将其组织成一个空间地图来帮助理解。作者将 React 的不同部分联系在一起，形成了一个可供探索的结构，并在 “推荐阅读” 部分中添加了一些经过筛选的优质博客文章链接，以便更好地理解 React API",
+        "navIcon": "/nav/upload/taskMaterial/admin/julesblom.com.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "https://github.com/tangly1024/NotionNext",
+        "navName": "NotionNext",
+        "navDesc": "使用 NextJS + Notion API 实现的，支持多种部署方案的静态博客，无需服务器、零门槛搭建网站，为Notion和所有创作者设计",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1029",
+        "idSequence": 1028,
+        "navId": "DH1028"
+    },
+    {
+        "navUrl": "http://www.angularjs.net.cn/",
+        "navName": "Angular.js中文网",
+        "navDesc": "AngularJS是为了克服HTML在构建应用上的不足而设计的。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.angularjs.net.cn.png",
+        "categoryId": "FR1030",
+        "idSequence": 1029,
+        "navId": "DH1029"
+    },
+    {
+        "navUrl": "http://ionicframework.com.cn/",
+        "navName": "Ionic",
+        "navDesc": "领先的HTML5 移动开发框架和 SDK，利用你所熟知的web 技术构建难以置信的移动应用，是AngularJS最好的朋友。",
+        "navIcon": "/nav/upload/taskMaterial/admin/ionicframework.com.cn.png",
+        "categoryId": "FR1030",
+        "idSequence": 1029,
+        "navId": "DH1029"
+    },
+    {
+        "navUrl": "https://www.nodejs.red/#/",
+        "navName": "Node.js技术栈",
+        "navDesc": "本文档是作者从事 Node.js Developer 以来的学习历程，旨在为大家提供一个较详细的学习教程，侧重点更倾向于 Node.js 服务端所涉及的技术栈",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.nodejs.red.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://tsejx.github.io/node-guidebook/",
+        "navName": "Node Guidebook",
+        "navDesc": "? Node 知识图谱 关于模块、JS 异步编程、进程、I/O、服务端应用等",
+        "navIcon": "/nav/upload/taskMaterial/admin/tsejx.github.io.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://serverlessdevs.resume.net.cn/zh-cn/docs/intro.html",
+        "navName": "阿里云serverless devs文档",
+        "navDesc": "阿里云 serverless devs",
+        "navIcon": "/nav/upload/taskMaterial/admin/serverlessdevs.resume.net.cn.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://stackblitz.com/",
+        "navName": "stackblitz编辑器",
+        "navDesc": "在线编辑器，可以运行node、vue、react等",
+        "navIcon": "/nav/upload/taskMaterial/admin/stackblitz.com.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://www.expressjs.com.cn/",
+        "navName": "Express 中文文档",
+        "navDesc": "基于 Node.js 平台，快速、开放、极简的 Web 开发框架",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.expressjs.com.cn.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://www.sequelize.com.cn/",
+        "navName": "Seqeulize中文文档",
+        "navDesc": "Sequelize 是一个基于 promise 的 Node.js ORM, 目前支持 Postgres, MySQL, MariaDB, SQLite 以及",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.sequelize.com.cn.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "http://nqdeng.github.io/7-days-nodejs/",
+        "navName": "七天学会NodeJS",
+        "navDesc": "七天学会NodeJS 阿里国际站前端技术部写的一个博文，如果有耐心读完，相信还是有不少收获的。",
+        "navIcon": "/nav/upload/taskMaterial/admin/nqdeng.github.io.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "http://nodejs.cn/",
+        "navName": "Node中文网",
+        "navDesc": "Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。",
+        "navIcon": "/nav/upload/taskMaterial/admin/nodejs.cn.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://neteasecloudmusicapi.vercel.app",
+        "navName": "网易云音乐API",
+        "navDesc": "网易云音乐 NodeJS版 开源API 。全部接口已升级到最新，具备登录接口，多达200多个接口，更完善的文档",
+        "navIcon": "/nav/upload/taskMaterial/admin/neteasecloudmusicapi.vercel.app.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://www.yuque.com/egg/nodejs",
+        "navName": "nodejs 专栏",
+        "navDesc": "egg社区在语雀的nodejs专栏",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.yuque.com.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://cn.serverless.com/",
+        "navName": "腾讯云Serverless",
+        "navDesc": "Serverless 基于腾讯云的一站式开发工具 &amp; 自动扩容的应用监控平台",
+        "navIcon": "/nav/upload/taskMaterial/admin/cn.serverless.com.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://github.com/nestjs/nest",
+        "navName": "nestjs",
+        "navDesc": "一个渐进的 Node.js 框架",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://demopark.github.io/sequelize-docs-Zh-CN",
+        "navName": "Sequelize",
+        "navDesc": "Sequelize Docs 中文版",
+        "navIcon": "/nav/upload/taskMaterial/admin/demopark.github.io.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://cnodejs.org/",
+        "navName": "Node专业中文社区",
+        "navDesc": "CNode：Node.js专业中文社区",
+        "navIcon": "/nav/upload/taskMaterial/admin/cnodejs.org.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://github.com/huaize2020/awesome-nodejs",
+        "navName": "awesome-nodejs",
+        "navDesc": "Node.js 资源大全中文版。收集NodeJS库的中文版翻译，具备完善的分类，人工整理的排序。",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://cn.aliyun.com/product/nodejs",
+        "navName": "阿里Node性能监控平台",
+        "navDesc": "Node.js 性能平台（Node.js Performance Platform）是面向中大型 Node.js 应用提供性能监控、安全提醒、故障排查、性能优化等服务的整体性解决方案。凭借对 Node.js 内核深入的理解，我们提供完善的工具链和服务，协助客户主动、快速发现和定位线上问题",
+        "navIcon": "/nav/upload/taskMaterial/admin/cn.aliyun.com.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://github.com/lhartikk/naivechain",
+        "navName": "200行代码实现区块链",
+        "navDesc": "简单，适合练习基础语法、理解区块链概念",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://developer.aliyun.com/graph/serverless?spm=a2c6h.21110250.J_5703890090.7.1690760f7Brt2O",
+        "navName": "Alibaba Serverless 技术图谱",
+        "navDesc": "阿里巴巴开发者学堂 Serverless 技术图谱",
+        "navIcon": "/nav/upload/taskMaterial/admin/developer.aliyun.com.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://npm.runkit.com/",
+        "navName": "NPM Runkit",
+        "navDesc": "NPM Runkit在浏览器中快速学习及尝试Node.js模块",
+        "navIcon": "/nav/upload/taskMaterial/admin/npm.runkit.com.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://graphql.cn/",
+        "navName": "graphql中文文档",
+        "navDesc": "GraphQL 既是一种用于 API 的查询语言也是一个满足你数据查询的运行时。 GraphQL 对你的 API 中的数据提供了一套易于理解的完整描述，使得客户端能够准确地获得它需要的数据，而且没有任何冗余，也让 API 更容易地随着时间推移而演进，还能用于构建强大的开发者工具。",
+        "navIcon": "/nav/upload/taskMaterial/admin/graphql.cn.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://serverlesscloud.cn/",
+        "navName": "serverless中文网",
+        "navDesc": "serverlesscloud中文网",
+        "navIcon": "/nav/upload/taskMaterial/admin/serverlesscloud.cn.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://github.com/qishibo/AnotherRedisDesktopManager",
+        "navName": "RedisDesktopManager",
+        "navDesc": "redis客户端",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://github.com/louischatriot/nedb",
+        "navName": "nedb",
+        "navDesc": "louischatriot/nedb 小型文件数据库-小项目好用",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://www.npmjs.com/package/fs-extra",
+        "navName": "fs-extra",
+        "navDesc": "fs-extra - npm-文件扩展库",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.npmjs.com.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://npm.devtool.tech/",
+        "navName": "NPM.DEVTOOL",
+        "navDesc": "NPM.DEVTOOL-在浏览器中运行npm包",
+        "navIcon": "/nav/upload/taskMaterial/admin/npm.devtool.tech.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://packagephobia.com/",
+        "navName": "npm包分析",
+        "navDesc": "npm包大小在线分析工具",
+        "navIcon": "/nav/upload/taskMaterial/admin/packagephobia.com.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://jwt.io/",
+        "navName": "jwt.io",
+        "navDesc": "JSON Web Tokens - jwt.io",
+        "navIcon": "/nav/upload/taskMaterial/admin/jwt.io.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://www.npmjs.com/package/require-directory",
+        "navName": "require-directory",
+        "navDesc": "requireDirectory实现路由自动加载",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.npmjs.com.png",
+        "categoryId": "FR1031",
+        "idSequence": 1030,
+        "navId": "DH1030"
+    },
+    {
+        "navUrl": "https://cml.js.org/",
+        "navName": "Chameleon 变色龙",
+        "navDesc": "支持平台：web、微信小程序、支付宝小程序、百度小程序、android(weex)、ios(weex)、qq 小程序、字节跳动小程序、快应用，持续更新中。 一端所见即多端所见——多端高度一致，无需关注各端文档。",
+        "navIcon": "/nav/upload/taskMaterial/admin/cml.js.org.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://nutui.jd.com/",
+        "navName": "NutUI",
+        "navDesc": "京东风格的轻量级移动端 Vue 组件库。基于 Taro 对 NutUI 每一个组件进行深度适配支持开发多端小程序",
+        "navIcon": "/nav/upload/taskMaterial/admin/nutui.jd.com.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html",
+        "navName": "微信云开发",
+        "navDesc": "微信云开发",
+        "navIcon": "/nav/upload/taskMaterial/admin/developers.weixin.qq.com.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://www.bilibili.com/video/BV1p54y1h7eB",
+        "navName": "微信小程序开发课程",
+        "navDesc": "腾讯NEXT团队出品",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.bilibili.com.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://doc.mini.talelin.com/",
+        "navName": "Lin UI",
+        "navDesc": "Lin UI 是基于微信小程序原生语法实现的组件库。遵循简洁，易用的设计规范。",
+        "navIcon": "/nav/upload/taskMaterial/admin/doc.mini.talelin.com.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://youzan.github.io/vant-weapp/#/intro",
+        "navName": "vant小程序UI",
+        "navDesc": "有赞小程序UI",
+        "navIcon": "/nav/upload/taskMaterial/admin/youzan.github.io.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://gamemaker.weixin.qq.com",
+        "navName": "微信小游戏制作工具",
+        "navDesc": "做个小游戏，也可以很简单，希望更多的创作者用小游戏释放创意",
+        "navIcon": "/nav/upload/taskMaterial/admin/gamemaker.weixin.qq.com.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://remaxjs.org/",
+        "navName": "Remax",
+        "navDesc": "使用真正的 React 构建跨平台小程序。Remax 将 React 运行在小程序环境中，让你可以使用完整的 React 进行小程序开发。 真正的 React - 不同于静态编译的方案，在 Remax 中使用 React 没有任何限制，包括 React Hooks。你可以把 Remax 理解为针对小程序的 React Native。 多端支持 - 使用 Remax 把代码转换到多个小程序平台。 TypeScript - 完整的 TypeScript 支持，给你满满的安全感。",
+        "navIcon": "/nav/upload/taskMaterial/admin/remaxjs.org.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://www.bilibili.com/video/BV12T4y1E7k6",
+        "navName": "微信小程序开发 零基础入门",
+        "navDesc": "微信小程序开发 零基础入门",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.bilibili.com.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://tencent.github.io/omi/",
+        "navName": "https://tencent.github.io/omi/",
+        "navDesc": "前端跨平台开发框架，可以开发桌面 Web、移动 H5、小程序等",
+        "navIcon": "/nav/upload/taskMaterial/admin/tencent.github.io.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html",
+        "navName": "小程序云开发",
+        "navDesc": "开发者可以使用云开发快速开发小程序、小游戏、公众号网页等，并且原生打通微信开放能力。 开发者无需搭建服务器，可免鉴权直接使用平台提供的 API 进行业务开发。",
+        "navIcon": "/nav/upload/taskMaterial/admin/developers.weixin.qq.com.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://www.color-ui.com/",
+        "navName": "colorUI",
+        "navDesc": "小程序-Color Ui注重视觉组件库",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.color-ui.com.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://www.cloudbase.net/community/guides.html",
+        "navName": "云开发学习指南",
+        "navDesc": "腾讯官方出品，体系化快速学习掌握腾讯云开发的使用，让更多人享受编程的快乐！",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.cloudbase.net.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://wepyjs.gitee.io/wepy-docs/",
+        "navName": "WePY",
+        "navDesc": "腾讯开源的小程序组件化开发框架",
+        "navIcon": "/nav/upload/taskMaterial/admin/wepyjs.gitee.io.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://www.w3cschool.cn/cloudbasehandbookpro/",
+        "navName": "小程序云开发高级教程",
+        "navDesc": "w3cschool 提供的小程序云开发在线教程",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.w3cschool.cn.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://megalojs.org/",
+        "navName": "Megalo",
+        "navDesc": "基于 Vue.js 的小程序框架。持微信小程序、支付宝小程序、百度智能小程序",
+        "navIcon": "/nav/upload/taskMaterial/admin/megalojs.org.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "http://mpvue.com/",
+        "navName": "mpvue",
+        "navDesc": "使用 Vue.js 开发小程序的前端框架。框架基于 Vue.js 核心，mpvue 修改了 Vue.js 的 runtime 和 compiler 实现，使其可以运行在小程序环境中，从而为小程序开发引入了整套 Vue.js 开发体验。",
+        "navIcon": "/nav/upload/taskMaterial/admin/mpvue.com.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://developers.weixin.qq.com/community/business/doc/000e642dd189c851d85af476b56c0d",
+        "navName": "微信学院",
+        "navDesc": "高校大赛系列课程之 “微信小程序开发实战”，是由清华大学和微信团队共制作的小程序学习教程。通过需求分析、原型设计、小程序前端实现、后台接口开发、小程序对接接口，逐步教大家如何“从无到有”完成小程序项目。",
+        "navIcon": "/nav/upload/taskMaterial/admin/developers.weixin.qq.com.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://www.finclip.com/",
+        "navName": "finclip",
+        "navDesc": "让你的APP具备微信才拥有的小程序技术能力",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.finclip.com.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://smartprogram.baidu.com/",
+        "navName": "百度智能小程序平台",
+        "navDesc": "百度智能小程序平台综合服务平台",
+        "navIcon": "/nav/upload/taskMaterial/admin/smartprogram.baidu.com.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://cloud.tencent.com/edu/paths/series/applet",
+        "navName": "小程序学习路径课",
+        "navDesc": "腾讯云大学重磅打造，从微信小程序到小程序云开发体系化课程，玩转小程序不同案例场景！",
+        "navIcon": "/nav/upload/taskMaterial/admin/cloud.tencent.com.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://wechat-miniprogram.github.io/kbone/docs/",
+        "navName": "kbone",
+        "navDesc": "kbone 是一个致力于微信小程序和 Web 端同构的解决方案。微信小程序的底层模型和 Web 端不同，我们想直接把 Web 端的代码挪到小程序环境内执行是不可能的。kbone 的诞生就是为了解决这个问题，它实现了一个适配器，在适配层里模拟出了浏览器环境，让 Web 端的代码可以不做什么改动便可运行在小程序里。",
+        "navIcon": "/nav/upload/taskMaterial/admin/wechat-miniprogram.github.io.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "http://taro-docs.jd.com/taro/docs/README/index.html",
+        "navName": "Taro",
+        "navDesc": "Taro 是一个开放式跨端跨框架解决方案，支持使用 React/Vue/Nerv 等框架来开发 微信 / 京东 / 百度 / 支付宝 / 字节跳动 / QQ / 飞书 小程序 / H5 / RN 等应用。",
+        "navIcon": "/nav/upload/taskMaterial/admin/taro-docs.jd.com.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://www.qingmang.mobi/?ref",
+        "navName": "轻芒小程序+",
+        "navDesc": "轻芒小程序+ 专注为内容创作者服务,无需代码",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.qingmang.mobi.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://www.2weima.com/",
+        "navName": "二维工坊",
+        "navDesc": "二维工坊在线二维码生成器，提供一物一码、设备维保、防伪溯源等行业解决方案，可制作名片、地图导航、wifi、PDF文件、相册、音视频等二维码和小程序，低代码页面设计可自己DIY小程序和定制二维码营销解决方案。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.2weima.com.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://www.rabbitpre.com/",
+        "navName": "兔展",
+        "navDesc": "微信h5页面制作，微信小程序兔展产品体系，h5活动,微信营销活动,微信活动等全方位赋能，帮助企业解决获客难、一线业务人员赋能管控难、企业自有会员活跃度低、多数据平台互通、消费者需求洞察难等问题，打通企业增长营销之路。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.rabbitpre.com.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://www.qingxiaoyun.com/?ref",
+        "navName": "轻晓云",
+        "navDesc": "轻晓云 可视化制作微信小程序 公众号H5 百度小程序 抖音头条小程序",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.qingxiaoyun.com.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://xiaokefu.com.cn/?ref",
+        "navName": "芝麻小客服",
+        "navDesc": "芝麻小客服 公众号客服和小程序客服系统",
+        "navIcon": "/nav/upload/taskMaterial/admin/xiaokefu.com.cn.png",
+        "categoryId": "FR1032",
+        "idSequence": 1031,
+        "navId": "DH1031"
+    },
+    {
+        "navUrl": "https://github.com/crazycodeboy/awesome-flutter-cn",
+        "navName": "一个很棒的Flutter学习资源",
+        "navDesc": "https://github.com/crazycodeboy/awesome-flutter-cn",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "https://vux.li/#/",
+        "navName": "Vux",
+        "navDesc": "基于 WeUI 和 Vue.js 的 移动端 UI 组件库，提供丰富的组件满足移动端(微信)页面常用业务需求。",
+        "navIcon": "/nav/upload/taskMaterial/admin/vux.li.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "http://frozenui.github.io/",
+        "navName": "Frozen UI",
+        "navDesc": "FrozenUI 是一套基于移动端的UI库 轻量、精美、遵从手机 QQ 设计规范。",
+        "navIcon": "/nav/upload/taskMaterial/admin/frozenui.github.io.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "https://onsen.io/",
+        "navName": "Onsen UI",
+        "navDesc": "用来构建混合移动端APP的 HTML5 UI 框架。",
+        "navIcon": "/nav/upload/taskMaterial/admin/onsen.io.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "http://ionicframework.com.cn/",
+        "navName": "Ionic",
+        "navDesc": "领先的HTML5 移动开发框架和 SDK，利用你所熟知的web 技术构建难以置信的移动应用，是AngularJS最好的朋友。",
+        "navIcon": "/nav/upload/taskMaterial/admin/ionicframework.com.cn.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "https://github.com/AlloyTeam/Mars",
+        "navName": "Mars",
+        "navDesc": "腾讯移动Web前端知识库。",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "https://kornel.ski/slip/",
+        "navName": "Slip",
+        "navDesc": "通过滑动和拖动手势操作列表的 UI 库。",
+        "navIcon": "/nav/upload/taskMaterial/admin/kornel.ski.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "https://jqweui.cn/",
+        "navName": "jQuery WeUI",
+        "navDesc": "专为微信公众账号开发而设计的一个简洁而强大的UI库。",
+        "navIcon": "/nav/upload/taskMaterial/admin/jqweui.cn.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "http://facebook.github.io/react-native/",
+        "navName": "React-native",
+        "navDesc": "Facebook推出的一个基于 React 的创建原生APP的框架",
+        "navIcon": "/nav/upload/taskMaterial/admin/facebook.github.io.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "https://github.com/matthewhudson/current-device",
+        "navName": "Device.js",
+        "navDesc": "Device.js 检测设备平台、操作系统的Javascript库。",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "http://getmobicss.com/",
+        "navName": "Mobi.css",
+        "navDesc": "一个轻量级的，可扩展的，移动优先的CSS框架。",
+        "navIcon": "/nav/upload/taskMaterial/admin/getmobicss.com.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "http://mint-ui.github.io/#!/zh-cn",
+        "navName": "Mint UI",
+        "navDesc": "基于 Vue.js 的移动端组件库，包含丰富的 CSS 和 JS 组件，能够满足日常的移动端开发需要。",
+        "navIcon": "/nav/upload/taskMaterial/admin/mint-ui.github.io.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "http://www.mobilebone.org/",
+        "navName": "Mobilebone",
+        "navDesc": "mobile移动端，PC桌面端页面无刷新过场JS骨架，简单、专注！",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.mobilebone.org.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "https://mobiscroll.com/",
+        "navName": "Mobiscroll",
+        "navDesc": "用于触摸设备（如智能手机和平板电脑）的可定制移动UI库。",
+        "navIcon": "/nav/upload/taskMaterial/admin/mobiscroll.com.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "https://weex-project.io/cn/index.html",
+        "navName": "Weex",
+        "navDesc": "阿里推出的跨平台的移动端开发框架，具有轻量级、可扩展和高性能的特点。",
+        "navIcon": "/nav/upload/taskMaterial/admin/weex-project.io.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "https://wangdahoo.github.io/vonic-documents/#/",
+        "navName": "Vonic",
+        "navDesc": "Vonic 是一个基于 Vue.js 和 Ionic CSS 样式的 UI 框架，用于快速构建移动端单页应用。",
+        "navIcon": "/nav/upload/taskMaterial/admin/wangdahoo.github.io.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "https://muse-ui.org/#/zh-CN",
+        "navName": "Muse-UI",
+        "navDesc": "基于 Vue 2.0 和 Material Design 的 UI 组件库。",
+        "navIcon": "/nav/upload/taskMaterial/admin/muse-ui.org.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "https://github.com/lzxb/flex.css/blob/master/docs/zh-ch.md",
+        "navName": "Flex.css",
+        "navDesc": "flex.css is 是一个声明式的布局框架，能够兼容多个 MVVM框架和浏览器。",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "http://zeptojs.com/",
+        "navName": "Zepto.js",
+        "navDesc": "Zepto是一个轻量级的针对现代高级浏览器的JavaScript库，更偏向于移动端。",
+        "navIcon": "/nav/upload/taskMaterial/admin/zeptojs.com.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "http://jquerymobile.com/",
+        "navName": "jQuery Mobile",
+        "navDesc": "jQuery Mobile 是用于创建移动 Web 应用的前端开发框架。",
+        "navIcon": "/nav/upload/taskMaterial/admin/jquerymobile.com.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "http://dev.dcloud.net.cn/mui/",
+        "navName": "Mui",
+        "navDesc": "最接近原生APP体验的高性能前端框架。",
+        "navIcon": "/nav/upload/taskMaterial/admin/dev.dcloud.net.cn.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "https://github.com/soyjavi/QuoJS",
+        "navName": "Quojs",
+        "navDesc": "针对移动设备的微型JavaScript库。",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "https://mobile.ant.design/index-cn",
+        "navName": "Ant Design Mobile",
+        "navDesc": "一个基于 Preact / React / React Native 的 UI 组件库。",
+        "navIcon": "/nav/upload/taskMaterial/admin/mobile.ant.design.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "https://github.com/panteng/wechat-h5-boilerplate",
+        "navName": "Wechat-h5-boilerplate",
+        "navDesc": "为腾讯微信优化的H5动效模板，帮助你快速构建全屏滚动型H5页面。",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "http://vycool.com/Jingle/",
+        "navName": "Jingle",
+        "navDesc": "Jingle是一个基于html5、css3开发轻量级的移动webapp 框架，提供一些基本交互方式，帮助您更方便的开发移动应用。",
+        "navIcon": "/nav/upload/taskMaterial/admin/vycool.com.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "http://alloyteam.github.io/AlloyFinger/",
+        "navName": "Alloyfinger",
+        "navDesc": "腾讯Web前端团队推出的轻量级的多点触控手势库。",
+        "navIcon": "/nav/upload/taskMaterial/admin/alloyteam.github.io.png",
+        "categoryId": "FR1033",
+        "idSequence": 1032,
+        "navId": "DH1032"
+    },
+    {
+        "navUrl": "https://eeui.app/",
+        "navName": "EEUI",
+        "navDesc": "使用 Vue.js 跨平台开发高质量原生（Android/iOS）应用",
+        "navIcon": "/nav/upload/taskMaterial/admin/eeui.app.png",
+        "categoryId": "FR1034",
+        "idSequence": 1033,
+        "navId": "DH1033"
+    },
+    {
+        "navUrl": "https://flutterchina.club/",
+        "navName": "Flutter",
+        "navDesc": "谷歌的移动UI框架，可以快速在iOS和Android上构建高质量的原生用户界面",
+        "navIcon": "/nav/upload/taskMaterial/admin/flutterchina.club.png",
+        "categoryId": "FR1034",
+        "idSequence": 1033,
+        "navId": "DH1033"
+    },
+    {
+        "navUrl": "https://hippyjs.org/",
+        "navName": "Hippy",
+        "navDesc": "为前端开发人员设计的跨端框架，支持 React 和 Vue 两种语法。Hippy 可以理解为一个精简版的浏览器，从底层做了大量工作，抹平了 iOS 和 Android 双端差异，提供了接近 Web 的开发体验，目前上层支持了 React 和 Vue 两套界面框架，前端开发人员可以通过它，将前端代码转换为终端的原生指令，进行原生终端 App 的开发。  同时，Hippy 从底层进行了大量优化，在启动速度、可复用列表组件、渲染效率、动画速度、网络通信等等都提供了业内顶尖的性能表现。",
+        "navIcon": "/nav/upload/taskMaterial/admin/hippyjs.org.png",
+        "categoryId": "FR1034",
+        "idSequence": 1033,
+        "navId": "DH1033"
+    },
+    {
+        "navUrl": "https://cml.js.org/",
+        "navName": "Chameleon 变色龙",
+        "navDesc": "支持平台：web、微信小程序、支付宝小程序、百度小程序、android(weex)、ios(weex)、qq 小程序、字节跳动小程序、快应用，持续更新中。 一端所见即多端所见——多端高度一致，无需关注各端文档。",
+        "navIcon": "/nav/upload/taskMaterial/admin/cml.js.org.png",
+        "categoryId": "FR1034",
+        "idSequence": 1033,
+        "navId": "DH1033"
+    },
+    {
+        "navUrl": "https://www.react-native.cn/",
+        "navName": "React Native",
+        "navDesc": "一次学习，随处编写",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.react-native.cn.png",
+        "categoryId": "FR1034",
+        "idSequence": 1033,
+        "navId": "DH1033"
+    },
+    {
+        "navUrl": "https://remaxjs.org/",
+        "navName": "Remax",
+        "navDesc": "使用真正的 React 构建跨平台小程序。Remax 将 React 运行在小程序环境中，让你可以使用完整的 React 进行小程序开发。 真正的 React - 不同于静态编译的方案，在 Remax 中使用 React 没有任何限制，包括 React Hooks。你可以把 Remax 理解为针对小程序的 React Native。 多端支持 - 使用 Remax 把代码转换到多个小程序平台。 TypeScript - 完整的 TypeScript 支持，给你满满的安全感。",
+        "navIcon": "/nav/upload/taskMaterial/admin/remaxjs.org.png",
+        "categoryId": "FR1034",
+        "idSequence": 1033,
+        "navId": "DH1033"
+    },
+    {
+        "navUrl": "https://tencent.github.io/omi/",
+        "navName": "https://tencent.github.io/omi/",
+        "navDesc": "前端跨平台开发框架，可以开发桌面 Web、移动 H5、小程序等",
+        "navIcon": "/nav/upload/taskMaterial/admin/tencent.github.io.png",
+        "categoryId": "FR1034",
+        "idSequence": 1033,
+        "navId": "DH1033"
+    },
+    {
+        "navUrl": "https://www.electronjs.org/",
+        "navName": "electron文档",
+        "navDesc": "使用 JavaScript，HTML 和 CSS 构建跨平台的桌面应用程序",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.electronjs.org.png",
+        "categoryId": "FR1034",
+        "idSequence": 1033,
+        "navId": "DH1033"
+    },
+    {
+        "navUrl": "https://bugly.qq.com/v2/",
+        "navName": "Bugly",
+        "navDesc": "腾讯Bugly。为移动开发者提供专业的异常上报和运营统计，帮助开发者快速发现并解决异常，同时掌握产品运营动态，及时跟进用户反馈。",
+        "navIcon": "/nav/upload/taskMaterial/admin/bugly.qq.com.png",
+        "categoryId": "FR1034",
+        "idSequence": 1033,
+        "navId": "DH1033"
+    },
+    {
+        "navUrl": "https://flutterawesome.com/",
+        "navName": "Flutter Awesome",
+        "navDesc": "一个有用的Flutter 框架、库和源码的集合。",
+        "navIcon": "/nav/upload/taskMaterial/admin/flutterawesome.com.png",
+        "categoryId": "FR1034",
+        "idSequence": 1033,
+        "navId": "DH1033"
+    },
+    {
+        "navUrl": "https://megalojs.org/",
+        "navName": "Megalo",
+        "navDesc": "基于 Vue.js 的小程序框架。持微信小程序、支付宝小程序、百度智能小程序",
+        "navIcon": "/nav/upload/taskMaterial/admin/megalojs.org.png",
+        "categoryId": "FR1034",
+        "idSequence": 1033,
+        "navId": "DH1033"
+    },
+    {
+        "navUrl": "https://nwjs.io/",
+        "navName": "NW.js",
+        "navDesc": "NW.js，跨平台，体积更小，功能更强大",
+        "navIcon": "/nav/upload/taskMaterial/admin/nwjs.io.png",
+        "categoryId": "FR1034",
+        "idSequence": 1033,
+        "navId": "DH1033"
+    },
+    {
+        "navUrl": "https://uniapp.dcloud.io/",
+        "navName": "uni-app",
+        "navDesc": "uni-app：一个使用 Vue.js 开发跨平台应用的前端框架",
+        "navIcon": "/nav/upload/taskMaterial/admin/uniapp.dcloud.io.png",
+        "categoryId": "FR1034",
+        "idSequence": 1033,
+        "navId": "DH1033"
+    },
+    {
+        "navUrl": "http://taro-docs.jd.com/taro/docs/README/index.html",
+        "navName": "Taro",
+        "navDesc": "Taro 是一个开放式跨端跨框架解决方案，支持使用 React/Vue/Nerv 等框架来开发 微信 / 京东 / 百度 / 支付宝 / 字节跳动 / QQ / 飞书 小程序 / H5 / RN 等应用。",
+        "navIcon": "/nav/upload/taskMaterial/admin/taro-docs.jd.com.png",
+        "categoryId": "FR1034",
+        "idSequence": 1033,
+        "navId": "DH1033"
+    },
+    {
+        "navUrl": "https://tsejx.github.io/webpack-guidebook/",
+        "navName": "Webpack Guidebook",
+        "navDesc": "? Webpack 知识图谱：模块化、基础概念、工作原理、实战应用",
+        "navIcon": "/nav/upload/taskMaterial/admin/tsejx.github.io.png",
+        "categoryId": "FR1035",
+        "idSequence": 1034,
+        "navId": "DH1034"
+    },
+    {
+        "navUrl": "https://cn.vitejs.dev/",
+        "navName": "Vite 官方中文文档",
+        "navDesc": "Vite 官方中文文档 下一代前端开发与构建工具",
+        "navIcon": "/nav/upload/taskMaterial/admin/cn.vitejs.dev.png",
+        "categoryId": "FR1035",
+        "idSequence": 1034,
+        "navId": "DH1034"
+    },
+    {
+        "navUrl": "https://www.webpackjs.com/",
+        "navName": "Webpack中文网",
+        "navDesc": "Webpack 是一个前端资源加载/打包工具，它将根据模块的依赖关系进行静态分析，然后将这些模块按照指定的规则生成对应的静态资源。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.webpackjs.com.png",
+        "categoryId": "FR1035",
+        "idSequence": 1034,
+        "navId": "DH1034"
+    },
+    {
+        "navUrl": "https://zh.parceljs.org/",
+        "navName": "Parcel",
+        "navDesc": "零配置打包工具",
+        "navIcon": "/nav/upload/taskMaterial/admin/zh.parceljs.org.png",
+        "categoryId": "FR1035",
+        "idSequence": 1034,
+        "navId": "DH1034"
+    },
+    {
+        "navUrl": "https://github.com/vitejs/awesome-vite",
+        "navName": "awesome-vite",
+        "navDesc": "⚡️ A curated list of awesome things related to Vite.js",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1035",
+        "idSequence": 1034,
+        "navId": "DH1034"
+    },
+    {
+        "navUrl": "https://github.com/umijs/father",
+        "navName": "father",
+        "navDesc": "基于 rollup 和 babel 的打包工具",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1035",
+        "idSequence": 1034,
+        "navId": "DH1034"
+    },
+    {
+        "navUrl": "https://www.gulpjs.com.cn/",
+        "navName": "Gulp.js",
+        "navDesc": "Gulp.js 是一个自动化构建工具，开发者可以使用它在项目开发过程中自动执行常见任务。Gulp.js 是基于 Node.js 构建的，利用 Node.js 流的威力，你可以快速构建项目并减少频繁的 IO 操作。Gulp.js 源文件和你用来定义任务的 Gulp 文件都是通过 JavaScript（或者 CoffeeScript ）源码来实现的。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.gulpjs.com.cn.png",
+        "categoryId": "FR1035",
+        "idSequence": 1034,
+        "navId": "DH1034"
+    },
+    {
+        "navUrl": "https://www.rollupjs.com/",
+        "navName": "Rollup",
+        "navDesc": "Rollup 是一个 JavaScript 模块打包器，可以将小块代码编译成大块复杂的代码",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.rollupjs.com.png",
+        "categoryId": "FR1035",
+        "idSequence": 1034,
+        "navId": "DH1034"
+    },
+    {
+        "navUrl": "https://www.babeljs.cn/",
+        "navName": "Babel",
+        "navDesc": "Babel 是一个 JavaScript 编译器",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.babeljs.cn.png",
+        "categoryId": "FR1035",
+        "idSequence": 1034,
+        "navId": "DH1034"
+    },
+    {
+        "navUrl": "https://umijs.org/zh-CN/docs/getting-started",
+        "navName": "umi",
+        "navDesc": "Umi 以路由为基础的，同时支持配置式路由和约定式路由，保证路由的功能完备，并以此进行功能扩展。然后配以生命周期完善的插件体系，覆盖从源码到构建产物的每个生命",
+        "navIcon": "/nav/upload/taskMaterial/admin/umijs.org.png",
+        "categoryId": "FR1035",
+        "idSequence": 1034,
+        "navId": "DH1034"
+    },
+    {
+        "navUrl": "https://fex-team.github.io/fis3/",
+        "navName": "FIS3",
+        "navDesc": "面向前端的工程构建系统。解决前端工程中性能优化、资源加载等问题。",
+        "navIcon": "/nav/upload/taskMaterial/admin/fex-team.github.io.png",
+        "categoryId": "FR1035",
+        "idSequence": 1034,
+        "navId": "DH1034"
+    },
+    {
+        "navUrl": "https://www.gulpjs.com.cn/",
+        "navName": "Gulp中文网",
+        "navDesc": "Gulp.js 是一个自动化构建工具,开发者可以使用它在项目开发过程中自动执行常见任务。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.gulpjs.com.cn.png",
+        "categoryId": "FR1035",
+        "idSequence": 1034,
+        "navId": "DH1034"
+    },
+    {
+        "navUrl": "https://weflow.io/",
+        "navName": "weflow",
+        "navDesc": "微信团队推出的跨终端的前端工作流开发工具。",
+        "navIcon": "/nav/upload/taskMaterial/admin/weflow.io.png",
+        "categoryId": "FR1035",
+        "idSequence": 1034,
+        "navId": "DH1034"
+    },
+    {
+        "navUrl": "https://webjike.com/web.html",
+        "navName": "Yeoman",
+        "navDesc": "Yeoman提供了自动化开发流程的一整套工具。",
+        "navIcon": "/nav/upload/taskMaterial/admin/webjike.com.png",
+        "categoryId": "FR1035",
+        "idSequence": 1034,
+        "navId": "DH1034"
+    },
+    {
+        "navUrl": "https://github.com/facebook/create-react-app",
+        "navName": "create-react-app",
+        "navDesc": "无需配置文件快速创建 React 应用",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1035",
+        "idSequence": 1034,
+        "navId": "DH1034"
+    },
+    {
+        "navUrl": "https://parceljs.org/",
+        "navName": "PARCEL中文网",
+        "navDesc": "一个非常快速、零配置的 WEB 应用打包工具。",
+        "navIcon": "/nav/upload/taskMaterial/admin/parceljs.org.png",
+        "categoryId": "FR1035",
+        "idSequence": 1034,
+        "navId": "DH1034"
+    },
+    {
+        "navUrl": "http://www.gruntjs.net/",
+        "navName": "Grunt中文网",
+        "navDesc": "Grunt是基于Node.js的项目构建工具，它可以自动运行你所设定的任务。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.gruntjs.net.png",
+        "categoryId": "FR1035",
+        "idSequence": 1034,
+        "navId": "DH1034"
+    },
+    {
+        "navUrl": "https://serverlessdevs.resume.net.cn/zh-cn/docs/intro.html",
+        "navName": "阿里云serverless devs文档",
+        "navDesc": "阿里云 serverless devs",
+        "navIcon": "/nav/upload/taskMaterial/admin/serverlessdevs.resume.net.cn.png",
+        "categoryId": "FR1036",
+        "idSequence": 1035,
+        "navId": "DH1035"
+    },
+    {
+        "navUrl": "https://www.jenkins.io/zh/doc/",
+        "navName": "Jenkins 中文文档",
+        "navDesc": "Jenkins 用户手册，这个手册主要介绍如何使用 Jenkins 现有的功能和插件特性",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.jenkins.io.png",
+        "categoryId": "FR1036",
+        "idSequence": 1035,
+        "navId": "DH1035"
+    },
+    {
+        "navUrl": "https://cn.serverless.com/",
+        "navName": "腾讯云Serverless",
+        "navDesc": "Serverless 基于腾讯云的一站式开发工具 &amp; 自动扩容的应用监控平台",
+        "navIcon": "/nav/upload/taskMaterial/admin/cn.serverless.com.png",
+        "categoryId": "FR1036",
+        "idSequence": 1035,
+        "navId": "DH1035"
+    },
+    {
+        "navUrl": "https://docs.cloudbase.net/",
+        "navName": "云开发 CloudBase",
+        "navDesc": "首页 | 云开发 CloudBase - 一站式后端云服务",
+        "navIcon": "/nav/upload/taskMaterial/admin/docs.cloudbase.net.png",
+        "categoryId": "FR1036",
+        "idSequence": 1035,
+        "navId": "DH1035"
+    },
+    {
+        "navUrl": "https://vercel.com",
+        "navName": "Vercel",
+        "navDesc": "前身是 ZEIT Now，提供免费云服务来部署网站，提供了命令行轻松将你的网站上线，并生成一个简短可自定义的域名。同样支持自定义域名，访问速度比 GitHub Pages 快很多！",
+        "navIcon": "/nav/upload/taskMaterial/admin/vercel.com.png",
+        "categoryId": "FR1036",
+        "idSequence": 1035,
+        "navId": "DH1035"
+    },
+    {
+        "navUrl": "https://gitpod.io/",
+        "navName": "Gitpod运行Github代码",
+        "navDesc": "Gitpod 是一个基于 Chorom Cloud 平台的在线 IDE，它可以快速的启动一个基于大多数流行语言的开发环境，并且可以很顺畅的进行开发。无论您只是想要修改代码、查看代码，还是想在 GitHub 上尝试新东西，Gitpod 都可以通过单击启动一个现成的代码开发环境。  因为 Gitpod 是基于 VS Code、Docker 和 Kubernetes 等 OSS 技术，所以它熟悉、全面、可扩展且易于使用。通过深入的 GitHub 集成、用于共享的工具和对可用性的关注，Gitpod 将您的整个开发工作流程包含在一个浏览器选项卡中。",
+        "navIcon": "/nav/upload/taskMaterial/admin/gitpod.io.png",
+        "categoryId": "FR1036",
+        "idSequence": 1035,
+        "navId": "DH1035"
+    },
+    {
+        "navUrl": "https://www.digitalocean.com/community/tools/nginx?global.app.lang=zhCN",
+        "navName": "Nginx配置生成",
+        "navDesc": "Nginx配置在线生成",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.digitalocean.com.png",
+        "categoryId": "FR1036",
+        "idSequence": 1035,
+        "navId": "DH1035"
+    },
+    {
+        "navUrl": "https://labs.play-with-docker.com/",
+        "navName": "Docker在线体验",
+        "navDesc": "一个免费的Docker 在线体验，可以学习docker",
+        "navIcon": "/nav/upload/taskMaterial/admin/labs.play-with-docker.com.png",
+        "categoryId": "FR1036",
+        "idSequence": 1035,
+        "navId": "DH1035"
+    },
+    {
+        "navUrl": "https://mirrors.tuna.tsinghua.edu.cn/",
+        "navName": "清华大学开源软件镜像站",
+        "navDesc": "清华大学开源软件镜像站，致力于为国内和校内用户提供高质量的开源软件镜像、Linux镜像源服务，帮助用户更方便地获取开源软件",
+        "navIcon": "/nav/upload/taskMaterial/admin/mirrors.tuna.tsinghua.edu.cn.png",
+        "categoryId": "FR1036",
+        "idSequence": 1035,
+        "navId": "DH1035"
+    },
+    {
+        "navUrl": "http://mirrors.163.com/",
+        "navName": "网易开源镜像站",
+        "navDesc": "网易开源镜像站",
+        "navIcon": "/nav/upload/taskMaterial/admin/mirrors.163.com.png",
+        "categoryId": "FR1036",
+        "idSequence": 1035,
+        "navId": "DH1035"
+    },
+    {
+        "navUrl": "https://vuepress.mirror.docker-practice.com/",
+        "navName": "Docker 从入门到实践",
+        "navDesc": "学习和理解 Docker 技术，并进行 DevOps 实战",
+        "navIcon": "/nav/upload/taskMaterial/admin/vuepress.mirror.docker-practice.com.png",
+        "categoryId": "FR1036",
+        "idSequence": 1035,
+        "navId": "DH1035"
+    },
+    {
+        "navUrl": "https://developer.aliyun.com/mirror/",
+        "navName": "阿里云镜像",
+        "navDesc": "目前提供 Debian、Ubuntu、 Fedora、Arch Linux、 CentOS、openSUSE、Scientific Linux、Gentoo 等多个发行版的软件安装源和ISO下载服务",
+        "navIcon": "/nav/upload/taskMaterial/admin/developer.aliyun.com.png",
+        "categoryId": "FR1036",
+        "idSequence": 1035,
+        "navId": "DH1035"
+    },
+    {
+        "navUrl": "https://about.gitlab.com/",
+        "navName": "GitLab",
+        "navDesc": "项目管理和代码托管平台，支持 DevOps",
+        "navIcon": "/nav/upload/taskMaterial/admin/about.gitlab.com.png",
+        "categoryId": "FR1036",
+        "idSequence": 1035,
+        "navId": "DH1035"
+    },
+    {
+        "navUrl": "https://webify.cloudbase.net/",
+        "navName": "云开发 Webify",
+        "navDesc": "云开发 Webify：专为 Web 开发者打造的应用托管平台，极速开发、部署、上线",
+        "navIcon": "/nav/upload/taskMaterial/admin/webify.cloudbase.net.png",
+        "categoryId": "FR1036",
+        "idSequence": 1035,
+        "navId": "DH1035"
+    },
+    {
+        "navUrl": "https://github.com/Tencent/cloudbase-framework",
+        "navName": "腾讯云开发云原生一体化部署工具",
+        "navDesc": "腾讯云开发云原生一体化部署工具 ? CloudBase Framework：一键部署，不限框架语言，云端一体化开发，基于Serverless 架构",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1036",
+        "idSequence": 1035,
+        "navId": "DH1035"
+    },
+    {
+        "navUrl": "https://cr.console.aliyun.com/",
+        "navName": "阿里云Docker仓库",
+        "navDesc": "阿里云Docker仓库，可上传私有、公有镜像，并可搜索公开的镜像",
+        "navIcon": "/nav/upload/taskMaterial/admin/cr.console.aliyun.com.png",
+        "categoryId": "FR1036",
+        "idSequence": 1035,
+        "navId": "DH1035"
+    },
+    {
+        "navUrl": "https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors",
+        "navName": "镜像加速器",
+        "navDesc": "镜像加速器",
+        "navIcon": "/nav/upload/taskMaterial/admin/cr.console.aliyun.com.png",
+        "categoryId": "FR1036",
+        "idSequence": 1035,
+        "navId": "DH1035"
+    },
+    {
+        "navUrl": "https://app.travis-ci.com/",
+        "navName": "travis-ci",
+        "navDesc": "travis-ci.持续集成部署项目",
+        "navIcon": "/nav/upload/taskMaterial/admin/app.travis-ci.com.png",
+        "categoryId": "FR1036",
+        "idSequence": 1035,
+        "navId": "DH1035"
+    },
+    {
+        "navUrl": "https://hub.daocloud.io/",
+        "navName": "Hub · DaoCloud",
+        "navDesc": "daocloud国内访问速度较快，可以代替hub.docker.com",
+        "navIcon": "/nav/upload/taskMaterial/admin/hub.daocloud.io.png",
+        "categoryId": "FR1036",
+        "idSequence": 1035,
+        "navId": "DH1035"
+    },
+    {
+        "navUrl": "http://www.rollupjs.com/",
+        "navName": "Rollup中文文档",
+        "navDesc": "Rollup 是一个 JavaScript 模块打包器,可以将小块代码编译成大块复杂的代码。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.rollupjs.com.png",
+        "categoryId": "FR1037",
+        "idSequence": 1036,
+        "navId": "DH1036"
+    },
+    {
+        "navUrl": "http://seajs.org/",
+        "navName": "Seajs",
+        "navDesc": "SeaJS是一个遵循CMD规范的JavaScript模块加载框架,可以实现JavaScript的模块化开发及加载机制。",
+        "navIcon": "/nav/upload/taskMaterial/admin/seajs.org.png",
+        "categoryId": "FR1037",
+        "idSequence": 1036,
+        "navId": "DH1036"
+    },
+    {
+        "navUrl": "http://requirejs.org/",
+        "navName": "Requirejs",
+        "navDesc": "RequireJS是一个非常小巧的JavaScript模块载入框架,是AMD规范最好的实现者之一。",
+        "navIcon": "/nav/upload/taskMaterial/admin/requirejs.org.png",
+        "categoryId": "FR1037",
+        "idSequence": 1036,
+        "navId": "DH1036"
+    },
+    {
+        "navUrl": "https://antv.gitee.io/zh",
+        "navName": "antv文档",
+        "navDesc": "antv产品中文文档",
+        "navIcon": "/nav/upload/taskMaterial/admin/antv.gitee.io.png",
+        "categoryId": "FR1038",
+        "idSequence": 1037,
+        "navId": "DH1037"
+    },
+    {
+        "navUrl": "http://tuzhidian.com/",
+        "navName": "图之典",
+        "navDesc": "数据可视化知识分享站点",
+        "navIcon": "/nav/upload/taskMaterial/admin/tuzhidian.com.png",
+        "categoryId": "FR1038",
+        "idSequence": 1037,
+        "navId": "DH1037"
+    },
+    {
+        "navUrl": "https://textbus.tanboui.com/",
+        "navName": "TextBus",
+        "navDesc": "一个基于组件的富文本编辑器，你可以自由定制你想要的任意组件和效果，而不用关心富文本的底层实现",
+        "navIcon": "/nav/upload/taskMaterial/admin/textbus.tanboui.com.png",
+        "categoryId": "FR1038",
+        "idSequence": 1037,
+        "navId": "DH1037"
+    },
+    {
+        "navUrl": "https://www.bizcharts.net/",
+        "navName": "Bizcharts",
+        "navDesc": "BizCharts是阿里通用图表组件库，致力于打造企业中后台高效、专业、便捷的数据可视化解决方案，基于 G2与G2Plot封装的React图表库，已经历阿里复杂业务场景长达三年的洗礼，在灵活性、易用性、丰富度上满足常规图表和高度自定义图表的业务实现。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.bizcharts.net.png",
+        "categoryId": "FR1038",
+        "idSequence": 1037,
+        "navId": "DH1037"
+    },
+    {
+        "navUrl": "https://threejs.org/",
+        "navName": "Threejs",
+        "navDesc": "运行在浏览器中的3D 引擎",
+        "navIcon": "/nav/upload/taskMaterial/admin/threejs.org.png",
+        "categoryId": "FR1038",
+        "idSequence": 1037,
+        "navId": "DH1037"
+    },
+    {
+        "navUrl": "https://d3js.org/",
+        "navName": "D3",
+        "navDesc": "用动态图形显示数据的JavaScript库",
+        "navIcon": "/nav/upload/taskMaterial/admin/d3js.org.png",
+        "categoryId": "FR1038",
+        "idSequence": 1037,
+        "navId": "DH1037"
+    },
+    {
+        "navUrl": "https://blog.michealwayne.cn/FundCharts/docs/",
+        "navName": "FundCharts",
+        "navDesc": "FundChartsJS是轻量级的canvas数据可视化组件库，可在web移动端、小程序端、服务端nodejs直接使用，无三方依赖。核心原则：轻量，只注重图形。包含折线图、面积图、饼图、环形图、柱状图、雷达图（蜘蛛图），散点图，K线图，持续更新及维护。",
+        "navIcon": "/nav/upload/taskMaterial/admin/blog.michealwayne.cn.png",
+        "categoryId": "FR1038",
+        "idSequence": 1037,
+        "navId": "DH1037"
+    },
+    {
+        "navUrl": "https://charts.ant.design/",
+        "navName": "AntV react 可视化组件库",
+        "navDesc": "简单好用的 React 图表库。",
+        "navIcon": "/nav/upload/taskMaterial/admin/charts.ant.design.png",
+        "categoryId": "FR1038",
+        "idSequence": 1037,
+        "navId": "DH1037"
+    },
+    {
+        "navUrl": "https://v-charts.js.org/#/",
+        "navName": "v-charts",
+        "navDesc": "在使用 echarts 生成图表时，经常需要做繁琐的数据类型转化、修改复杂的配置项，v-charts 的出现正是为了解决这个痛点。基于 Vue2.0 和 echarts 封装的 v-charts 图表组件，只需要统一提供一种对前后端都友好的数据格式设置简单的配置项，便可轻松生成常见的图表。",
+        "navIcon": "/nav/upload/taskMaterial/admin/v-charts.js.org.png",
+        "categoryId": "FR1038",
+        "idSequence": 1037,
+        "navId": "DH1037"
+    },
+    {
+        "navUrl": "http://echarts.baidu.com/",
+        "navName": "EChart",
+        "navDesc": "百度EFE团队出品的可视化图表插件。",
+        "navIcon": "/nav/upload/taskMaterial/admin/echarts.baidu.com.png",
+        "categoryId": "FR1038",
+        "idSequence": 1037,
+        "navId": "DH1037"
+    },
+    {
+        "navUrl": "https://antv.vision/",
+        "navName": "antv",
+        "navDesc": "蚂蚁集团全新一代数据可视化解决方案",
+        "navIcon": "/nav/upload/taskMaterial/admin/antv.vision.png",
+        "categoryId": "FR1038",
+        "idSequence": 1037,
+        "navId": "DH1037"
+    },
+    {
+        "navUrl": "http://ueditor.baidu.com/website/index.html",
+        "navName": "UEditor",
+        "navDesc": "UEditor是由百度web前端研发部开发所见即所得富文本web编辑器。",
+        "navIcon": "/nav/upload/taskMaterial/admin/ueditor.baidu.com.png",
+        "categoryId": "FR1038",
+        "idSequence": 1037,
+        "navId": "DH1037"
+    },
+    {
+        "navUrl": "https://www.makeapie.com/explore.html",
+        "navName": "Make A Pie",
+        "navDesc": "拥有众多echarts案例，方便可视化开发",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.makeapie.com.png",
+        "categoryId": "FR1038",
+        "idSequence": 1037,
+        "navId": "DH1037"
+    },
+    {
+        "navUrl": "https://tiptap.dev/",
+        "navName": "tiptap",
+        "navDesc": "Vue.js的无渲染富文本编辑器",
+        "navIcon": "/nav/upload/taskMaterial/admin/tiptap.dev.png",
+        "categoryId": "FR1038",
+        "idSequence": 1037,
+        "navId": "DH1037"
+    },
+    {
+        "navUrl": "https://www.hcharts.cn/",
+        "navName": "Highcharts",
+        "navDesc": "Highcharts 是一个用纯JavaScript编写的一个图表库，兼容IE6+",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.hcharts.cn.png",
+        "categoryId": "FR1038",
+        "idSequence": 1037,
+        "navId": "DH1037"
+    },
+    {
+        "navUrl": "https://draftjs.org/",
+        "navName": "draftjs",
+        "navDesc": "draftjs 一个用于构建文本编辑器的React框架",
+        "navIcon": "/nav/upload/taskMaterial/admin/draftjs.org.png",
+        "categoryId": "FR1038",
+        "idSequence": 1037,
+        "navId": "DH1037"
+    },
+    {
+        "navUrl": "https://github.com/surmon-china/vue-quill-editor",
+        "navName": "vue-quill-editor",
+        "navDesc": "vue-quill-editor @quilljs的编辑器组件@vuejs",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1038",
+        "idSequence": 1037,
+        "navId": "DH1037"
+    },
+    {
+        "navUrl": "https://www.tinymce.com/",
+        "navName": "TinyMCE",
+        "navDesc": "国外一款所见所得富文本web编辑器。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.tinymce.com.png",
+        "categoryId": "FR1038",
+        "idSequence": 1037,
+        "navId": "DH1037"
+    },
+    {
+        "navUrl": "https://github.com/hinesboy/mavonEditor",
+        "navName": "mavonEditor",
+        "navDesc": "mavonEditor-基于Vue的markdown编辑器，支持多种个性化功能",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1038",
+        "idSequence": 1037,
+        "navId": "DH1037"
+    },
+    {
+        "navUrl": "https://simditor.tower.im/",
+        "navName": "simditor",
+        "navDesc": "simditor 便捷的所见即所得编辑器",
+        "navIcon": "/nav/upload/taskMaterial/admin/simditor.tower.im.png",
+        "categoryId": "FR1038",
+        "idSequence": 1037,
+        "navId": "DH1037"
+    },
+    {
+        "navUrl": "http://www.swiper.com.cn/",
+        "navName": "Swiper",
+        "navDesc": "Swiper是一个开源、免费强大的纯javascript打造的滑动特效插件，面向手机、平板。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.swiper.com.cn.png",
+        "categoryId": "FR1038",
+        "idSequence": 1037,
+        "navId": "DH1037"
+    },
+    {
+        "navUrl": "https://microsoft.github.io/monaco-editor/",
+        "navName": "monaco-editor",
+        "navDesc": "代码编辑、高亮、格式化等功能",
+        "navIcon": "/nav/upload/taskMaterial/admin/microsoft.github.io.png",
+        "categoryId": "FR1039",
+        "idSequence": 1038,
+        "navId": "DH1038"
+    },
+    {
+        "navUrl": "http://prismjs.com/",
+        "navName": "Prism",
+        "navDesc": "一个轻量级的，稳健的，优雅简洁的语法高亮插件。",
+        "navIcon": "/nav/upload/taskMaterial/admin/prismjs.com.png",
+        "categoryId": "FR1039",
+        "idSequence": 1038,
+        "navId": "DH1038"
+    },
+    {
+        "navUrl": "https://highlightjs.org/",
+        "navName": "Highlight.js",
+        "navDesc": "Highlight.js 是一个用 JavaScript 写的代码高亮插件，在客户端和服务端都能工作。",
+        "navIcon": "/nav/upload/taskMaterial/admin/highlightjs.org.png",
+        "categoryId": "FR1039",
+        "idSequence": 1038,
+        "navId": "DH1038"
+    },
+    {
+        "navUrl": "http://codemirror.net/",
+        "navName": "CodeMirror",
+        "navDesc": "CodeMirror 是一个为浏览器定制的全能的文本编辑器，用 JavaScript 实现。专门用来编写代码，支持超过100个语言，以及各种各样的扩展让我们实现更高级的编辑功能",
+        "navIcon": "/nav/upload/taskMaterial/admin/codemirror.net.png",
+        "categoryId": "FR1039",
+        "idSequence": 1038,
+        "navId": "DH1038"
+    },
+    {
+        "navUrl": "https://guide.aotu.io/",
+        "navName": "前端代码规范",
+        "navDesc": "Front-End Coding Guidelines",
+        "navIcon": "/nav/upload/taskMaterial/admin/guide.aotu.io.png",
+        "categoryId": "FR1040",
+        "idSequence": 1039,
+        "navId": "DH1039"
+    },
+    {
+        "navUrl": "https://guide.aotu.io/index.html",
+        "navName": "Aotu.io",
+        "navDesc": "前端代码规范",
+        "navIcon": "/nav/upload/taskMaterial/admin/guide.aotu.io.png",
+        "categoryId": "FR1040",
+        "idSequence": 1039,
+        "navId": "DH1039"
+    },
+    {
+        "navUrl": "https://v2.vuepress.vuejs.org/zh/",
+        "navName": "vuepress v2版本",
+        "navDesc": "vuepress v2版本",
+        "navIcon": "/nav/upload/taskMaterial/admin/v2.vuepress.vuejs.org.png",
+        "categoryId": "FR1041",
+        "idSequence": 1040,
+        "navId": "DH1040"
+    },
+    {
+        "navUrl": "https://www.gatsbyjs.cn/",
+        "navName": "gatsbyjs",
+        "navDesc": "Gatsby 是一个基于 React 的免费、开源框架，用于帮助 开发者构建运行速度极快的 网站 和 应用程序",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.gatsbyjs.cn.png",
+        "categoryId": "FR1041",
+        "idSequence": 1040,
+        "navId": "DH1040"
+    },
+    {
+        "navUrl": "https://www.docusaurus.cn/",
+        "navName": "Docusaurus",
+        "navDesc": "Docusaurus 是一款基于 React 框架构建的易于维护的静态网站",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.docusaurus.cn.png",
+        "categoryId": "FR1041",
+        "idSequence": 1040,
+        "navId": "DH1040"
+    },
+    {
+        "navUrl": "https://www.vuepress.cn/",
+        "navName": "VuePress",
+        "navDesc": "Vue 驱动的静态网站生成器",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.vuepress.cn.png",
+        "categoryId": "FR1041",
+        "idSequence": 1040,
+        "navId": "DH1040"
+    },
+    {
+        "navUrl": "https://www.gohugo.cn/",
+        "navName": "gohugo",
+        "navDesc": "Hugo 是最流行的开源静态站点生成器之一。凭借其惊人的速度和灵活性，Hugo 让搭建网站再次变得有趣。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.gohugo.cn.png",
+        "categoryId": "FR1041",
+        "idSequence": 1040,
+        "navId": "DH1040"
+    },
+    {
+        "navUrl": "https://docsify.js.org/#/zh-cn/",
+        "navName": "docsify",
+        "navDesc": "docsify 可以快速帮你生成文档网站。不同于 GitBook、Hexo 的地方是它不会生成静态的 .html 文件，所有转换工作都是在运行时",
+        "navIcon": "/nav/upload/taskMaterial/admin/docsify.js.org.png",
+        "categoryId": "FR1041",
+        "idSequence": 1040,
+        "navId": "DH1040"
+    },
+    {
+        "navUrl": "https://www.jekyll.com.cn/",
+        "navName": "jekyll",
+        "navDesc": "将纯文本转化为静态网站和博客。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.jekyll.com.cn.png",
+        "categoryId": "FR1041",
+        "idSequence": 1040,
+        "navId": "DH1040"
+    },
+    {
+        "navUrl": "https://hexo.io/zh-cn/docs",
+        "navName": "hexo",
+        "navDesc": "Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。",
+        "navIcon": "/nav/upload/taskMaterial/admin/hexo.io.png",
+        "categoryId": "FR1041",
+        "idSequence": 1040,
+        "navId": "DH1040"
+    },
+    {
+        "navUrl": "https://www.gridsome.cn/",
+        "navName": "Gridsome",
+        "navDesc": "Gridsome 是一个免费、开源的 Vue.js 框架，用于构建网站和应用",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.gridsome.cn.png",
+        "categoryId": "FR1041",
+        "idSequence": 1040,
+        "navId": "DH1040"
+    },
+    {
+        "navUrl": "https://docute.org/zh/",
+        "navName": "docute",
+        "navDesc": "Docute 本质上就是一个 JavaScript 文件，它可以获取 Markdown 文件并将它们呈现为单页面应用。  它完全由运行时驱动，因此并不涉及服务端组件，这就意味着没有构建过程。你只需创建一个 HTML 文件和一堆 Markdown 文档，你的网站就差不多完成了！",
+        "navIcon": "/nav/upload/taskMaterial/admin/docute.org.png",
+        "categoryId": "FR1041",
+        "idSequence": 1040,
+        "navId": "DH1040"
+    },
+    {
+        "navUrl": "https://mengshukeji.github.io/LuckysheetDocs/zh/",
+        "navName": "Luckysheet",
+        "navDesc": "Luckysheet ，一款纯前端类似excel的在线表格，功能强大、配置简单、完全开源。",
+        "navIcon": "/nav/upload/taskMaterial/admin/mengshukeji.github.io.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://github.com/rstacruz/nprogress",
+        "navName": "NProgress",
+        "navDesc": "好用的显示进度条插件",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://www.dowebok.com/demo/2014/77/",
+        "navName": "全屏滚动插件fullPage",
+        "navDesc": "jQuery全屏滚动插件fullPage.js演示 fullPage.js 是一个基于 jQuery 的插件，它能够很方便、很轻松的制作出全屏网站。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.dowebok.com.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://microsoft.github.io/monaco-editor/",
+        "navName": "monaco-editor",
+        "navDesc": "代码编辑、高亮、格式化等功能",
+        "navIcon": "/nav/upload/taskMaterial/admin/microsoft.github.io.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://scrollrevealjs.org/",
+        "navName": "ScrollReveal",
+        "navDesc": "scrollReveal.js 是一款表现滚动显示动画效果的 javascript 插件",
+        "navIcon": "/nav/upload/taskMaterial/admin/scrollrevealjs.org.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://www.swiper.com.cn/",
+        "navName": "Swiper",
+        "navDesc": "Swiper常用于移动端网站的内容触摸滑动 Swiper是纯javascript打造的滑动特效插件，面向手机、平板电脑等移动终端。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.swiper.com.cn.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://clipboardjs.com/",
+        "navName": "clipboardjs",
+        "navDesc": "A modern approach to copy text to clipboard",
+        "navIcon": "/nav/upload/taskMaterial/admin/clipboardjs.com.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://www.animejs.cn/",
+        "navName": "anime.js",
+        "navDesc": "Anime.js (/ˈæn.ə.meɪ/) 是一个轻量的JavaScript 动画库， 拥有简单而强大的API。 可对 CSS 属性、 SVG、 DOM 和JavaScript 对象进行动画。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.animejs.cn.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "http://www.geetest.com/",
+        "navName": "极验验证",
+        "navDesc": "新一代基于行为式验证安全技术的验证码",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.geetest.com.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://www.grapecity.com.cn/developer/spreadjs",
+        "navName": "spreadjs",
+        "navDesc": "可嵌入您系统的在线Excel 纯前端表格控件，功能布局与 Excel 高度类似",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.grapecity.com.cn.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://github.com/ustbhuangyi/better-scroll",
+        "navName": "better-scroll",
+        "navDesc": "灵感来自 iscroll，它支持更多功能，并具有更好的滚动性能",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://github.com/date-fns/date-fns",
+        "navName": "date-fns",
+        "navDesc": "date-fns提供了最全面，最简单且一致的工具集， 用于在浏览器和Node.js中操纵JavaScript日期。",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://www.jq22.com/",
+        "navName": "jQuery插件库",
+        "navDesc": "收集jQuery插件、提供详细使用方法,下载需积分",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.jq22.com.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "http://datatables.club/",
+        "navName": "Datatables",
+        "navDesc": "Datatables是一款jquery表格插件。它是一个高度灵活的工具，可以将任何HTML表格添加高级的交互功能。",
+        "navIcon": "/nav/upload/taskMaterial/admin/datatables.club.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://sweetalert2.github.io/",
+        "navName": "SweetAlert2",
+        "navDesc": "SweetAlert2 是一个漂亮、响应式、可定制、易用的（WAI-ARIA） JavaScript 弹窗（弹出框）。无任何依赖。",
+        "navIcon": "/nav/upload/taskMaterial/admin/sweetalert2.github.io.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://alvarotrigo.com/fullPage/#page1",
+        "navName": "fullPage",
+        "navDesc": "One Page Scroll sections Site Plugin",
+        "navIcon": "/nav/upload/taskMaterial/admin/alvarotrigo.com.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "http://wlog.cn/waterfall/index-zh.html",
+        "navName": "Waterfall",
+        "navDesc": "瀑布流布局插件, 类似于 Pinterest、花瓣、发现啦",
+        "navIcon": "/nav/upload/taskMaterial/admin/wlog.cn.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "http://interactjs.io/",
+        "navName": "Interact.js",
+        "navDesc": "interact.js是一个随意改变形状插件，,它非常强大的，灵活拖放，改变大小，支持现代浏览器的多点触摸手势，基于SVG的运用，能运行在包括在IE8+的浏览器",
+        "navIcon": "/nav/upload/taskMaterial/admin/interactjs.io.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://blueimp.github.io/jQuery-File-Upload/index.html",
+        "navName": "jQuery File Upload Plugin",
+        "navDesc": "一个有功能强大的 jQuery 上传组件，支持多文件选择、拖拽上传、验证、图片和多媒体预览等功能。",
+        "navIcon": "/nav/upload/taskMaterial/admin/blueimp.github.io.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://xrender.fun/",
+        "navName": "xrender表单解决方案",
+        "navDesc": "阿里巴巴 - 飞猪中后台「表单/表格/图表」开箱即用解决方案",
+        "navIcon": "/nav/upload/taskMaterial/admin/xrender.fun.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "http://www.qunee.com/",
+        "navName": "Qunee",
+        "navDesc": "一套基于HTML5的网络图组件。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.qunee.com.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "http://stickerjs.cmiscm.com/",
+        "navName": "Sticker.js",
+        "navDesc": "一款仿贴纸效果插件",
+        "navIcon": "/nav/upload/taskMaterial/admin/stickerjs.cmiscm.com.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://alvarotrigo.com/multiScroll/#third",
+        "navName": "multiScroll.js",
+        "navDesc": "创建分割的多滚动页面特效插件。",
+        "navIcon": "/nav/upload/taskMaterial/admin/alvarotrigo.com.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://microsoft.github.io/monaco-editor/index.html",
+        "navName": "monaco-editor",
+        "navDesc": "Monaco Editor 是一个浏览器端的代码编辑器库，同时它也是 VS Code 所使用的编辑器。Monaco Editor 可以看作是一个编辑器控件，只提供了基础的编辑器与语言相关的接口，可以被用于任何基于 Web 技术构建的项目中，而 VS Code 包含了文件管理、版本控制、插件等功能，是一款桌面软件。Monaco Editor 的 GitHub 仓库中不包含任何实际功能代码，因为其源代码与 VS Code 在同一个仓库，只是在版本发布时会构建出独立的编辑器代码",
+        "navIcon": "/nav/upload/taskMaterial/admin/microsoft.github.io.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://msurguy.github.io/background-blur/#",
+        "navName": "Background-blur",
+        "navDesc": "实用的超轻的跨浏览器的图像模糊 jQuery 插件，基于 SVG 生成，效果很好",
+        "navIcon": "/nav/upload/taskMaterial/admin/msurguy.github.io.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://kushagragour.in/lab/hint/",
+        "navName": "Hint.css",
+        "navDesc": "一款非常小巧的提示框效果插件。",
+        "navIcon": "/nav/upload/taskMaterial/admin/kushagragour.in.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://imagesloaded.desandro.com/",
+        "navName": "Imagesloaded",
+        "navDesc": "imagesLoaded是一个用于来检测网页中的图片是否载入完成JavaScript工具库。",
+        "navIcon": "/nav/upload/taskMaterial/admin/imagesloaded.desandro.com.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "http://lokeshdhakar.com/projects/lightbox2/",
+        "navName": "Lightbox",
+        "navDesc": "以弹框形式集中展示图片的JavaScript库。",
+        "navIcon": "/nav/upload/taskMaterial/admin/lokeshdhakar.com.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://github.com/ftlabs/fastclick",
+        "navName": "FastClick",
+        "navDesc": "解决移动端浏览器上的点击事件延迟",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "http://miromannino.github.io/Justified-Gallery/",
+        "navName": "Justified Gallery",
+        "navDesc": "Justified Gallery 是一个 jQuery 的相册展示插件，图片会自动填满整个页面空间。",
+        "navIcon": "/nav/upload/taskMaterial/admin/miromannino.github.io.png",
+        "categoryId": "FR1042",
+        "idSequence": 1041,
+        "navId": "DH1041"
+    },
+    {
+        "navUrl": "https://docs.egret.com/egretpro",
+        "navName": "白鹭引擎",
+        "navDesc": "为移动领域提供完整高效的游戏及应用解决方案",
+        "navIcon": "/nav/upload/taskMaterial/admin/docs.egret.com.png",
+        "categoryId": "FR1043",
+        "idSequence": 1042,
+        "navId": "DH1042"
+    },
+    {
+        "navUrl": "https://www.cocos.com/",
+        "navName": "Cocos2d-x",
+        "navDesc": "以内容创作为核心的一体化游戏开发工具",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.cocos.com.png",
+        "categoryId": "FR1043",
+        "idSequence": 1042,
+        "navId": "DH1042"
+    },
+    {
+        "navUrl": "http://phaser.io/",
+        "navName": "PhaserJS",
+        "navDesc": "PC端和移动端HTML5游戏框架。",
+        "navIcon": "/nav/upload/taskMaterial/admin/phaser.io.png",
+        "categoryId": "FR1043",
+        "idSequence": 1042,
+        "navId": "DH1042"
+    },
+    {
+        "navUrl": "https://juejin.cn/",
+        "navName": "掘金",
+        "navDesc": "掘金是一个帮助开发者成长的社区,是给开发者用的 Hacker News,给设计师用的 Designer News,和给产品经理用的 Medium。掘金的技术文章由稀土上聚集的技术大牛和极客共同编辑为你筛选出最优质的干货,其中包括：Android、iOS、前端、后端等方面的内容。用户每天都可以在这里找到技术世界的头条内容。与此同时,掘金内还有沸点、掘金翻译计划、线下活动、专栏文章等内容。即使你是 GitHub、StackOverflow、开源中国的用户,我们相信你也可以在这里有所收获。",
+        "navIcon": "/nav/upload/taskMaterial/admin/juejin.cn.png",
+        "categoryId": "FR1044",
+        "idSequence": 1043,
+        "navId": "DH1043"
+    },
+    {
+        "navUrl": "https://cnodejs.org/",
+        "navName": "Node专业中文社区",
+        "navDesc": "CNode：Node.js专业中文社区",
+        "navIcon": "/nav/upload/taskMaterial/admin/cnodejs.org.png",
+        "categoryId": "FR1044",
+        "idSequence": 1043,
+        "navId": "DH1043"
+    },
+    {
+        "navUrl": "https://segmentfault.com/",
+        "navName": "SegmentFault 思否",
+        "navDesc": "SegmentFault 思否是中国领先的开发者技术社区。我们以技术问答、技术专栏、技术课程、技术资讯为核心的产品形态，为开发者提供纯粹、高质的技术交流平台。",
+        "navIcon": "/nav/upload/taskMaterial/admin/segmentfault.com.png",
+        "categoryId": "FR1044",
+        "idSequence": 1043,
+        "navId": "DH1043"
+    },
+    {
+        "navUrl": "https://www.v2ex.com/",
+        "navName": "V2EX",
+        "navDesc": "创意工作者的社区。讨论编程、设计、硬件、游戏等令人激动的话题。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.v2ex.com.png",
+        "categoryId": "FR1044",
+        "idSequence": 1043,
+        "navId": "DH1043"
+    },
+    {
+        "navUrl": "https://laravel-china.org/",
+        "navName": "Laravel China",
+        "navDesc": "一个高品质的 Laravel 开发者社区，致力于为 Laravel 和 PHP 开发者提供一个分享创造、结识伙伴、协同互助的论坛。",
+        "navIcon": "/nav/upload/taskMaterial/admin/laravel-china.org.png",
+        "categoryId": "FR1044",
+        "idSequence": 1043,
+        "navId": "DH1043"
+    },
+    {
+        "navUrl": "https://www.oschina.net/",
+        "navName": "开源中国",
+        "navDesc": "开源中国是目前中国最大的开源技术社区，我们传播开源的理念，推广开源项目，为 IT 开发者提供了一个发现、使用、并交流开源技术的平台。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.oschina.net.png",
+        "categoryId": "FR1044",
+        "idSequence": 1043,
+        "navId": "DH1043"
+    },
+    {
+        "navUrl": "https://cnodejs.org/",
+        "navName": "CNode",
+        "navDesc": "CNode 社区为国内最专业的 Node.js 开源技术社区，致力于 Node.js 的技术研究。",
+        "navIcon": "/nav/upload/taskMaterial/admin/cnodejs.org.png",
+        "categoryId": "FR1044",
+        "idSequence": 1043,
+        "navId": "DH1043"
+    },
+    {
+        "navUrl": "https://www.jstips.co/",
+        "navName": "JS Tips",
+        "navDesc": "每天推出一个JS技巧的网站",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.jstips.co.png",
+        "categoryId": "FR1045",
+        "idSequence": 1044,
+        "navId": "DH1044"
+    },
+    {
+        "navUrl": "https://aotu.io/",
+        "navName": "凹凸实验室",
+        "navDesc": "凹凸实验室(Aotu.io) 始建于2015年，是一个年轻基情的技术社区组织。O2面向多终端技术体系，致力于构建沉淀与分享包括但不限于交互、页面制作技巧、前端开发、原生APP开发等方面的专业知识及案例。",
+        "navIcon": "/nav/upload/taskMaterial/admin/aotu.io.png",
+        "categoryId": "FR1045",
+        "idSequence": 1044,
+        "navId": "DH1044"
+    },
+    {
+        "navUrl": "http://taobaofed.org/",
+        "navName": "Taobao FED",
+        "navDesc": "淘宝前端团队，用技术为体验提供无限可能。",
+        "navIcon": "/nav/upload/taskMaterial/admin/taobaofed.org.png",
+        "categoryId": "FR1045",
+        "idSequence": 1044,
+        "navId": "DH1044"
+    },
+    {
+        "navUrl": "http://feexp.org/",
+        "navName": "前端体验大会",
+        "navDesc": "互联网前端业界一个交流会组织，旨在推动互联网前端web技术在中国的发展，致力于为同行从业者提供一个分享和交流的平台，提升从业者的影响力及技术能力储备。",
+        "navIcon": "/nav/upload/taskMaterial/admin/feexp.org.png",
+        "categoryId": "FR1045",
+        "idSequence": 1044,
+        "navId": "DH1044"
+    },
+    {
+        "navUrl": "http://efe.baidu.com/",
+        "navName": "百度EFE",
+        "navDesc": "百度EFE技术体系，前身是ECOM前端团队，后经过技术的发展，逐渐形成一套完善的前端技术体系。",
+        "navIcon": "/nav/upload/taskMaterial/admin/efe.baidu.com.png",
+        "categoryId": "FR1045",
+        "idSequence": 1044,
+        "navId": "DH1044"
+    },
+    {
+        "navUrl": "http://fex.baidu.com/",
+        "navName": "百度FEX",
+        "navDesc": "FEX 是百度Web 前端研发部的别名，是社区基础技术部中的前端团队。",
+        "navIcon": "/nav/upload/taskMaterial/admin/fex.baidu.com.png",
+        "categoryId": "FR1045",
+        "idSequence": 1044,
+        "navId": "DH1044"
+    },
+    {
+        "navUrl": "https://isux.tencent.com/",
+        "navName": "ISUX",
+        "navDesc": "腾讯社交用户体验设计，简称ISUX，腾讯设计团队网站",
+        "navIcon": "/nav/upload/taskMaterial/admin/isux.tencent.com.png",
+        "categoryId": "FR1045",
+        "idSequence": 1044,
+        "navId": "DH1044"
+    },
+    {
+        "navUrl": "https://www.w3.org/",
+        "navName": "万维网联盟W3C",
+        "navDesc": "万维网联盟创建于1994年，是Web技术领域最具权威和影响力的国际中立性技术标准机构",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.w3.org.png",
+        "categoryId": "FR1045",
+        "idSequence": 1044,
+        "navId": "DH1044"
+    },
+    {
+        "navUrl": "http://jsconf.cn/",
+        "navName": "JSConf",
+        "navDesc": "JavaScript中国开发者大会(JSConf China)是一个围绕 JS 开发者为中心的活动。",
+        "navIcon": "/nav/upload/taskMaterial/admin/jsconf.cn.png",
+        "categoryId": "FR1045",
+        "idSequence": 1044,
+        "navId": "DH1044"
+    },
+    {
+        "navUrl": "http://imweb.io/",
+        "navName": "腾讯IMWeb",
+        "navDesc": "IMWEB团队主要负责腾讯课堂，多人社交互动视频以及活动组织类项目的研发工作。",
+        "navIcon": "/nav/upload/taskMaterial/admin/imweb.io.png",
+        "categoryId": "FR1045",
+        "idSequence": 1044,
+        "navId": "DH1044"
+    },
+    {
+        "navUrl": "http://www.alloyteam.com/",
+        "navName": "AlloyTeam",
+        "navDesc": "来自于腾讯SNG(社交网络事业群)，是主要负责腾讯Q+、WebQQ、QQ群空间项目的团队，致力于Web前端技术的研究。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.alloyteam.com.png",
+        "categoryId": "FR1045",
+        "idSequence": 1044,
+        "navId": "DH1044"
+    },
+    {
+        "navUrl": "https://75team.com/",
+        "navName": "奇舞团",
+        "navDesc": "奇虎360公司Web平台部前端工程师 + 部分特约嘉宾 组成的一个前端团队。",
+        "navIcon": "/nav/upload/taskMaterial/admin/75team.com.png",
+        "categoryId": "FR1045",
+        "idSequence": 1044,
+        "navId": "DH1044"
+    },
+    {
+        "navUrl": "https://www.30secondsofcode.org/",
+        "navName": "30secondsofcode",
+        "navDesc": "30secondsofcode",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.30secondsofcode.org.png",
+        "categoryId": "FR1046",
+        "idSequence": 1045,
+        "navId": "DH1045"
+    },
+    {
+        "navUrl": "http://www.teamcube.cn/",
+        "navName": "teamcube",
+        "navDesc": "低代码开发平台。协助企业团队提升效能，降低研发生产成本；赋能企业升级沟通方式，降低协作沟通成本。对于企业的更多需求，我们提供极速无代码应用开发平台，无码搭建，极速开发，极速迭代，极速交付，优质体验，对企业需求极速响应、极速反馈。",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.teamcube.cn.png",
+        "categoryId": "FR1046",
+        "idSequence": 1045,
+        "navId": "DH1045"
+    },
+    {
+        "navUrl": "https://www.xiaohuochai.cc/",
+        "navName": "前端小站",
+        "navDesc": "包含HTML/CSS/JS/HTTP/前端框架/前端工具/后端/移动端等知识",
+        "navIcon": "/nav/upload/taskMaterial/admin/www.xiaohuochai.cc.png",
+        "categoryId": "FR1046",
+        "idSequence": 1045,
+        "navId": "DH1045"
+    },
+    {
+        "navUrl": "https://github.com/shadowsocks/ShadowsocksX-NG/releases",
+        "navName": "Shadowsocks客户端",
+        "navDesc": "VPN链接代理工具",
+        "navIcon": "/nav/upload/taskMaterial/admin/github.com.png",
+        "categoryId": "FR1046",
+        "idSequence": 1045,
+        "navId": "DH1045"
+    },
+    {
+        "navUrl": "https://1loc.dev/",
+        "navName": "Favorite JavaScript utilities",
+        "navDesc": "Favorite JavaScript utilities in single line of code - 1 LOC",
+        "navIcon": "/nav/upload/taskMaterial/admin/1loc.dev.png",
+        "categoryId": "FR1046",
+        "idSequence": 1045,
+        "navId": "DH1045"
+    }
+]

@@ -1,0 +1,163 @@
+[
+    {
+        "idSequence": 1024,
+        "parentId": "",
+        "categoryId": "FR1024",
+        "categoryName": "前端导航",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1025,
+        "parentId": "FR1024",
+        "categoryId": "FR1025",
+        "categoryName": "UI 框架",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1026,
+        "parentId": "FR1024",
+        "categoryId": "FR1026",
+        "categoryName": "CSS",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1027,
+        "parentId": "FR1024",
+        "categoryId": "FR1027",
+        "categoryName": "Javascript",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1028,
+        "parentId": "FR1024",
+        "categoryId": "FR1028",
+        "categoryName": "Vue",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1029,
+        "parentId": "FR1024",
+        "categoryId": "FR1029",
+        "categoryName": "React",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1030,
+        "parentId": "FR1024",
+        "categoryId": "FR1030",
+        "categoryName": "Angular",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1031,
+        "parentId": "FR1024",
+        "categoryId": "FR1031",
+        "categoryName": "Node",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1032,
+        "parentId": "FR1024",
+        "categoryId": "FR1032",
+        "categoryName": "小程序",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1033,
+        "parentId": "FR1024",
+        "categoryId": "FR1033",
+        "categoryName": "移动端",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1034,
+        "parentId": "FR1024",
+        "categoryId": "FR1034",
+        "categoryName": "跨平台",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1035,
+        "parentId": "FR1024",
+        "categoryId": "FR1035",
+        "categoryName": "打包构建",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1036,
+        "parentId": "FR1024",
+        "categoryId": "FR1036",
+        "categoryName": "持续集成",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1037,
+        "parentId": "FR1024",
+        "categoryId": "FR1037",
+        "categoryName": "模块加载",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1038,
+        "parentId": "FR1024",
+        "categoryId": "FR1038",
+        "categoryName": "可视化",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1039,
+        "parentId": "FR1024",
+        "categoryId": "FR1039",
+        "categoryName": "代码高亮",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1040,
+        "parentId": "FR1024",
+        "categoryId": "FR1040",
+        "categoryName": "编码规范",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1041,
+        "parentId": "FR1024",
+        "categoryId": "FR1041",
+        "categoryName": "静态站点",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1042,
+        "parentId": "FR1024",
+        "categoryId": "FR1042",
+        "categoryName": "前端插件",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1043,
+        "parentId": "FR1024",
+        "categoryId": "FR1043",
+        "categoryName": "游戏引擎",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1044,
+        "parentId": "FR1024",
+        "categoryId": "FR1044",
+        "categoryName": "前端社区",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1045,
+        "parentId": "FR1024",
+        "categoryId": "FR1045",
+        "categoryName": "前端组织",
+        "categoryIcon": ""
+    },
+    {
+        "idSequence": 1046,
+        "parentId": "FR1024",
+        "categoryId": "FR1046",
+        "categoryName": "综合",
+        "categoryIcon": ""
+    }
+]

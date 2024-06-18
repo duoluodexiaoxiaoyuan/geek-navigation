@@ -24,6 +24,7 @@
     "eslint-config-egg": "^7.1.0",
     "eslint-plugin-jsdoc": "^37.6.1",
     "knex": "^3.1.0",
+    "node-fetch": "^3.3.2",
     "request": "^2.88.2"
   },
   "engines": {
