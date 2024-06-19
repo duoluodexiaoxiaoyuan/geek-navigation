@@ -112,10 +112,22 @@ async function getCategoryNavData(categoryId = '62') {
                 //   // 取导航名称作为icon文件名，中文要转换，去掉/\等字符
                 //   iconFileName = navName.replace(/[\\/:*?"<>|]/g, "") + iconSuffix;
 
-                  const iconFilePath = path.resolve(__dirname, `../upload/taskMaterial/admin/${iconFileName}`);
+                // 取当前日期作为目录，日期格式为: 2022-01-01
+                  const date = new Date();
+                  const year = date.getFullYear();
+                  const month = date.getMonth() + 1;
+                  const day = date.getDate();
+                  const navDir = `${year}-${month}-${day}`
+
+                // 上传icon
+                if (!fs.existsSync(path.resolve(__dirname, `../upload/nav/${navDir}`))) {
+                    fs.mkdirSync(path.resolve(__dirname, `../upload/nav/${navDir}`));
+                }
+
+                  const iconFilePath = path.resolve(__dirname, `../upload/nav/${navDir}/${iconFileName}`);
                   request(navIcon).pipe(fs.createWriteStream(iconFilePath));
 
-                  navIcon = `/nav/upload/taskMaterial/admin/${iconFileName}`
+                  navIcon = `/nav/upload/nav/${navDir}/${iconFileName}`
                   navUrl = atob(decodeURIComponent(navUrl))
                   navList.push({navUrl, navName, navDesc, navIcon})
               });
