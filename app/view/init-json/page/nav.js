@@ -73,7 +73,9 @@ const content = {
     },
     watch: {},
     computed: {},
-    doUiAction: {}, // 额外uiAction { [key]: [action1, action2]}
+    doUiAction: {
+      updateNav: ['updateNav']
+    },
     methods: {
       async getCategoryList() {
           const result = await window.jianghuAxios({

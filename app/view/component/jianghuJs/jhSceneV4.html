@@ -1,9 +1,9 @@
 <!-- jhScene.html >>>>>>>>>>>>> -->
 <script type="text/html" id="jh-scene">
 <div class="jh-scene">
-<v-row class="ma-0 ml-xs-n1">
+<v-row class="ma-0">
   <!-- 场景列表 -->
-  <v-btn-toggle :value="currentSceneIndex" mandatory dense class="mr-2" color="success" @change="doUiAction('useScene', sceneList[$event])" > 
+  <v-btn-toggle :value="currentSceneIndex" mandatory dense class="mr-md-2" color="success" @change="doUiAction('useScene', sceneList[$event])" > 
     <v-btn small v-for="scene, index in sceneList" :key="index"> {{scene.name}} </v-btn> 
   </v-btn-toggle>
   <!-- 新增场景按钮 -->

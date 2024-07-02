@@ -66,9 +66,25 @@ const content = {
     }, // data 表达式
     watch: {},
     computed: {},
-    doUiAction: {}, // 额外uiAction { [key]: [action1, action2]}
-    methods: {}
+    doUiAction: {
+      updateCategory: ['updateCategory']
+    }, // 额外uiAction { [key]: [action1, action2]}
+    methods: {
+      async updateCategory({item, data}) {
+        await window.jianghuAxios({
+          data: {
+            appData: {
+              pageId: 'categoryManagement',
+              actionId: 'updateItem',
+              actionData: data,
+              where: {id: item.id}
+            }
+          }
+        })
+
+    }
   },
+},
   headContent: [
     { tag: 'jh-page-title', value: "category", attrs: { cols: 12, sm: 6, md:4 }, helpBtn: true, slot: [] },
     {
@@ -88,8 +104,8 @@ const content = {
         { text: "分类id", value: "categoryId", type: "v-text-field", width: 80, sortable: true },
         { text: "分类名称", value: "categoryName", type: "v-text-field", width: 80, sortable: true },
         { text: "分类图标", value: "categoryIcon", type: "v-text-field", width: 80, sortable: true },
-        { text: "分类排序", value: "sort", width: 80, formatter: [{tag: 'v-text-field', attrs: {'v-model': 'item.sort', 'class': 'jh-v-input', 'filled': true, 'single-line': true, 'dense': true}}] },
-        { text: "分类状态", value: "status", width: 80, formatter: [{tag: 'v-switch', attrs: {'v-model': 'item.status', 'true-value': 1, 'false-value': 0}}] },
+        { text: "分类排序", value: "sort", width: 80, formatter: [{tag: 'v-text-field', attrs: {'v-model': 'item.sort', 'class': 'jh-v-input', "@change":"doUiAction('updateCategory', { item, data:{sort: item.sort}})"}}] },
+        { text: "分类状态", value: "status", width: 80, formatter: [{tag: 'v-switch', attrs: {'v-model': 'item.status', 'true-value': 1, 'false-value': 0, "@change":"doUiAction('updateCategory', { item, data:{status: item.status}})"}}] },
         { text: "创建时间", value: "createAt", type: "v-text-field", width: 80, sortable: true },
         { text: "操作", value: "operation", type: "v-text-field", width: 80, sortable: true },
         { text: "操作者用户名", value: "operationByUser", type: "v-text-field", width: 80, sortable: true },

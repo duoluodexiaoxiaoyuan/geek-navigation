@@ -33,15 +33,18 @@
 
 
     /* header 菜单 >>>>>> */
+    .jh-page-header {
+        border-bottom: 1px solid #E6E6E6 !important;
+    }
     .jh-header-tab {
-        /* border-radius: 5px; */
+        border-radius: 5px;
+        margin: 8px 0;
         text-transform: none;
         font-weight: 400;
     }
     .jh-header-tab-active {
-        /* background: #F6F6F6; */
+        background: #F6F6F6;
         font-weight: 500;
-        border-bottom: 2px solid var(--cPrimaryColor)
     }
 
     .jh-header-tab::before {
@@ -113,7 +116,6 @@
     body .v-navigation-drawer.jh-drawer-level-2{
         z-index: 102 !important;
     }
-
     .cursor-pointer {
         cursor: pointer;
     }
@@ -122,8 +124,25 @@
         flex: 1;
     }
 
+    /* 边框 */
+    .jh-border {
+        border: 1px solid #eee;
+    }
+    .jh-border-b {
+        border-bottom: 1px solid #eee;
+    }
+    .jh-border-t {
+        border-top: 1px solid #eee;
+    }
+    .jh-border-r {
+        border-right: 1px solid #eee;
+    }
+    .jh-border-l {
+        border-left: 1px solid #eee;
+    }
     
-    
-
+    .jh-page-second-bar span[role="button"] {
+        min-width: 40px;
+    }
 </style>
 <!-- <<<<<<<<<<<<< JH CSS -->

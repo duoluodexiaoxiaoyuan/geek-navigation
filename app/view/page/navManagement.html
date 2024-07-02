@@ -1,8 +1,4 @@
 {% block htmlHead %}
-<style>
-/* css */
-
-</style>
 {% endblock %}
 
 {% extends 'template/jhTemplateV4.html'%}
@@ -13,28 +9,26 @@
   <jh-menu />
   <v-main class="mt-13">
     <!-- 头部内容 >>>>>>>>>>>>> -->
-    <div class="jh-page-second-bar px-8">
-      <v-row class="align-center mt-2" dense>
+    <div class="jh-page-second-bar px-3 px-sm-8">
+      <v-row class="align-center" no-gutters>
         <v-col cols="12" xs="12" sm="12" md="4" xl="3" :cols="12" :sm="6" :md="4" >
-          <div class="py-4 text-body-1 font-weight-bold d-flex align-center">nav
+          <div class="py-4 text-body-1 font-weight-bold align-center d-flex align-center">nav
             <!-- 帮助页按钮 -->
-            <span role="button" class="success--text font-weight-regular jh-font-size-13 ml-2" @click="isHelpPageDrawerShown = true">
-              <v-icon size="13" class="success--text">mdi-help-circle-outline</v-icon>帮助
-            </span>
+            <v-icon size="15" class="black--text ml-1" @click="isHelpPageDrawerShown = true">mdi-help-circle</v-icon>
           </div>
         </v-col>
-        <!-- 自定义搜索内容 -->
-        <v-spacer ></v-spacer>
+          <!-- 自定义搜索内容 -->
+          <v-spacer ></v-spacer>
         <!-- 服务端搜索 -->
-        <v-col cols="12" xs="12" sm="12" md="8" xl="9" cols="12" sm="6" md="4" class="pa-0" >
-          <v-row class="jh-backend-form-container justify-end ma-0 py-3">
-            <v-col cols="12" sm="4" md="3" xl="2" class="pa-0 pr-0 pl-md-2 " >
+        <v-col cols="12" xs="12" sm="12" md="8" xl="9" class="pl-md-2 mb-2 mb-md-0" cols="12" sm="6" md="4" class="pa-0" >
+          <v-row class="jh-backend-form-container justify-end py-md-3" no-gutters>
+            <v-col cols="12" sm="4" md="3" xl="2" class="pl-md-2 " >
               <v-text-field prefix="筛选" class="jh-v-input" dense single-line filled v-model="updateItem.searchInput"></v-text-field>
             </v-col>
-            <v-col cols="12" sm="4" md="3" xl="2" class="pa-0 pr-0 pl-md-2 pt-2 pt-sm-0" >
+            <v-col cols="12" sm="4" md="3" xl="2" class="pl-md-2 pt-2 pt-sm-0" >
               <v-autocomplete prefix="分类" :items="categoryList" class="jh-v-input" dense single-line filled v-model="serverSearchWhereLike.categoryId"></v-autocomplete>
             </v-col>
-            <v-col cols="12" sm="4" md="3" xl="2" class="pa-0 pr-0 pl-md-2 pt-2 pt-sm-0" >
+            <v-col cols="12" sm="4" md="3" xl="2" class="pl-md-2 pt-2 pt-sm-0" >
               <v-text-field prefix="标签" class="jh-v-input" dense single-line filled v-model="serverSearchWhereLike.tags"></v-text-field>
             </v-col>
             <div class="jh-backend-search-btn ml-2">
@@ -42,24 +36,22 @@
                 查询
               </v-btn>
             </div>
-         </v-row>
-        </v-col>
+          </v-row>
       </v-row>
     </div>
     <!-- <<<<<<<<<<<<< 头部内容 -->
 
     <!-- 页面内容 >>>>>>>>>>>>> -->
-    <div class="jh-page-body-container px-8">
-      <v-row class="pa-0">
-      <v-col cols="12" sm="12" md="12">
+    <div class="jh-page-body-container px-sm-8">
+      <v-row class="pa-0 ma-0">
+      <v-col class="pa-0"  :cols="12">
         <!-- 表格顶部栏 -->
-        <v-card class="rounded-lg">
-        <v-row class="ma-0 pb-4 pa-0 px-4 px-md-0">
+        <v-card  class="rounded-lg elevation-0">
+        <v-row class="ma-0 pb-3 pa-0 px-3 px-md-0">
           <v-btn color="success" class="mr-2" @click="doUiAction('startCreateItem')" small>
             新增
           </v-btn>
           <v-spacer ></v-spacer>
-          <v-spacer></v-spacer>
           <table-column-setting-btn :selectedColumnGroup.sync="selectedColumnGroup" :columnSettingGroup="columnSettingGroup" :headers="headers" @change="headers=$event" />
         </v-row>
         <!-- 表格 -->
@@ -80,6 +72,18 @@
 
           <!-- 表格插槽 -->
           
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
 
           <!-- 自定义渲染列 -->
           <template v-slot:item.navName="{item, index}">
@@ -111,7 +115,6 @@
           <template v-slot:item.status="{item, index}">
             <v-switch v-model="item.status" :true-value="1" :false-value="0" @change="doUiAction('updateNav', {id: item.id, data: {status: item.status}})" class="jh-v-input" filled single-line dense></v-switch>
           </template>
-
           <!-- 表格操作按钮 -->
           <template v-slot:item.action="{ item }">
             <!-- pc端 -->
@@ -128,7 +131,7 @@
               <template v-slot:activator="{ on, attrs }">
                 <span role="button" class="success--text font-weight-medium font-size-2"
                   v-bind="attrs" v-on="on">
-                  操作<v-icon size="14" class="success--text">mdi-chevron-down</v-icon>
+                  <v-icon size="20" class="success--text">mdi-chevron-down</v-icon>操作
                 </span>
               </template>
               <v-list dense>
@@ -159,7 +162,7 @@
         </v-data-table>
       </v-card>
     </v-col>
-      <div >
+    <div >
         
         <select-file-dialog ref="selectFileDialog" @confirm="uploadLogo" />
         
@@ -168,26 +171,22 @@
     </div>
     <!-- <<<<<<<<<<<<< 页面内容 -->
     <!-- 新增导航 >>>>>>>>>>>>> -->
-    <v-navigation-drawer v-if="isCreateDrawerShown" v-model="isCreateDrawerShown" :permanent="isCreateDrawerShown" fixed temporary right width="80%" class="elevation-24" >
+    <v-navigation-drawer v-if="isCreateDrawerShown" v-model="isCreateDrawerShown" :permanent="isCreateDrawerShown" fixed temporary right width="90%" class="elevation-24" >
       <v-form ref="createForm" lazy-validation>
         
         <!-- 抽屉标题 -->
-        <v-row no-gutters align="center">
-          <span class="text-h7 font-weight-bold pa-4">新增导航</span>
-          
+        <v-row class="jh-drawer-header px-4" no-gutters align="center">
+          <span class="text-h7 font-weight-bold py-4">新增导航</span>
           <v-spacer></v-spacer>
-          
-          <!-- 抽屉操作按钮 -->
-          <v-row class="justify-end mx-0 px-4" v-if="
-          true
-          ">
-            <v-btn color="success" small @click="doUiAction('createItem')">
-                新增
-              </v-btn>
-            <v-btn class="elevation-0 ml-2" @click="isCreateDrawerShown = false" small>取消</v-btn>
-          </v-row>
-         
-
+          <div class="jh-drawer-action-btn-group">
+            <v-btn class="elevation-0 grey lighten-4" @click="closeCreateDrawerCheck" small>取消</v-btn>
+            <!-- 抽屉操作按钮 -->
+            <template v-if="true">
+              <v-btn color="success" small @click="doUiAction('createItem')">
+              新增
+            </v-btn>
+            </template>
+          </div>
         </v-row>
         <v-divider class="jh-divider"></v-divider>
         <!-- 抽屉内容 -->
@@ -239,37 +238,28 @@
              <!-- 抽屉内容组件 -->
       </v-form>
       <!-- 抽屉关闭按钮 -->
-      <v-btn elevation="0" color="success" fab absolute top left small tile class="drawer-close-float-btn" @click="isCreateDrawerShown = false">
+      <v-btn elevation="0" color="success" fab absolute top left small tile class="drawer-close-float-btn" @click="closeCreateDrawerCheck">
         <v-icon>mdi-close</v-icon>
       </v-btn>
     </v-navigation-drawer>
     <!-- <<<<<<<<<<<<< 新增导航 -->
     <!-- 编辑导航 >>>>>>>>>>>>> -->
-    <v-navigation-drawer v-if="isUpdateDrawerShown" v-model="isUpdateDrawerShown" :permanent="isUpdateDrawerShown" fixed temporary right width="80%" class="elevation-24" >
+    <v-navigation-drawer v-if="isUpdateDrawerShown" v-model="isUpdateDrawerShown" :permanent="isUpdateDrawerShown" fixed temporary right width="90%" class="elevation-24" >
       <v-form ref="updateForm" lazy-validation>
         
         <!-- 抽屉标题 -->
-        <v-row no-gutters align="center">
-          <span class="text-h7 font-weight-bold pa-4">编辑导航</span>
-          
+        <v-row class="jh-drawer-header px-4" no-gutters align="center">
+          <span class="text-h7 font-weight-bold py-4">编辑导航</span>
           <v-spacer></v-spacer>
-          
-          <!-- 抽屉操作按钮 -->
-          <v-row class="justify-end mx-0 px-4" v-if="
-          updateDrawerTab == '0'
-          ">
-            <v-btn color="success" small @click="doUiAction('updateItem')">
-                编辑
-              </v-btn>
-            <v-btn class="elevation-0 ml-2" @click="isUpdateDrawerShown = false" small>取消</v-btn>
-          </v-row>
-          <v-row class="justify-end mx-0 px-4" v-if="
-          updateDrawerTab == '1'
-          ">
-            <v-btn class="elevation-0 ml-2" @click="isUpdateDrawerShown = false" small>取消</v-btn>
-          </v-row>
-         
-
+          <div class="jh-drawer-action-btn-group">
+            <v-btn class="elevation-0 grey lighten-4" @click="closeUpdateDrawerCheck" small>取消</v-btn>
+            <!-- 抽屉操作按钮 -->
+            <template v-if="updateDrawerTab == '0'">
+              <v-btn color="success" small @click="doUiAction('updateItem')">
+              编辑
+            </v-btn>
+            </template>
+          </div>
         </v-row>
         <v-divider class="jh-divider"></v-divider>
         <!-- 抽屉内容 -->
@@ -338,15 +328,13 @@
           >
 
             <!-- 抽屉内容form -->
-            <table-record-history
-            table="nav"
-            pageId="navManagement"
-            :id="updateItem.id"/>
+            <table-record-history 
+            
           </v-tab-item>
         </v-tabs-items>
       </v-form>
       <!-- 抽屉关闭按钮 -->
-      <v-btn elevation="0" color="success" fab absolute top left small tile class="drawer-close-float-btn" @click="isUpdateDrawerShown = false">
+      <v-btn elevation="0" color="success" fab absolute top left small tile class="drawer-close-float-btn" @click="closeUpdateDrawerCheck">
         <v-icon>mdi-close</v-icon>
       </v-btn>
     </v-navigation-drawer>
@@ -381,6 +369,7 @@
 {% include 'component/selectFileDialog.html' %}
 
 <script type="module">
+
 new Vue({
   el: '#app',
   template: '#app-template',
@@ -414,10 +403,12 @@ new Vue({
     // ================================ 新建抽屉 ================================
     isCreateDrawerShown: false,
     createItem: {},
+    createItemOrigin: {},
     createActionData: {},
     // ================================ 编辑抽屉 ================================
     isUpdateDrawerShown: false,
     updateItem: {},
+    updateItemOrigin: {},
     updateItemId: null,
     updateActionData: {},
     updateDrawerTab: 0,
@@ -473,6 +464,8 @@ new Vue({
     this.getCategoryList()
     this.getTableData()
   },
+
+  
   methods: {
     async doUiAction(uiActionId, uiActionData) {
       try {
@@ -511,11 +504,15 @@ new Vue({
             await this.doDeleteItem(uiActionData);
             await this.getTableData(uiActionData);
             break;
+          case 'updateNav':
+            await this.updateNav(uiActionData);
+            break;
           default:
             console.error("[doUiAction] uiActionId not find", {uiActionId});
             break;
         }
       } catch (error) {
+        window.jhMask && window.jhMask.hide();
         throw error;
       } finally {
         window.jhMask && window.jhMask.hide();
@@ -526,6 +523,7 @@ new Vue({
       this.isTableLoading = true;
       const where = {};
       const whereLike = {};
+      const whereIn = {};
       for (const fieldKey in this.serverSearchWhereLike) {
         const fieldValue = this.serverSearchWhereLike[fieldKey];
         if(!!fieldValue && fieldValue != '全部') {
@@ -541,6 +539,7 @@ new Vue({
             actionData: {},
             where,
             whereLike,
+            whereIn,
             orderBy: [{column: 'operationAt', order: 'desc'}]
           }
         }
@@ -559,6 +558,7 @@ new Vue({
     async prepareCreateFormData() {
       this.createItem = {
       };
+      this.createItemOrigin = _.cloneDeep(this.createItem);
     },
     async openCreateDrawer() {
       this.isCreateDrawerShown = true;
@@ -611,6 +611,9 @@ new Vue({
       await window.jhMask.hide();
       await window.vtoast.success("新增数据成功");
     },
+    async closeCreateDrawerCheck() {
+      await this.closeCreateDrawer();
+    },
     async closeCreateDrawer() {
       this.isCreateDrawerShown = false;
       this.createItem = {};
@@ -620,6 +623,7 @@ new Vue({
     // ---------- 修改数据 uiAction >>>>>>>>>>>> --------
     async prepareUpdateFormData(funObj) {
       this.updateItem = _.cloneDeep(funObj);
+      this.updateItemOrigin = _.cloneDeep(funObj);
     },
     async openUpdateDrawer() {
       this.isUpdateDrawerShown = true;
@@ -665,6 +669,9 @@ new Vue({
       })
       await window.jhMask.hide();
       await window.vtoast.success("修改数据成功");
+    },
+    async closeUpdateDrawerCheck() {
+      await this.closeUpdateDrawer();
     },
     async closeUpdateDrawer() {
       this.isUpdateDrawerShown = false;

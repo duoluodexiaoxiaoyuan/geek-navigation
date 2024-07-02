@@ -95,6 +95,9 @@
 
 
     /* 表单 >>>>>> */
+    .v-input--is-readonly .v-input__slot {
+      background: #eeeeee!important;
+    }
     .v-label,
     input,
     .v-input {
@@ -252,6 +255,11 @@
         max-width: 80vw;
         text-align: left;
     }
+    .v-data-table.v-data-table--mobile>.v-data-table__wrapper>table>tbody>tr>td:first-child,
+    .v-data-table.v-data-table--mobile>.v-data-table__wrapper>table>tfoot>tr>td:first-child,
+    .v-data-table.v-data-table--mobile>.v-data-table__wrapper>table>thead>tr>th:first-child {
+        padding-left: 5px!important;
+    }
 
     .theme--light.v-data-table>.v-data-table__wrapper>table>tbody>tr:hover:not(.v-data-table__expanded__content):not(.v-data-table__empty-wrapper) {
         background: #fbfbfb !important;
@@ -344,7 +352,7 @@
         border-right: 1px solid #EEEEEE;
     }
 
-    body .theme--light.v-data-table.v-data-table--fixed-header thead th {
+    body .theme--light.v-data-table.v-data-table--fixed-header thead th, body .theme--light.v-data-table>.v-data-table__wrapper>table>thead>tr>th {
         background-color: #ebecf0 !important;
     }
 
@@ -415,9 +423,11 @@
         flex-direction: column;
     }
 
-    .jh-fixed-table-height:not(.not-fixed-wrapper-height) .v-data-table__wrapper,
+    .v-data-table__wrapper,
     .fixed-table-wrapper-height .v-data-table__wrapper {
         flex: auto;
+        border: 1px solid #E6E6E6;
+        border-bottom: none;
     }
 
     /* table 页脚 */
@@ -657,6 +667,7 @@
     .v-application--is-ltr .v-btn-toggle>.v-btn.v-btn:not(:first-child), .v-application--is-rtl .v-btn-toggle>.v-btn.v-btn:not(:last-child) {
         border-left-width: thin;
     }
+    
  
 </style>
 <!-- <<<<<<<<<<<<< Vuetify CSS 覆盖 -->
